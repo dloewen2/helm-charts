@@ -70,10 +70,7 @@ jobs:
 
               # Extract digest and sign GHCR chart
               GHCR_DIGEST=$(cat ${CHART_NAME}-ghcr-output.log | awk -F '[, ]+' '/Digest/{print $NF}')
-              echo "$(cat ${CHART_NAME}-ghcr-output.log | awk -F '[, ]+' '/Digest/{print $NF}')"
-              echo "$GHCR_DIGEST"
-              echo "${GHCR_DIGEST}"
-              cosign sign -y --key env://COSIGN_KEY ghcr.io/${{ github.repository_owner }}/helm-charts/${CHART_NAME}:${CHART_VERSION}@${GHCR_DIGEST}
+              cosign sign -y --key env://COSIGN_KEY ghcr.io/${{ github.repository_owner }}/helm-charts/${CHART_NAME}:${CHART_VERSION}@$GHCR_DIGEST
 
               echo "Successfully released $CHART_NAME-$CHART_VERSION to GHCR"
             else

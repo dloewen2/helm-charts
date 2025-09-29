@@ -22,13 +22,6 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
-      - name: Login to Registry
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ vars.REGISTRY }}
-          username: ${{ secrets.REGISTRY_USER }}
-          password: ${{ secrets.REGISTRY_PASSWORD }}
-
       - name: Login to GHCR
         uses: docker/login-action@v3
         with:
@@ -57,9 +50,6 @@ jobs:
           REGISTRY_USER: ${{ secrets.REGISTRY_USER }}
         run: |
           CHANGED_CHARTS="${{ steps.chart-releaser.outputs.changed_charts }}"
-
-          # Login to primary registry
-          helm registry login --username $REGISTRY_USER --password ${{ secrets.REGISTRY_PASSWORD }} https://${{ vars.REGISTRY }}
 
           # Login to GHCR
           helm registry login --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }} https://ghcr.io

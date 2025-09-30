@@ -65,14 +65,13 @@ jobs:
             APP_VERSION=$(yq eval '.appVersion' "Chart.yaml")
 
             # Push to GHCR
-            echo "REPOSITORY_NAME=${GITHUB_REPOSITORY_OWNER,,}" >> "${GITHUB_ENV}"
-            echo ${REPOSITORY_NAME}
-            echo "Pushing Helm chart $CHART_NAME-$CHART_VERSION.tgz to oci://ghcr.io/$REPOSITORY_NAME/helm-charts"
-            if helm push ${{ github.workspace }}/.cr-release-packages/${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/$REPOSITORY_NAME/helm-charts 2>&1 | tee ${CHART_NAME}-ghcr-output.log; then
+            echo ${{ github.repository_owner.lowercase }}
+            echo "Pushing Helm chart $CHART_NAME-$CHART_VERSION.tgz to oci://ghcr.io/${{ github.repository_owner.lowercase }}/helm-charts"
+            if helm push ${{ github.workspace }}/.cr-release-packages/${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/${{ github.repository_owner.lowercase }}/helm-charts 2>&1 | tee ${CHART_NAME}-ghcr-output.log; then
 
               # Extract digest and sign GHCR chart
               GHCR_DIGEST=$(cat ${CHART_NAME}-ghcr-output.log | awk -F '[, ]+' '/Digest/{print $NF}')
-              cosign sign -y --key env://COSIGN_KEY ghcr.io/$REPOSITORY_NAME/helm-charts/${CHART_NAME}:${CHART_VERSION}@$GHCR_DIGEST
+              cosign sign -y --key env://COSIGN_KEY ghcr.io/${{ github.repository_owner.lowercase }}/helm-charts/${CHART_NAME}:${CHART_VERSION}@$GHCR_DIGEST
 
               echo "Successfully released $CHART_NAME-$CHART_VERSION to GHCR"
             else

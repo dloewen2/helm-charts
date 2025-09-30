@@ -66,7 +66,7 @@ jobs:
 
             # Push to GHCR
             echo "Pushing Helm chart $CHART_NAME-$CHART_VERSION.tgz to oci://ghcr.io/${{ github.repository_owner }}/helm-charts"
-            if helm push ${{ github.workspace }}/.cr-release-packages/${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/${{ github.repository_owner }}/helm-charts 2>&1 | tee ${CHART_NAME}-ghcr-output.log; then
+            if helm push ${{ github.workspace }}/.cr-release-packages/${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/${{ github.repository_owner | lower }}/helm-charts 2>&1 | tee ${CHART_NAME}-ghcr-output.log; then
 
               # Extract digest and sign GHCR chart
               GHCR_DIGEST=$(cat ${CHART_NAME}-ghcr-output.log | awk -F '[, ]+' '/Digest/{print $NF}')

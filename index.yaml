@@ -1206,6 +1206,34 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.29.1
+    created: "2025-09-30T15:01:46.207176414Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 1.x.x
+    description: Nginx is a high-performance HTTP server and reverse proxy.
+    digest: d95f4513cbb68e4a47c23d519fd9e920d8e26712eeddc48724b75dc40a2f532e
+    home: https://www.cloudpirates.io
+    icon: https://a.storyblok.com/f/143071/512x512/9fcd98c061/nginx-logo.svg
+    keywords:
+    - nginx
+    - web server
+    - http
+    - reverse proxy
+    - load balancer
+    - proxy
+    maintainers:
+    - name: CloudPirates GmbH & Co. KG
+      url: https://www.cloudpirates.io
+    name: nginx
+    sources:
+    - https://github.com/CloudPirates-io/helm-charts/tree/main/charts/nginx
+    type: application
+    urls:
+    - https://github.com/dloewen2/helm-charts/releases/download/nginx-0.1.13/nginx-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.29.1
     created: "2025-09-30T14:58:26.79186893Z"
     dependencies:
     - name: common
@@ -3815,4 +3843,4 @@ entries:
     urls:
     - https://github.com/CloudPirates-io/helm-charts/releases/download/zookeeper-0.1.0/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-30T14:58:26.792082549Z"
+generated: "2025-09-30T15:01:46.207461416Z"

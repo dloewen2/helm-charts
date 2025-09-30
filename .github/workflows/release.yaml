@@ -65,7 +65,7 @@ jobs:
             APP_VERSION=$(yq eval '.appVersion' "Chart.yaml")
 
             # Push to GHCR
-            echo ${{ github.repository_owner.lowercase }}
+            echo "${{ github.repository_owner.lowercase }}"
             echo "Pushing Helm chart $CHART_NAME-$CHART_VERSION.tgz to oci://ghcr.io/${{ github.repository_owner.lowercase }}/helm-charts"
             if helm push ${{ github.workspace }}/.cr-release-packages/${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/${{ github.repository_owner.lowercase }}/helm-charts 2>&1 | tee ${CHART_NAME}-ghcr-output.log; then
 

@@ -164,22 +164,24 @@ Return the database JDBC URL
 */}}
 {{- define "keycloak.databaseUrl" -}}
 {{- if eq .Values.database.type "h2-file" -}}
-{{- printf "jdbc:h2:file:/opt/keycloak/data/keycloak;DB_CLOSE_ON_EXIT=FALSE" -}}
-{{- else if eq .Values.database.type "h2-mem" -}}
-{{- printf "jdbc:h2:mem:keycloak" -}}
-{{- else if eq .Values.database.type "postgres" -}}
-{{- if .Values.postgres.enabled -}}
-{{- printf "jdbc:postgresql://%s-postgres:%s/%s%s" .Release.Name "5432" (default "keycloak" .Values.postgres.auth.database) (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
-{{- else -}}
-{{- printf "jdbc:postgresql://%s:%s/%s%s" .Values.database.host (default "5432" (.Values.database.port | toString)) .Values.database.name (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
-{{- end -}}
-{{- else if or (eq .Values.database.type "mysql") (eq .Values.database.type "mariadb") -}}
-{{- if .Values.mariadb.enabled -}}
-{{- printf "jdbc:mysql://%s-mariadb:%s/%s%s" .Release.Name "3306" (default "keycloak" .Values.mariadb.auth.database) (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
-{{- else -}}
-{{- printf "jdbc:mysql://%s:%s/%s%s" .Values.database.host (default "3306" (.Values.database.port | toString)) .Values.database.name (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
-{{- end -}}
-{{- end -}}
+    {{- printf "jdbc:h2:file:/opt/keycloak/data/keycloak;DB_CLOSE_ON_EXIT=FALSE" -}}
+    {{- else if eq .Values.database.type "h2-mem" -}}
+        {{- printf "jdbc:h2:mem:keycloak" -}}
+    {{- else if eq .Values.database.type "postgres" -}}
+        {{- if .Values.postgres.enabled -}}
+            {{- printf "jdbc:postgresql://%s-postgres:%s/%s%s" .Release.Name "5432" (default "keycloak" .Values.postgres.auth.database) (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
+        {{- else -}}
+            {{- printf "jdbc:postgresql://%s:%s/%s%s" .Values.database.host (default "5432" (.Values.database.port | toString)) .Values.database.name (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
+        {{- end -}}
+    {{- else if or (eq .Values.database.type "mysql") (eq .Values.database.type "mariadb") -}}
+        {{- if .Values.mariadb.enabled -}}
+            {{- printf "jdbc:mysql://%s-mariadb:%s/%s%s" .Release.Name "3306" (default "keycloak" .Values.mariadb.auth.database) (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
+        {{- else -}}
+            {{- printf "jdbc:mysql://%s:%s/%s%s" .Values.database.host (default "3306" (.Values.database.port | toString)) .Values.database.name (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
+        {{- end -}}
+    {{- else if eq .Values.database.type "mssql" -}}
+        {{- printf "jdbc:mssql://%s:%s/%s%s" .Values.database.host (default "1433" (.Values.database.port | toString)) .Values.database.name (ternary (printf "?%s" .Values.database.jdbcParams) "" (ne .Values.database.jdbcParams "")) -}}
+    {{- end -}}
 {{- end }}
 
 {{/*

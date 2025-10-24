@@ -2,7 +2,7 @@ apiVersion: v2
 name: redis
 description: An open source, in-memory data structure store used as a database, cache, and message broker.
 type: application
-version: 0.9.5
+version: 0.9.6
 appVersion: "8.2.2"
 keywords:
   - redis
@@ -42,7 +42,4 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "return fqdn for sentinel master lookup (#156)"
-          links:
-            - name: "Commit 00b9882"
-              url: "https://github.com/dloewen2/helm-charts/commit/00b9882"
+          description: "Chart updated"

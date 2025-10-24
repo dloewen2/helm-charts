@@ -1,6 +1,71 @@
 # Changelog
 
 
+## 0.5.4 (2025-10-23)
+
+* chore: update CHANGELOG.md for merged changes ([051ad83](https://github.com/CloudPirates-io/helm-charts/commit/051ad83))
+* chore: update CHANGELOG.md for merged changes ([1a50307](https://github.com/CloudPirates-io/helm-charts/commit/1a50307))
+
+## 0.5.3 (2025-10-22)
+
+* chore: update CHANGELOG.md for merged changes ([3974b19](https://github.com/CloudPirates-io/helm-charts/commit/3974b19))
+* chore: update CHANGELOG.md for merged changes ([db075e4](https://github.com/CloudPirates-io/helm-charts/commit/db075e4))
+
+## 0.5.2 (2025-10-21)
+
+* enhance stateful set with extra mounts (#420) ([d0bae40](https://github.com/CloudPirates-io/helm-charts/commit/d0bae40))
+* chore: update CHANGELOG.md for merged changes ([5d1f01a](https://github.com/CloudPirates-io/helm-charts/commit/5d1f01a))
+* chore: update CHANGELOG.md for merged changes ([fc47c5d](https://github.com/CloudPirates-io/helm-charts/commit/fc47c5d))
+* chore: update CHANGELOG.md for merged changes ([1a4f87b](https://github.com/CloudPirates-io/helm-charts/commit/1a4f87b))
+* chore: update CHANGELOG.md for merged changes ([da866ca](https://github.com/CloudPirates-io/helm-charts/commit/da866ca))
+* chore: update CHANGELOG.md for merged changes ([b54c4f1](https://github.com/CloudPirates-io/helm-charts/commit/b54c4f1))
+* chore: update CHANGELOG.md for merged changes ([5a2ed20](https://github.com/CloudPirates-io/helm-charts/commit/5a2ed20))
+* chore: update CHANGELOG.md for merged changes ([949de2b](https://github.com/CloudPirates-io/helm-charts/commit/949de2b))
+* chore: update CHANGELOG.md for merged changes ([388263e](https://github.com/CloudPirates-io/helm-charts/commit/388263e))
+
+## 0.5.1 (2025-10-15)
+
+* Bugfix/redis non cloudpirates prefix (#394) ([02e03ed](https://github.com/CloudPirates-io/helm-charts/commit/02e03ed))
+* chore: update CHANGELOG.md for merged changes ([2ed8b75](https://github.com/CloudPirates-io/helm-charts/commit/2ed8b75))
+* chore: update CHANGELOG.md for merged changes ([3361964](https://github.com/CloudPirates-io/helm-charts/commit/3361964))
+* chore: update CHANGELOG.md for merged changes ([7f61172](https://github.com/CloudPirates-io/helm-charts/commit/7f61172))
+
+## 0.5.0 (2025-10-14)
+
+* add galera cluster support for mariadb (#348) ([b7a63ee](https://github.com/CloudPirates-io/helm-charts/commit/b7a63ee))
+* chore: update CHANGELOG.md for merged changes ([c9ff4ec](https://github.com/CloudPirates-io/helm-charts/commit/c9ff4ec))
+* chore: update CHANGELOG.md for merged changes ([86f1d25](https://github.com/CloudPirates-io/helm-charts/commit/86f1d25))
+
+## 0.4.0 (2025-10-14)
+
+* Update chart.yaml dependencies for indepentent charts (#382) ([87acfb1](https://github.com/CloudPirates-io/helm-charts/commit/87acfb1))
+* chore: update CHANGELOG.md for merged changes ([84cf67b](https://github.com/CloudPirates-io/helm-charts/commit/84cf67b))
+* chore: update CHANGELOG.md for all charts via manual trigger ([6974964](https://github.com/CloudPirates-io/helm-charts/commit/6974964))
+* chore: update CHANGELOG.md for merged changes ([63b7bfa](https://github.com/CloudPirates-io/helm-charts/commit/63b7bfa))
+* chore: update CHANGELOG.md for merged changes ([da69e0e](https://github.com/CloudPirates-io/helm-charts/commit/da69e0e))
+* chore: update CHANGELOG.md for merged changes ([5da1b15](https://github.com/CloudPirates-io/helm-charts/commit/5da1b15))
+
+## 0.3.5 (2025-10-13)
+
+
+## 0.3.4 (2025-10-10)
+
+* Update charts/mariadb/values.yaml mariadb (#315) ([07101fe](https://github.com/CloudPirates-io/helm-charts/commit/07101fe))
+* add tests for openshift (#226) ([c80c98a](https://github.com/CloudPirates-io/helm-charts/commit/c80c98a))
+* Hotfix schemas.json (#247) ([0900f81](https://github.com/CloudPirates-io/helm-charts/commit/0900f81))
+
+## 0.3.3 (2025-10-08)
+
+* Add support for readOnlyRootFilesystem (#228) ([cdb58b2](https://github.com/CloudPirates-io/helm-charts/commit/cdb58b2))
+
+## 0.3.2 (2025-10-06)
+
+* chore(deps): update docker.io/mariadb:12.0.2 Docker digest to 03a03a6 (#207) ([e51e995](https://github.com/CloudPirates-io/helm-charts/commit/e51e995))
+
+## 0.3.1 (2025-10-06)
+
+* use tpl to return existingConfigMap (#217) ([c7c2f4c](https://github.com/CloudPirates-io/helm-charts/commit/c7c2f4c))
+
 ## 0.3.0 (2025-09-29)
 
 * make mariadb run on openshift (#176) ([e2c3afb](https://github.com/dloewen2/helm-charts/commit/e2c3afb))

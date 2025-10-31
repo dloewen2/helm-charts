@@ -23,6 +23,17 @@
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "docker"
+    },
+    {
+      "customType": "regex",
+      "description": "Match etcd image and use GitHub releases",
+      "fileMatch": ["^charts/etcd/values\\.ya?ml$"],
+      "matchStrings": [
+        "(?<depName>image):\\s*\\n(?:[^\\n]*\\n){0,5}?\\s*repository:\\s*coreos/etcd\\s*\\n(?:[^\\n]*\\n){0,3}?\\s*tag:\\s*['\"]?(?<currentValue>[^@'\"\\s]+)(?:@(?<currentDigest>sha256:[a-f0-9]{64}))?['\"]?"
+      ],
+      "datasourceTemplate": "github-releases",
+      "packageNameTemplate": "etcd-io/etcd",
+      "extractVersionTemplate": "^v(?<version>.+)$"
     }
   ],
   "packageRules": [
@@ -77,17 +88,13 @@
       "recreateWhen": "never"
     },
     {
-      "description": "Use GitHub releases for etcd instead of Docker Hub to avoid rate limiting",
+      "description": "Disable digest pinning for etcd from GitHub releases",
       "matchDatasources": [
-        "docker"
+        "github-releases"
       ],
       "matchPackageNames": [
-        "coreos/etcd",
-        "quay.io/coreos/etcd"
+        "etcd-io/etcd"
       ],
-      "datasource": "github-releases",
-      "packageName": "etcd-io/etcd",
-      "extractVersion": "^v(?<version>.*)$",
       "pinDigests": false
     }
   ]

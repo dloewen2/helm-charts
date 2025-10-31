@@ -75,6 +75,18 @@
       ],
       "enabled": false,
       "recreateWhen": "never"
+    },
+    {
+      "description": "Use GitHub releases for etcd instead of Docker Hub to avoid rate limiting",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "coreos/etcd"
+      ],
+      "datasource": "github-releases",
+      "packageName": "etcd-io/etcd",
+      "extractVersion": "^v(?<version>.*)$"
     }
   ]
 }

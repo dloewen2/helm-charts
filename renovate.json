@@ -82,11 +82,13 @@
         "docker"
       ],
       "matchPackageNames": [
-        "coreos/etcd"
+        "coreos/etcd",
+        "quay.io/coreos/etcd"
       ],
       "datasource": "github-releases",
       "packageName": "etcd-io/etcd",
-      "extractVersion": "^v(?<version>.*)$"
+      "extractVersion": "^v(?<version>.*)$",
+      "pinDigests": false
     }
   ]
 }

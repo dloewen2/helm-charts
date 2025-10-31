@@ -37,10 +37,7 @@
   ],
   "packageRules": [
     {
-      "description": "Disable Docker datasource for etcd (handled by GitHub releases manager)",
-      "matchManagers": [
-        "custom.regex"
-      ],
+      "description": "Disable Docker datasource for etcd packages (use GitHub releases instead)",
       "matchDatasources": [
         "docker"
       ],
@@ -101,14 +98,21 @@
       "recreateWhen": "never"
     },
     {
-      "description": "Disable digest pinning for etcd from GitHub releases",
+      "description": "Configure etcd updates from GitHub releases",
       "matchDatasources": [
         "github-releases"
       ],
       "matchPackageNames": [
         "etcd-io/etcd"
       ],
-      "pinDigests": false
+      "pinDigests": false,
+      "labels": [
+        "dependencies",
+        "renovate"
+      ],
+      "commitMessagePrefix": "[etcd]",
+      "automerge": false,
+      "separateMinorPatch": true
     }
   ]
 }

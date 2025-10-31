@@ -42,4 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: added
-          description: "Add startupProbe support for Redis pods to handle long DB SYNC during initial startup"
+          description: "chore: auto-generate values.schema.json"
+          links:
+            - name: "PR #521"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/521"

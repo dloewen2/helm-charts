@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "chore: auto-generate values.schema.json"
+        - kind: changed
+          description: "Implement startup probe"
           links:
-            - name: "PR #521"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/521"
+            - name: "Commit 579459a"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/579459a"

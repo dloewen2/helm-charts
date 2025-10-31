@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.9.0 (2025-10-31)
-
-* [valkey]: Valkey HA ([#518](https://github.com/CloudPirates-io/helm-charts/pull/518))
 
 ## 0.9.0 (2025-10-31)
 

@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.5.0 (2025-11-01)
-
-* [memcached] Add metrics support ([#512](https://github.com/CloudPirates-io/helm-charts/pull/512))
 
 ## 0.5.0 (2025-11-02)
 

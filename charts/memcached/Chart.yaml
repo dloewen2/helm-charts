@@ -38,8 +38,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[memcached] Add metrics support"
+        - kind: changed
+          description: "Add metrics support (#512)"
           links:
-            - name: "PR #512"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/512"
+            - name: "Commit 5ea2397"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/5ea2397"

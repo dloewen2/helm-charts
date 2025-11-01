@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[rabbitmq] Update charts/rabbitmq/values.yaml rabbitmq"
+        - kind: changed
+          description: "Update charts/rabbitmq/values.yaml rabbitmq (#523)"
           links:
-            - name: "PR #523"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/523"
+            - name: "Commit a23a731"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/a23a731"

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.0 (2025-11-01)
+
+* chore: auto-generate values.schema.json ([#525](https://github.com/CloudPirates-io/helm-charts/pull/525))
 
 ## 0.5.0 (2025-11-02)
 

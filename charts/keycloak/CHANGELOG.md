@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.8.1 (2025-11-02)
+
+* [keycloak]: Fix https settings in keycloak when disabling http ([#530](https://github.com/CloudPirates-io/helm-charts/pull/530))
 
 ## 0.8.0 (2025-10-30)
 

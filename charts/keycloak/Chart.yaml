@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Provide empty mounts for themes and providers (#504)"
+        - kind: added
+          description: "[keycloak]: Fix https settings in keycloak when disabling http"
           links:
-            - name: "Commit 4d2f107"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/4d2f107"
+            - name: "PR #530"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/530"

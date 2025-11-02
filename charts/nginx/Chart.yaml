@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "chore: auto-generate values.schema.json"
+        - kind: changed
+          description: "[nginx]: Add priorityClassName support (#526)"
           links:
-            - name: "PR #529"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/529"
+            - name: "Commit e77747f"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/e77747f"

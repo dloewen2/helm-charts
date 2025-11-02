@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[minio] Add NodePort support for API and Console in Service configuration"
+        - kind: changed
+          description: "Add NodePort support for API and Console in Service configuration (#527)"
           links:
-            - name: "PR #527"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/527"
+            - name: "Commit 57b84d8"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/57b84d8"

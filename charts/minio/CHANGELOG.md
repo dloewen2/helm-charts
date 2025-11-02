@@ -1,8 +1,11 @@
 # Changelog
 
+
 ## 0.5.5 (2025-11-02)
 
-* [minio] Add NodePort support for API and Console in Service configuration ([#527](https://github.com/CloudPirates-io/helm-charts/pull/527))
+* Add NodePort support for API and Console in Service configuration (#527) ([57b84d8](https://github.com/CloudPirates-io/helm-charts/commit/57b84d8))
+* chore: update CHANGELOG.md for merged changes ([c593bd8](https://github.com/CloudPirates-io/helm-charts/commit/c593bd8))
+* chore: update CHANGELOG.md for merged changes ([5cd1a41](https://github.com/CloudPirates-io/helm-charts/commit/5cd1a41))
 
 ## 0.5.4 (2025-10-27)
 

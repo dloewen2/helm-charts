@@ -1,8 +1,9 @@
 # Changelog
 
+
 ## 0.3.3 (2025-11-02)
 
-* [nginx]: Add priorityClassName support ([#526](https://github.com/CloudPirates-io/helm-charts/pull/526))
+* [nginx]: Add priorityClassName support (#526) ([e77747f](https://github.com/CloudPirates-io/helm-charts/commit/e77747f))
 
 ## 0.3.2 (2025-10-30)
 

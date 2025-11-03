@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[valkey]: Valkey HA (#518)"
+        - kind: added
+          description: "[oliver006/redis_exporter] Update charts/valkey/values.yaml oliver006/redis_exporter to v1.80.0 (minor)"
           links:
-            - name: "Commit d8b1bbe"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/d8b1bbe"
+            - name: "PR #531"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/531"

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.9.1 (2025-11-03)
+
+* [oliver006/redis_exporter] Update charts/valkey/values.yaml oliver006/redis_exporter to v1.80.0 (minor) ([#531](https://github.com/CloudPirates-io/helm-charts/pull/531))
 
 ## 0.9.0 (2025-10-31)
 

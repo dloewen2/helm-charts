@@ -1,8 +1,12 @@
 # Changelog
 
+
 ## 0.13.1 (2025-11-03)
 
-* [oliver006/redis_exporter] Update image to v1.80.0 ([#532](https://github.com/CloudPirates-io/helm-charts/pull/532))
+* [oliver006/redis_exporter] Update image to v1.80.0 (#532) ([f357771](https://github.com/CloudPirates-io/helm-charts/commit/f357771))
+* chore: update CHANGELOG.md for merged changes ([c86f513](https://github.com/CloudPirates-io/helm-charts/commit/c86f513))
+* chore: update CHANGELOG.md for merged changes ([b74d280](https://github.com/CloudPirates-io/helm-charts/commit/b74d280))
+* chore: auto-generate values.schema.json (#521) ([fe2d15b](https://github.com/CloudPirates-io/helm-charts/commit/fe2d15b))
 
 ## 0.13.0 (2025-10-31)
 

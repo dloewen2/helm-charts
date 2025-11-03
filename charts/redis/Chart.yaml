@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Implement startup probe"
+        - kind: added
+          description: "[oliver006/redis_exporter] Update image to v1.80.0"
           links:
-            - name: "Commit 579459a"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/579459a"
+            - name: "PR #532"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/532"

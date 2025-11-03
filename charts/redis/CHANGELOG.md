@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.13.1 (2025-11-03)
+
+* [oliver006/redis_exporter] Update image to v1.80.0 ([#532](https://github.com/CloudPirates-io/helm-charts/pull/532))
 
 ## 0.13.0 (2025-10-31)
 

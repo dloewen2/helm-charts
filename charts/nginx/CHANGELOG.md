@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.0 (2025-11-04)
+
+* [nginx] extraInitContainers ([#548](https://github.com/CloudPirates-io/helm-charts/pull/548))
 
 ## 0.3.3 (2025-11-02)
 

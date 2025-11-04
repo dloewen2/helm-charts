@@ -1,8 +1,9 @@
 # Changelog
 
+
 ## 0.13.4 (2025-11-04)
 
-* [redis] Update charts/redis/values.yaml redis ([#547](https://github.com/CloudPirates-io/helm-charts/pull/547))
+* Update charts/redis/values.yaml redis (#547) ([f0ba3c6](https://github.com/CloudPirates-io/helm-charts/commit/f0ba3c6))
 
 ## 0.13.3 (2025-11-04)
 

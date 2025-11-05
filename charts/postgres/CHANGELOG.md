@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.4 (2025-11-05)
-
-* [postgres] Fix logic in init-scripts ConfigMap ([#551](https://github.com/CloudPirates-io/helm-charts/pull/551))
 
 ## 0.11.3 (2025-11-04)
 

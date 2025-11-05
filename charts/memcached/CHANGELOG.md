@@ -1,8 +1,11 @@
 # Changelog
 
+
 ## 0.5.3 (2025-11-05)
 
-* [memcached] Add support for pod labels ([#550](https://github.com/CloudPirates-io/helm-charts/pull/550))
+* Add support for pod labels (#550) ([6071930](https://github.com/CloudPirates-io/helm-charts/commit/6071930))
+* chore: update CHANGELOG.md for merged changes ([d944483](https://github.com/CloudPirates-io/helm-charts/commit/d944483))
+* chore: update CHANGELOG.md for merged changes ([6038560](https://github.com/CloudPirates-io/helm-charts/commit/6038560))
 
 ## 0.5.2 (2025-11-04)
 

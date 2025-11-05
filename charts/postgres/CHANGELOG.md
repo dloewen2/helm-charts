@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 0.11.4 (2025-11-05)
+
+* chore: update CHANGELOG.md for merged changes ([b41d586](https://github.com/CloudPirates-io/helm-charts/commit/b41d586))
+* Fix logic in init-scripts ConfigMap (#551) ([90d61df](https://github.com/CloudPirates-io/helm-charts/commit/90d61df))
+
 ## 0.11.3 (2025-11-04)
 
 * chore: update CHANGELOG.md for merged changes ([8a36fa3](https://github.com/CloudPirates-io/helm-charts/commit/8a36fa3))

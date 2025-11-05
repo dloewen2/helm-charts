@@ -1,8 +1,11 @@
 # Changelog
 
+
 ## 0.8.2 (2025-11-05)
 
-* [keycloak]: Fix mariadb configuration ([#544](https://github.com/CloudPirates-io/helm-charts/pull/544))
+* [keycloak]: Fix mariadb configuration (#544) ([6cec40c](https://github.com/CloudPirates-io/helm-charts/commit/6cec40c))
+* chore: update CHANGELOG.md for merged changes ([72853a9](https://github.com/CloudPirates-io/helm-charts/commit/72853a9))
+* chore: update CHANGELOG.md for merged changes ([cd5cd19](https://github.com/CloudPirates-io/helm-charts/commit/cd5cd19))
 
 ## 0.8.1 (2025-11-02)
 

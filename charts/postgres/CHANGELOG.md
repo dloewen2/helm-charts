@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.4 (2025-11-05)
+
+* [postgres] Fix logic in init-scripts ConfigMap ([#551](https://github.com/CloudPirates-io/helm-charts/pull/551))
+
+## 0.11.3 (2025-11-04)
+
+* chore: update CHANGELOG.md for merged changes ([8a36fa3](https://github.com/CloudPirates-io/helm-charts/commit/8a36fa3))
+* chore: update CHANGELOG.md for merged changes ([4b10ac6](https://github.com/CloudPirates-io/helm-charts/commit/4b10ac6))
+* Update charts/postgres/values.yaml postgres (#546) ([cd62d69](https://github.com/CloudPirates-io/helm-charts/commit/cd62d69))
 
 ## 0.11.2 (2025-11-04)
 

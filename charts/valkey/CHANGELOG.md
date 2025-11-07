@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.10.0 (2025-11-07)
+
+* [valkey]: Support TLS ([3b0b609](https://github.com/CloudPirates-io/helm-charts/commit/3b0b609))
+
 ## 0.9.2 (2025-11-03)
 
 * [valkey]: fix broken statement ([49a9fe9](https://github.com/CloudPirates-io/helm-charts/commit/49a9fe9))

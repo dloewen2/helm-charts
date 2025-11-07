@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.5 (2025-11-07)
+
+* [postgres] Config for NodePort port ([#561](https://github.com/CloudPirates-io/helm-charts/pull/561))
 
 ## 0.11.4 (2025-11-05)
 

@@ -1,8 +1,11 @@
 # Changelog
 
+
 ## 0.11.5 (2025-11-07)
 
-* [postgres] Config for NodePort port ([#561](https://github.com/CloudPirates-io/helm-charts/pull/561))
+* Config for NodePort port (#561) ([bae2da0](https://github.com/CloudPirates-io/helm-charts/commit/bae2da0))
+* chore: update CHANGELOG.md for merged changes ([6e6ea47](https://github.com/CloudPirates-io/helm-charts/commit/6e6ea47))
+* chore: update CHANGELOG.md for merged changes ([63e0c74](https://github.com/CloudPirates-io/helm-charts/commit/63e0c74))
 
 ## 0.11.4 (2025-11-05)
 

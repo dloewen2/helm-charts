@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.14.0 (2025-11-07)
+
+* chore: auto-generate values.schema.json ([#570](https://github.com/CloudPirates-io/helm-charts/pull/570))
+
+## 0.14.0 (2025-11-07)
+
+* [redis]: Headless Service annotations ([10daf47](https://github.com/CloudPirates-io/helm-charts/commit/10daf47))
+* chore: update CHANGELOG.md for merged changes ([78cf9bf](https://github.com/CloudPirates-io/helm-charts/commit/78cf9bf))
+* chore: update CHANGELOG.md for merged changes ([099f401](https://github.com/CloudPirates-io/helm-charts/commit/099f401))
 
 ## 0.13.4 (2025-11-04)
 

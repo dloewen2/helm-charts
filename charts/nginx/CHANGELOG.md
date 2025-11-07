@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.1 (2025-11-07)
+
+* chore: auto-generate values.schema.json ([#569](https://github.com/CloudPirates-io/helm-charts/pull/569))
+
+## 0.4.1 (2025-11-07)
+
+* [nginx]: Add podLabels ([b8d8410](https://github.com/CloudPirates-io/helm-charts/commit/b8d8410))
+* chore: update CHANGELOG.md for merged changes ([40efff1](https://github.com/CloudPirates-io/helm-charts/commit/40efff1))
+* chore: update CHANGELOG.md for merged changes ([e1c0077](https://github.com/CloudPirates-io/helm-charts/commit/e1c0077))
+* chore: auto-generate values.schema.json (#549) ([ac12418](https://github.com/CloudPirates-io/helm-charts/commit/ac12418))
+* chore: update CHANGELOG.md for merged changes ([05acd68](https://github.com/CloudPirates-io/helm-charts/commit/05acd68))
+* chore: update CHANGELOG.md for merged changes ([d909109](https://github.com/CloudPirates-io/helm-charts/commit/d909109))
 
 ## 0.4.0 (2025-11-04)
 

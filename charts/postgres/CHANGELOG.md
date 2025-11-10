@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.6 (2025-11-10)
+
+* [postgres] fix: allow not to mount config ([#573](https://github.com/CloudPirates-io/helm-charts/pull/573))
 
 ## 0.11.5 (2025-11-07)
 

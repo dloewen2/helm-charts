@@ -52,6 +52,22 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Update chart dependencies
+        run: |
+          set -euo pipefail
+          echo "Updating dependencies for all charts..."
+          for chart_dir in charts/*; do
+            if [ -f "$chart_dir/Chart.yaml" ]; then
+              echo "Processing $chart_dir..."
+              if grep -q "^dependencies:" "$chart_dir/Chart.yaml"; then
+                echo "  → Updating dependencies for $chart_dir"
+                helm dependency update "$chart_dir"
+              else
+                echo "  → No dependencies found, skipping"
+              fi
+            fi
+          done
+
       - name: Run chart-releaser
         id: chart-releaser
         uses: helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f # v1.7.0
@@ -69,6 +85,12 @@ jobs:
           if [ ! -d "$CHART_DIR" ]; then
             echo "ERROR: Chart directory $CHART_DIR does not exist"
             exit 1
+          fi
+
+          # Update dependencies if they exist
+          if grep -q "^dependencies:" "$CHART_DIR/Chart.yaml"; then
+            echo "Updating dependencies for $CHART_DIR..."
+            helm dependency update "$CHART_DIR"
           fi
 
           echo "Packaging chart from $CHART_DIR..."

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.8.3 (2025-11-11)
+
+* [keycloak] add truststoreExistingSecretKey, add truststorePassword to env-Vars ([#574](https://github.com/CloudPirates-io/helm-charts/pull/574))
 
 ## 0.8.2 (2025-11-05)
 

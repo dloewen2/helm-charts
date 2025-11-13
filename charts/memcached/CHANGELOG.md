@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.6.0 (2025-11-13)
-
-* [memcached] support change to statefulset ([#592](https://github.com/CloudPirates-io/helm-charts/pull/592))
 
 ## 0.5.4 (2025-11-13)
 

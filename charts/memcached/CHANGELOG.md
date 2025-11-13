@@ -1,8 +1,10 @@
 # Changelog
 
+
 ## 0.5.4 (2025-11-13)
 
-* [universal] update readme files ([#583](https://github.com/CloudPirates-io/helm-charts/pull/583))
+* chore: update CHANGELOG.md for merged changes ([abda166](https://github.com/CloudPirates-io/helm-charts/commit/abda166))
+* chore: update CHANGELOG.md for merged changes ([be2722f](https://github.com/CloudPirates-io/helm-charts/commit/be2722f))
 
 ## 0.5.3 (2025-11-05)
 

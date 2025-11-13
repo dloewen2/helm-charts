@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[universal] update readme files"
+        - kind: changed
+          description: "[rabbitmq]: Fix several inconsistencies"
           links:
-            - name: "PR #583"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/583"
+            - name: "Commit 673823a"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/673823a"

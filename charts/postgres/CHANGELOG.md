@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.7 (2025-11-13)
+
+* [universal] update readme files ([#583](https://github.com/CloudPirates-io/helm-charts/pull/583))
 
 ## 0.11.6 (2025-11-10)
 

@@ -43,7 +43,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: added
-          description: "[zookeeper] Update charts/zookeeper/values.yaml zookeeper"
+          description: "[universal] update readme files"
           links:
-            - name: "PR #590"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/590"
+            - name: "PR #583"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/583"

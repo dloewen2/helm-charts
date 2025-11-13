@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis]: Headless Service annotations"
+        - kind: added
+          description: "[universal] update readme files"
           links:
-            - name: "Commit 10daf47"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/10daf47"
+            - name: "PR #583"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/583"

@@ -43,7 +43,4 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "add RustFS chart (MinIO alternative) (#443)"
-          links:
-            - name: "Commit 3c2f886"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/3c2f886"
+          description: "Chart updated"

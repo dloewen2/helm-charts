@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Update charts/zookeeper/values.yaml zookeeper (#590)"
+        - kind: added
+          description: "[zookeeper] Update charts/zookeeper/values.yaml zookeeper"
           links:
-            - name: "Commit ac259f3"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/ac259f3"
+            - name: "PR #604"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/604"

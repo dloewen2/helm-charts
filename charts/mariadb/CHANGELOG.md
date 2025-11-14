@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.1 (2025-11-14)
+
+* [mariadb] Update charts/mariadb/values.yaml mariadb ([#598](https://github.com/CloudPirates-io/helm-charts/pull/598))
 
 ## 0.6.1 (2025-11-13)
 

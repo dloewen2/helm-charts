@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.3 (2025-11-16)
+
+* [nginx]: feat: remove optional bitnami script sourcing ([#601](https://github.com/CloudPirates-io/helm-charts/pull/601))
 
 ## 0.4.2 (2025-11-13)
 

@@ -41,8 +41,5 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[nginx]: feat: remove optional bitnami script sourcing"
-          links:
-            - name: "PR #601"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/601"
+        - kind: changed
+          description: "Chart updated"

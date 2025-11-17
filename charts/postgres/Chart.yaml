@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[mongodb/redis/posgres] Add subPath option when using existingClaim"
+        - kind: changed
+          description: "Update charts/postgres/values.yaml postgres to v18.1 (minor) (#597)"
           links:
-            - name: "PR #613"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/613"
+            - name: "Commit 8d6d622"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/8d6d622"

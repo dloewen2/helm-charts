@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.12.1 (2025-11-17)
-
-* [mongodb/redis/posgres] Add subPath option when using existingClaim ([#613](https://github.com/CloudPirates-io/helm-charts/pull/613))
 
 ## 0.12.0 (2025-11-14)
 

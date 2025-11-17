@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.8 (2025-11-17)
+
+* [rabbitmq] add values type for schema generation ([#617](https://github.com/CloudPirates-io/helm-charts/pull/617))
 
 ## 0.7.8 (2025-11-13)
 

@@ -40,5 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Chart updated"
+        - kind: added
+          description: "[rabbitmq] add values type for schema generation"
+          links:
+            - name: "PR #617"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/617"

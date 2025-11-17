@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.12.1 (2025-11-17)
+
+* [mongodb/redis/posgres] Add subPath option when using existingClaim ([#613](https://github.com/CloudPirates-io/helm-charts/pull/613))
+
+## 0.12.0 (2025-11-14)
+
+* chore: update CHANGELOG.md for merged changes ([8d8da63](https://github.com/CloudPirates-io/helm-charts/commit/8d8da63))
+* chore: update CHANGELOG.md for merged changes ([798acb8](https://github.com/CloudPirates-io/helm-charts/commit/798acb8))
+* Update charts/postgres/values.yaml postgres to v18.1 (minor) (#597) ([8d6d622](https://github.com/CloudPirates-io/helm-charts/commit/8d6d622))
+* chore: update CHANGELOG.md for merged changes ([f3e1ad1](https://github.com/CloudPirates-io/helm-charts/commit/f3e1ad1))
+* chore: update CHANGELOG.md for merged changes ([96c472e](https://github.com/CloudPirates-io/helm-charts/commit/96c472e))
+* chore: update CHANGELOG.md for merged changes ([9923048](https://github.com/CloudPirates-io/helm-charts/commit/9923048))
 
 ## 0.11.7 (2025-11-13)
 

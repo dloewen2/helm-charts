@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 (2025-11-17)
+
+* chore: auto-generate values.schema.json ([#614](https://github.com/CloudPirates-io/helm-charts/pull/614))
+
+## 0.7.0 (2025-11-17)
+
+* chore: update CHANGELOG.md for merged changes ([439d0b2](https://github.com/CloudPirates-io/helm-charts/commit/439d0b2))
+* chore: update CHANGELOG.md for merged changes ([d356bb2](https://github.com/CloudPirates-io/helm-charts/commit/d356bb2))
+* add serviceMonitor joblabel attribute to values (#610) ([098caf4](https://github.com/CloudPirates-io/helm-charts/commit/098caf4))
 
 ## 0.6.0 (2025-11-13)
 

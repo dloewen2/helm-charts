@@ -38,8 +38,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[memcached] add serviceMonitor joblabel attribute to values"
+        - kind: changed
+          description: "support change to statefulset (#592)"
           links:
-            - name: "PR #610"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/610"
+            - name: "Commit 3c74ccf"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/3c74ccf"

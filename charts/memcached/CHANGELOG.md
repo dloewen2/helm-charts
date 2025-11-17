@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.7.0 (2025-11-17)
-
-* [memcached] add serviceMonitor joblabel attribute to values ([#610](https://github.com/CloudPirates-io/helm-charts/pull/610))
 
 ## 0.6.0 (2025-11-13)
 

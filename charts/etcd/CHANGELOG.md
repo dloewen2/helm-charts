@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.3.3 (2025-11-18)
-
-*  [etcd] Use http for probes ([#622](https://github.com/CloudPirates-io/helm-charts/pull/622))
 
 ## 0.3.2 (2025-11-13)
 

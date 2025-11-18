@@ -1,8 +1,9 @@
 # Changelog
 
+
 ## 0.14.4 (2025-11-18)
 
-* [redis] add templating to all annotations ([#608](https://github.com/CloudPirates-io/helm-charts/pull/608))
+* add templating to all annotations (#608) ([2a78f9d](https://github.com/CloudPirates-io/helm-charts/commit/2a78f9d))
 
 ## 0.14.3 (2025-11-18)
 

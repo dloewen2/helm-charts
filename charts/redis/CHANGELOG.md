@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.14.4 (2025-11-18)
+
+* [redis] add templating to all annotations ([#608](https://github.com/CloudPirates-io/helm-charts/pull/608))
+
+## 0.14.3 (2025-11-18)
+
+* chore: update CHANGELOG.md for merged changes ([697cb45](https://github.com/CloudPirates-io/helm-charts/commit/697cb45))
+* chore: update CHANGELOG.md for merged changes ([53d3901](https://github.com/CloudPirates-io/helm-charts/commit/53d3901))
+* sentinel use hostnames (#615) ([0a0357b](https://github.com/CloudPirates-io/helm-charts/commit/0a0357b))
+* chore: update CHANGELOG.md for merged changes ([86bdd5d](https://github.com/CloudPirates-io/helm-charts/commit/86bdd5d))
+* chore: update CHANGELOG.md for merged changes ([544e9bd](https://github.com/CloudPirates-io/helm-charts/commit/544e9bd))
+* chore: auto-generate values.schema.json (#616) ([d1d105a](https://github.com/CloudPirates-io/helm-charts/commit/d1d105a))
 
 ## 0.14.2 (2025-11-17)
 

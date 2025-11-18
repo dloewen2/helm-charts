@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.14.3 (2025-11-18)
-
-* [Redis] sentinel use hostnames ([#615](https://github.com/CloudPirates-io/helm-charts/pull/615))
 
 ## 0.14.2 (2025-11-17)
 

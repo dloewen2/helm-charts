@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.7.0 (2025-11-18)
-
-* [memcached] Update charts/memcached/values.yaml memcached ([#620](https://github.com/CloudPirates-io/helm-charts/pull/620))
 
 ## 0.7.0 (2025-11-17)
 

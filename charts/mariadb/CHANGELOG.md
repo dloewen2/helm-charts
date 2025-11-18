@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.0 (2025-11-18)
+
+* [mariadb] add support for serviceaccounts ([#609](https://github.com/CloudPirates-io/helm-charts/pull/609))
 
 ## 0.6.1 (2025-11-13)
 

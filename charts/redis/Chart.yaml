@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "chore: auto-generate values.schema.json"
+        - kind: changed
+          description: "[redis]: tls support"
           links:
-            - name: "PR #635"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/635"
+            - name: "Commit 963e2b8"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/963e2b8"

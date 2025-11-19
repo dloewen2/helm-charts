@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.15.1 (2025-11-19)
+
+* chore: auto-generate values.schema.json ([#635](https://github.com/CloudPirates-io/helm-charts/pull/635))
+
+## 0.15.1 (2025-11-19)
+
+* chore: update CHANGELOG.md for merged changes ([ea8e485](https://github.com/CloudPirates-io/helm-charts/commit/ea8e485))
+* [redis]: tls support ([963e2b8](https://github.com/CloudPirates-io/helm-charts/commit/963e2b8))
 
 ## 0.15.0 (2025-11-19)
 

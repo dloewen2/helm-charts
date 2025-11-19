@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Add ServiceAccount (#631)"
+        - kind: added
+          description: "chore: auto-generate values.schema.json"
           links:
-            - name: "Commit 328f698"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/328f698"
+            - name: "PR #635"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/635"

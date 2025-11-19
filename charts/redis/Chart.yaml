@@ -42,7 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "add templating to all annotations (#608)"
+          description: "Add ServiceAccount (#631)"
           links:
-            - name: "Commit 2a78f9d"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/2a78f9d"
+            - name: "Commit 328f698"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/328f698"

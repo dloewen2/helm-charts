@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis]: tls support"
+        - kind: added
+          description: "[redis] fix condition in statefulset"
           links:
-            - name: "Commit 963e2b8"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/963e2b8"
+            - name: "PR #637"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/637"

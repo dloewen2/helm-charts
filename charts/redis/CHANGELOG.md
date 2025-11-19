@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.15.2 (2025-11-19)
-
-* [redis] fix condition in statefulset ([#637](https://github.com/CloudPirates-io/helm-charts/pull/637))
 
 ## 0.15.1 (2025-11-19)
 

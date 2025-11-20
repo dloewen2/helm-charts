@@ -1,8 +1,9 @@
 # Changelog
 
+
 ## 0.15.3 (2025-11-20)
 
-* [redis] add option to use ip or hostname for sentinal announce-ip ([#639](https://github.com/CloudPirates-io/helm-charts/pull/639))
+* add option to use ip or hostname for sentinal announce-ip (#639) ([639cd31](https://github.com/CloudPirates-io/helm-charts/commit/639cd31))
 
 ## 0.15.2 (2025-11-19)
 

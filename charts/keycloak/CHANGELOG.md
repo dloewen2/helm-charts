@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.7 (2025-11-22)
-
-* [keycloak] Make resources apply to initContainers ([#645](https://github.com/CloudPirates-io/helm-charts/pull/645))
 
 ## 0.8.6 (2025-11-13)
 

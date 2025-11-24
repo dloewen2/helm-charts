@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.8.7 (2025-11-22)
+
+* chore: update CHANGELOG.md for merged changes ([61c0c0c](https://github.com/CloudPirates-io/helm-charts/commit/61c0c0c))
+* chore: update CHANGELOG.md for merged changes ([b810690](https://github.com/CloudPirates-io/helm-charts/commit/b810690))
+* Make resources apply to initContainers (#645) ([35f4ac3](https://github.com/CloudPirates-io/helm-charts/commit/35f4ac3))
+
 ## 0.8.6 (2025-11-13)
 
 * chore: update CHANGELOG.md for merged changes ([9c2e3e2](https://github.com/CloudPirates-io/helm-charts/commit/9c2e3e2))

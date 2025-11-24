@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Make resources apply to initContainers (#645)"
+        - kind: added
+          description: "Keycloak/subchart variables"
           links:
-            - name: "Commit 35f4ac3"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/35f4ac3"
+            - name: "PR #649"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/649"

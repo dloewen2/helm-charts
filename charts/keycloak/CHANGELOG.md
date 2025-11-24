@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.0 (2025-11-24)
+
+* Keycloak/subchart variables ([#649](https://github.com/CloudPirates-io/helm-charts/pull/649))
+
+## 0.8.8 (2025-11-24)
+
+* chore: update CHANGELOG.md for merged changes ([1e61a3e](https://github.com/CloudPirates-io/helm-charts/commit/1e61a3e))
+* chore: update CHANGELOG.md for merged changes ([768186e](https://github.com/CloudPirates-io/helm-charts/commit/768186e))
+* Fix JDBC connection string when using mssql database (#643) (#644) ([639db93](https://github.com/CloudPirates-io/helm-charts/commit/639db93))
+* chore: update CHANGELOG.md for merged changes ([266b5f5](https://github.com/CloudPirates-io/helm-charts/commit/266b5f5))
+* fix: correct installation command in the  (#646) ([b88029b](https://github.com/CloudPirates-io/helm-charts/commit/b88029b))
 
 ## 0.8.7 (2025-11-22)
 

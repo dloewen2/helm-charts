@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Fix JDBC connection string when using mssql database (#643) (#644)"
+        - kind: added
+          description: "[Keycloak[ improve subchart variables"
           links:
-            - name: "Commit 639db93"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/639db93"
+            - name: "PR #652"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/652"

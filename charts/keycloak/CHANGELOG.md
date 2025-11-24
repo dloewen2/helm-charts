@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.1 (2025-11-24)
+
+* [Keycloak[ improve subchart variables ([#652](https://github.com/CloudPirates-io/helm-charts/pull/652))
+
+## 0.9.0 (2025-11-24)
+
+* chore: update CHANGELOG.md for merged changes ([56c82a4](https://github.com/CloudPirates-io/helm-charts/commit/56c82a4))
+* chore: update CHANGELOG.md for merged changes ([6a0f6d4](https://github.com/CloudPirates-io/helm-charts/commit/6a0f6d4))
+* Keycloak/subchart variables (#649) ([bb0520a](https://github.com/CloudPirates-io/helm-charts/commit/bb0520a))
 
 ## 0.8.8 (2025-11-24)
 

@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.8 (2025-11-24)
-
-* [keycloak] Fix JDBC connection string when using mssql database (#643) ([#644](https://github.com/CloudPirates-io/helm-charts/pull/644))
 
 ## 0.8.7 (2025-11-22)
 

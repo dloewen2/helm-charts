@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Keycloak/subchart variables (#649)"
+        - kind: added
+          description: "[keycloak] Add support for PriorityClass"
           links:
-            - name: "Commit bb0520a"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/bb0520a"
+            - name: "PR #651"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/651"

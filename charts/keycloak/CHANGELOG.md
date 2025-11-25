@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0 (2025-11-25)
+
+* [keycloak] Add support for PriorityClass ([#651](https://github.com/CloudPirates-io/helm-charts/pull/651))
+
+## 0.9.1 (2025-11-24)
+
+* chore: update CHANGELOG.md for merged changes ([fe5d8ec](https://github.com/CloudPirates-io/helm-charts/commit/fe5d8ec))
+* chore: update CHANGELOG.md for merged changes ([6ad9df0](https://github.com/CloudPirates-io/helm-charts/commit/6ad9df0))
+* [Keycloak[ improve subchart variables (#652) ([e1c50c6](https://github.com/CloudPirates-io/helm-charts/commit/e1c50c6))
 
 ## 0.9.0 (2025-11-24)
 

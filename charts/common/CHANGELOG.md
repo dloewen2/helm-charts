@@ -1,8 +1,5 @@
 # Changelog
 
-## 2.1.0 (2025-11-25)
-
-* [common] add new helm functions for rabbitmq-cluster-operator chart to work ([#648](https://github.com/CloudPirates-io/helm-charts/pull/648))
 
 ## 2.0.0 (2025-10-14)
 

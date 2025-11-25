@@ -13,3 +13,9 @@ maintainers:
     url: https://www.cloudpirates.io
 annotations:
   license: Apache-2.0
+  artifacthub.io/changes: |2
+        - kind: added
+          description: "[common] add new helm functions for rabbitmq-cluster-operator chart to work"
+          links:
+            - name: "PR #648"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/648"

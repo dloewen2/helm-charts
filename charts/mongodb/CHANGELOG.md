@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.5 (2025-11-25)
+
+* [percona/mongodb_exporter] Update image to v0.47.2 ([#656](https://github.com/CloudPirates-io/helm-charts/pull/656))
 
 ## 0.6.4 (2025-11-20)
 

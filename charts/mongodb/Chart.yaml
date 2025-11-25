@@ -38,5 +38,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Chart updated"
+        - kind: added
+          description: "[percona/mongodb_exporter] Update image to v0.47.2"
+          links:
+            - name: "PR #656"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/656"

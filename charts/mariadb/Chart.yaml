@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "add support for serviceaccounts (#609)"
+        - kind: added
+          description: "[mariadb] Update charts/mariadb/values.yaml mariadb to v12.1.2 (minor)"
           links:
-            - name: "Commit 1e6d04f"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/1e6d04f"
+            - name: "PR #642"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/642"

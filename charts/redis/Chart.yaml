@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[oliver006/redis_exporter] Update image to v1.80.1"
+        - kind: changed
+          description: "add option to use ip or hostname for sentinal announce-ip (#639)"
           links:
-            - name: "PR #655"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/655"
+            - name: "Commit 639cd31"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/639cd31"

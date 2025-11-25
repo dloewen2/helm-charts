@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.0 (2025-11-25)
-
-* [keycloak] Add support for PriorityClass ([#651](https://github.com/CloudPirates-io/helm-charts/pull/651))
 
 ## 0.9.1 (2025-11-24)
 

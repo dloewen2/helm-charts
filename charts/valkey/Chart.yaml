@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[valkey]: Support TLS"
+        - kind: added
+          description: "[oliver006/redis_exporter] Update charts/valkey/values.yaml oliver006/redis_exporter to v1.80.1 (patch)"
           links:
-            - name: "Commit 3b0b609"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/3b0b609"
+            - name: "PR #647"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/647"

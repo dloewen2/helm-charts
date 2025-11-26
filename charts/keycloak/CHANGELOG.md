@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.0 (2025-11-26)
-
-* [keycloak] Fix/allow realm import on production mode ([#668](https://github.com/CloudPirates-io/helm-charts/pull/668))
 
 ## 0.10.2 (2025-11-26)
 

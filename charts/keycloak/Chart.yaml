@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[keycloak] Fix/allow realm import on production mode"
+        - kind: changed
+          description: "Use correct metrics path if httpRelativePath is set (#666)"
           links:
-            - name: "PR #668"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/668"
+            - name: "Commit 87276ae"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/87276ae"

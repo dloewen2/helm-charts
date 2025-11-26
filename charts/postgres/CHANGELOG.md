@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.12.2 (2025-11-26)
+
+* [postgres] added support for priorityClassName (#662) ([#663](https://github.com/CloudPirates-io/helm-charts/pull/663))
 
 ## 0.12.1 (2025-11-17)
 

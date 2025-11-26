@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 0.5.0 (2025-11-26)
+
+* chore: update CHANGELOG.md for merged changes ([1050496](https://github.com/CloudPirates-io/helm-charts/commit/1050496))
+* [nginx]: Configurable side car containers ([f525b11](https://github.com/CloudPirates-io/helm-charts/commit/f525b11))
+
 ## 0.4.3 (2025-11-16)
 
 * chore: update CHANGELOG.md for merged changes ([5521d5f](https://github.com/CloudPirates-io/helm-charts/commit/5521d5f))

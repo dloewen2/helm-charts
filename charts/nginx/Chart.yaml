@@ -42,7 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "[nginx]: feat: remove optional bitnami script sourcing (#601)"
+          description: "[nginx]: Configurable side car containers"
           links:
-            - name: "Commit 9f6a837"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/9f6a837"
+            - name: "Commit f525b11"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/f525b11"

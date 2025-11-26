@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.2 (2025-11-26)
-
-* [keycloak] Use correct metrics path if httpRelativePath is set ([#666](https://github.com/CloudPirates-io/helm-charts/pull/666))
 
 ## 0.10.1 (2025-11-26)
 

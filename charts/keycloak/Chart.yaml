@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[Keycloak[ improve subchart variables (#652)"
+        - kind: added
+          description: "[keycloak] Preserve themes and providers options"
           links:
-            - name: "Commit e1c50c6"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/e1c50c6"
+            - name: "PR #660"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/660"

@@ -1,6 +1,15 @@
 # Changelog
 
-## 0.10.1 ()
+## 0.10.1 (2025-11-26)
+
+* [keycloak] Preserve themes and providers options ([#660](https://github.com/CloudPirates-io/helm-charts/pull/660))
+
+## 0.10.0 (2025-11-25)
+
+* chore: update CHANGELOG.md for merged changes ([723bd23](https://github.com/CloudPirates-io/helm-charts/commit/723bd23))
+* chore: update CHANGELOG.md for merged changes ([786bcaf](https://github.com/CloudPirates-io/helm-charts/commit/786bcaf))
+* Add support for PriorityClass (#651) ([0aaf369](https://github.com/CloudPirates-io/helm-charts/commit/0aaf369))
+
 ## 0.9.1 (2025-11-24)
 
 * chore: update CHANGELOG.md for merged changes ([fe5d8ec](https://github.com/CloudPirates-io/helm-charts/commit/fe5d8ec))

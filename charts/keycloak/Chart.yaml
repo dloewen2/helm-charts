@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[keycloak] Preserve themes and providers options"
+        - kind: changed
+          description: "Add support for PriorityClass (#651)"
           links:
-            - name: "PR #660"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/660"
+            - name: "Commit 0aaf369"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/0aaf369"

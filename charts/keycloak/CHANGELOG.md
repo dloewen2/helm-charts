@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.1 (2025-11-26)
-
-* [keycloak] Preserve themes and providers options ([#660](https://github.com/CloudPirates-io/helm-charts/pull/660))
 
 ## 0.10.0 (2025-11-25)
 

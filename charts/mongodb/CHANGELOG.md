@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.6.6 (2025-12-01)
-
-* [universal] add labels to statefulset pvc-templates ([#681](https://github.com/CloudPirates-io/helm-charts/pull/681))
 
 ## 0.6.5 (2025-11-25)
 

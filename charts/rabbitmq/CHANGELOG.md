@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.7.10 (2025-12-01)
-
-* [universal] add labels to statefulset pvc-templates ([#681](https://github.com/CloudPirates-io/helm-charts/pull/681))
 
 ## cluster-operator-0.1.0 (2025-12-01)
 

@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[universal] add labels to statefulset pvc-templates"
+        - kind: changed
+          description: "[oliver006/redis_exporter] Update charts/valkey/values.yaml oliver006/redis_exporter to v1.80.1 (patch) (#647)"
           links:
-            - name: "PR #681"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/681"
+            - name: "Commit fa2654b"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/fa2654b"

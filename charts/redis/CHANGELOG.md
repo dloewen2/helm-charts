@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.16.2 (2025-12-01)
-
-* [redis] set save in config if persistence is disabled ([#677](https://github.com/CloudPirates-io/helm-charts/pull/677))
 
 ## 0.16.1 (2025-12-01)
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.11.1 (2025-12-01)
+
+* [keycloak/keycloak] Update charts/keycloak/values.yaml keycloak/keycloak to v26.4.7 (patch) ([#664](https://github.com/CloudPirates-io/helm-charts/pull/664))
+
+## 0.11.0 (2025-11-26)
+
+* chore: update CHANGELOG.md for merged changes ([b4e5184](https://github.com/CloudPirates-io/helm-charts/commit/b4e5184))
+* chore: update CHANGELOG.md for merged changes ([84cd609](https://github.com/CloudPirates-io/helm-charts/commit/84cd609))
+* Fix/allow realm import on production mode (#668) ([be3939e](https://github.com/CloudPirates-io/helm-charts/commit/be3939e))
+* chore: update CHANGELOG.md for merged changes ([bdc9c44](https://github.com/CloudPirates-io/helm-charts/commit/bdc9c44))
+* chore: update CHANGELOG.md for merged changes ([79f87c5](https://github.com/CloudPirates-io/helm-charts/commit/79f87c5))
 
 ## 0.10.2 (2025-11-26)
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.16.1 (2025-12-01)
+
+* [universal] add labels to statefulset pvc-templates ([#681](https://github.com/CloudPirates-io/helm-charts/pull/681))
+
+## 0.16.0 (2025-11-25)
+
+* chore: update CHANGELOG.md for merged changes ([f16dc26](https://github.com/CloudPirates-io/helm-charts/commit/f16dc26))
+* chore: update CHANGELOG.md for merged changes ([524f481](https://github.com/CloudPirates-io/helm-charts/commit/524f481))
+* Update charts/redis/values.yaml redis to v8.4.0 (minor) (#633) ([96c8dd7](https://github.com/CloudPirates-io/helm-charts/commit/96c8dd7))
 
 ## 0.15.4 (2025-11-25)
 

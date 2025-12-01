@@ -43,3 +43,9 @@ annotations:
       url: https://github.com/rabbitmq/cluster-operator
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
+  artifacthub.io/changes: |2
+        - kind: added
+          description: "[rmq-cluster-operator] Adding new chart for RabbitMQ Cluster Kubernetes Operator"
+          links:
+            - name: "PR #638"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/638"

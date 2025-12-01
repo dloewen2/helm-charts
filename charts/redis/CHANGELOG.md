@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.16.2 (2025-12-01)
+
+* [redis] set save in config if persistence is disabled ([#677](https://github.com/CloudPirates-io/helm-charts/pull/677))
+
+## 0.16.1 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([acb75b9](https://github.com/CloudPirates-io/helm-charts/commit/acb75b9))
+* chore: update CHANGELOG.md for merged changes ([834af35](https://github.com/CloudPirates-io/helm-charts/commit/834af35))
 
 ## 0.16.0 (2025-11-25)
 

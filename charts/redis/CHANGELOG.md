@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.16.2 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([1219e3d](https://github.com/CloudPirates-io/helm-charts/commit/1219e3d))
+* chore: update CHANGELOG.md for merged changes ([d1978ba](https://github.com/CloudPirates-io/helm-charts/commit/d1978ba))
+* set save in config if persistence is disabled (#677) ([4fdcde0](https://github.com/CloudPirates-io/helm-charts/commit/4fdcde0))
+
 ## 0.16.1 (2025-12-01)
 
 * chore: update CHANGELOG.md for merged changes ([acb75b9](https://github.com/CloudPirates-io/helm-charts/commit/acb75b9))

@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.11.1 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([5ead46d](https://github.com/CloudPirates-io/helm-charts/commit/5ead46d))
+* chore: update CHANGELOG.md for merged changes ([5428a9d](https://github.com/CloudPirates-io/helm-charts/commit/5428a9d))
+* [keycloak/keycloak] Update charts/keycloak/values.yaml keycloak/keycloak to v26.4.7 (patch) (#664) ([3224ae7](https://github.com/CloudPirates-io/helm-charts/commit/3224ae7))
+
 ## 0.11.0 (2025-11-26)
 
 * chore: update CHANGELOG.md for merged changes ([b4e5184](https://github.com/CloudPirates-io/helm-charts/commit/b4e5184))

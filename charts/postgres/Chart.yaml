@@ -43,7 +43,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "[mongodb/redis/posgres] Add subPath option when using existingClaim (#613)"
+          description: "added support for priorityClassName (#662) (#663)"
           links:
-            - name: "Commit 8aa277e"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/8aa277e"
+            - name: "Commit 9a33e0c"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/9a33e0c"

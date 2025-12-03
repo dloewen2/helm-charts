@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.16.4 (2025-12-03)
+
+* [REDIS] metrics service annotation does not work ([#687](https://github.com/CloudPirates-io/helm-charts/pull/687))
+
+## 0.16.3 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([f0a81fa](https://github.com/CloudPirates-io/helm-charts/commit/f0a81fa))
+* add resources to init-cluster job (#680) ([63f8d22](https://github.com/CloudPirates-io/helm-charts/commit/63f8d22))
 
 ## 0.16.2 (2025-12-01)
 

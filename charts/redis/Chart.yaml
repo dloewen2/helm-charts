@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "set save in config if persistence is disabled (#677)"
+        - kind: added
+          description: "[REDIS] metrics service annotation does not work"
           links:
-            - name: "Commit 4fdcde0"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/4fdcde0"
+            - name: "PR #687"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/687"

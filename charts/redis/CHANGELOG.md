@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.16.4 (2025-12-03)
-
-* [REDIS] metrics service annotation does not work ([#687](https://github.com/CloudPirates-io/helm-charts/pull/687))
 
 ## 0.16.3 (2025-12-01)
 

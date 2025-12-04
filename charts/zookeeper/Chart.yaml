@@ -42,8 +42,5 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[zookeeper] fix network policy switch"
-          links:
-            - name: "PR #690"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/690"
+        - kind: changed
+          description: "Chart updated"

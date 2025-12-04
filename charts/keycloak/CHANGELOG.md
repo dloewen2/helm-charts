@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.3 (2025-12-04)
+
+* [keycloak] Apply preserveThemes and preserveProviders to the deployment for volume mounts ([#689](https://github.com/CloudPirates-io/helm-charts/pull/689))
+
+## 0.11.2 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([5bef5a3](https://github.com/CloudPirates-io/helm-charts/commit/5bef5a3))
+* quote dnsnames for certificates (#678) ([1dde1f7](https://github.com/CloudPirates-io/helm-charts/commit/1dde1f7))
+
 ## 0.11.1 (2025-12-01)
 
 * chore: update CHANGELOG.md for merged changes ([5ead46d](https://github.com/CloudPirates-io/helm-charts/commit/5ead46d))

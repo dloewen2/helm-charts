@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.4 (2025-12-04)
+
+* [zookeeper] fix network policy switch ([#690](https://github.com/CloudPirates-io/helm-charts/pull/690))
+
+## 0.3.3 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([acb75b9](https://github.com/CloudPirates-io/helm-charts/commit/acb75b9))
+* chore: update CHANGELOG.md for merged changes ([834af35](https://github.com/CloudPirates-io/helm-charts/commit/834af35))
+* chore: update CHANGELOG.md for merged changes ([b8d24f9](https://github.com/CloudPirates-io/helm-charts/commit/b8d24f9))
+* chore: update CHANGELOG.md for merged changes ([80d4036](https://github.com/CloudPirates-io/helm-charts/commit/80d4036))
+* Update charts/zookeeper/values.yaml zookeeper (#604) ([2586190](https://github.com/CloudPirates-io/helm-charts/commit/2586190))
 
 ## 0.3.2 (2025-11-13)
 

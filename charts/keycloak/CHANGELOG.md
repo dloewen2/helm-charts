@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.3 (2025-12-04)
-
-* [keycloak] Apply preserveThemes and preserveProviders to the deployment for volume mounts ([#689](https://github.com/CloudPirates-io/helm-charts/pull/689))
 
 ## 0.11.2 (2025-12-01)
 

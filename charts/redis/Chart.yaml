@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "add resources to init-cluster job (#680)"
+        - kind: added
+          description: "[redis] Fix Redis issue with immutableFields cause by the label addition on volumeClaimTemplate"
           links:
-            - name: "Commit 63f8d22"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/63f8d22"
+            - name: "PR #695"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/695"

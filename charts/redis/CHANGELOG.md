@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.16.5 (2025-12-05)
+
+* [redis] Fix Redis issue with immutableFields cause by the label addition on volumeClaimTemplate ([#695](https://github.com/CloudPirates-io/helm-charts/pull/695))
+
+## 0.16.4 (2025-12-03)
+
+* chore: update CHANGELOG.md for merged changes ([fffc3d2](https://github.com/CloudPirates-io/helm-charts/commit/fffc3d2))
+* chore: update CHANGELOG.md for merged changes ([17f253f](https://github.com/CloudPirates-io/helm-charts/commit/17f253f))
+* metrics service annotation does not work (#687) ([6c053af](https://github.com/CloudPirates-io/helm-charts/commit/6c053af))
 
 ## 0.16.3 (2025-12-01)
 

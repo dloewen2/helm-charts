@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.16.5 (2025-12-05)
-
-* [redis] Fix Redis issue with immutableFields cause by the label addition on volumeClaimTemplate ([#695](https://github.com/CloudPirates-io/helm-charts/pull/695))
 
 ## 0.16.4 (2025-12-03)
 

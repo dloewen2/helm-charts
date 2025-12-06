@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[zookeeper] Update zookeeper statefulset to use existing peristent volume claim if set"
+        - kind: changed
+          description: "fix network policy switch (#690)"
           links:
-            - name: "PR #698"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/698"
+            - name: "Commit f7b8ae2"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/f7b8ae2"

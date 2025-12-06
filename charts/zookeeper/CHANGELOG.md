@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.3.5 (2025-12-06)
-
-* [zookeeper] Update zookeeper statefulset to use existing peristent volume claim if set ([#698](https://github.com/CloudPirates-io/helm-charts/pull/698))
 
 ## 0.3.4 (2025-12-04)
 

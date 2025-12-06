@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "add support for serviceaccounts (#609)"
+        - kind: added
+          description: "[mariadb] Add template evaluation for initdbScriptsConfigMap"
           links:
-            - name: "Commit 1e6d04f"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/1e6d04f"
+            - name: "PR #697"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/697"

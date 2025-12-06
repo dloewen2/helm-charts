@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.0 (2025-12-06)
+
+* [universal] fix statefulset pvc labels ([#696](https://github.com/CloudPirates-io/helm-charts/pull/696))
+
+## 0.8.1 (2025-12-06)
+
+* chore: update CHANGELOG.md for merged changes ([af262f9](https://github.com/CloudPirates-io/helm-charts/commit/af262f9))
+* chore: update CHANGELOG.md for merged changes ([06224a4](https://github.com/CloudPirates-io/helm-charts/commit/06224a4))
+* Add template evaluation for initdbScriptsConfigMap (#697) ([56a2bb1](https://github.com/CloudPirates-io/helm-charts/commit/56a2bb1))
 
 ## 0.8.0 (2025-11-25)
 

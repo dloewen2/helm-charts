@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 (2025-12-06)
+
+* [universal] fix statefulset pvc labels ([#696](https://github.com/CloudPirates-io/helm-charts/pull/696))
+
+## 0.3.4 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([834af35](https://github.com/CloudPirates-io/helm-charts/commit/834af35))
+* chore: update CHANGELOG.md for merged changes ([60a1994](https://github.com/CloudPirates-io/helm-charts/commit/60a1994))
+* [etcd]: fix probes https ([12ec01c](https://github.com/CloudPirates-io/helm-charts/commit/12ec01c))
 
 ## 0.3.3 (2025-11-18)
 

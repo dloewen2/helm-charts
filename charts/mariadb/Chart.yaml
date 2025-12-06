@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Update charts/mariadb/values.yaml mariadb to v12.1.2 (minor) (#642)"
+        - kind: added
+          description: "[universal] fix statefulset pvc labels"
           links:
-            - name: "Commit 84a45fc"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/84a45fc"
+            - name: "PR #696"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/696"

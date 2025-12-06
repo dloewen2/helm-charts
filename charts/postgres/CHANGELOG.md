@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.13.0 (2025-12-06)
+
+* [universal] fix statefulset pvc labels ([#696](https://github.com/CloudPirates-io/helm-charts/pull/696))
+
+## 0.12.4 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([834af35](https://github.com/CloudPirates-io/helm-charts/commit/834af35))
 
 ## 0.12.3 (2025-12-01)
 

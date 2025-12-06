@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "fix nesting of auth.secretKeys.adminPasswordKey (#674)"
+        - kind: added
+          description: "[universal] fix statefulset pvc labels"
           links:
-            - name: "Commit ed4f3e3"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/ed4f3e3"
+            - name: "PR #696"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/696"

@@ -1,9 +1,17 @@
 # Changelog
 
+## 0.8.0 (2025-12-06)
+
+* [universal] fix statefulset pvc labels ([#696](https://github.com/CloudPirates-io/helm-charts/pull/696))
 
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.7.10 (2025-12-01)
+
+* chore: update CHANGELOG.md for merged changes ([acb75b9](https://github.com/CloudPirates-io/helm-charts/commit/acb75b9))
+* chore: update CHANGELOG.md for merged changes ([834af35](https://github.com/CloudPirates-io/helm-charts/commit/834af35))
 
 ## 0.7.9 (2025-11-19)
 

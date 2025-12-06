@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.6.0 (2025-12-06)
-
-* [universal] fix statefulset pvc labels ([#696](https://github.com/CloudPirates-io/helm-charts/pull/696))
 
 ## 0.5.4 (2025-12-01)
 

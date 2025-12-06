@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.1 (2025-12-06)
-
-* [mariadb] Add template evaluation for initdbScriptsConfigMap ([#697](https://github.com/CloudPirates-io/helm-charts/pull/697))
 
 ## 0.8.0 (2025-11-25)
 

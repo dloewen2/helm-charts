@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.6 (2025-12-06)
+
+* [redis] return fqdn for sentinel replicas lookup (#700) ([#701](https://github.com/CloudPirates-io/helm-charts/pull/701))
+
+## 0.16.5 (2025-12-05)
+
+* Fix Redis issue with immutableFields cause by the label addition on volumeClaimTemplate (#695) ([f5ce66f](https://github.com/CloudPirates-io/helm-charts/commit/f5ce66f))
 
 ## 0.16.4 (2025-12-03)
 

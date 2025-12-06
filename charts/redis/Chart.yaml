@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis] return fqdn for sentinel replicas lookup (#700)"
+        - kind: changed
+          description: "Fix Redis issue with immutableFields cause by the label addition on volumeClaimTemplate (#695)"
           links:
-            - name: "PR #701"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/701"
+            - name: "Commit f5ce66f"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/f5ce66f"

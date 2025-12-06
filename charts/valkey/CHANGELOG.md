@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.1 (2025-12-06)
-
-* [valkey/valkey] Update charts/valkey/values.yaml valkey/valkey ([#694](https://github.com/CloudPirates-io/helm-charts/pull/694))
 
 ## 0.11.0 (2025-12-06)
 

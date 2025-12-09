@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.5.7 (2025-12-09)
-
-* [minio] add post-job helm-hook annotation, update readme ([#706](https://github.com/CloudPirates-io/helm-charts/pull/706))
 
 ## 0.5.6 (2025-11-13)
 

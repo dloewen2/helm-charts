@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[valkey] Port #615, #639, #701 & fix custom config never being used"
+        - kind: changed
+          description: "[valkey/valkey] Update charts/valkey/values.yaml valkey/valkey (#694)"
           links:
-            - name: "PR #715"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/715"
+            - name: "Commit beb428d"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/beb428d"

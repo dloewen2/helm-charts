@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.12.0 (2025-12-10)
-
-* [valkey] Port #615, #639, #701 & fix custom config never being used ([#715](https://github.com/CloudPirates-io/helm-charts/pull/715))
 
 ## 0.11.1 (2025-12-06)
 

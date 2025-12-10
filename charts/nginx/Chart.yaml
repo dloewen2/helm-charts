@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[nginx] Update charts/nginx/values.yaml nginx to v1.29.4 (patch)"
+        - kind: changed
+          description: "[nginx]: Configurable side car containers"
           links:
-            - name: "PR #718"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/718"
+            - name: "Commit f525b11"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/f525b11"

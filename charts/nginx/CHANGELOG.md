@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.1 (2025-12-10)
+
+* [nginx] Update charts/nginx/values.yaml nginx to v1.29.4 (patch) ([#718](https://github.com/CloudPirates-io/helm-charts/pull/718))
 
 ## 0.5.0 (2025-11-26)
 

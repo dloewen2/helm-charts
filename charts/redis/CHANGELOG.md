@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.16.7 (2025-12-10)
+
+* [redis] Update charts/redis/values.yaml redis ([#716](https://github.com/CloudPirates-io/helm-charts/pull/716))
+
+## 0.16.7 (2025-12-09)
+
+* chore: update CHANGELOG.md for merged changes ([f8868b3](https://github.com/CloudPirates-io/helm-charts/commit/f8868b3))
+* chore: update CHANGELOG.md for merged changes ([b28e014](https://github.com/CloudPirates-io/helm-charts/commit/b28e014))
+* Update charts/redis/values.yaml redis (#713) ([689ef89](https://github.com/CloudPirates-io/helm-charts/commit/689ef89))
 
 ## 0.16.6 (2025-12-06)
 

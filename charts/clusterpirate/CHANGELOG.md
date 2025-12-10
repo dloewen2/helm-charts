@@ -1,8 +1,5 @@
 # Changelog
 
-## 1.2.10 (2025-12-10)
-
-* [helm] Update valkey Docker tag to v0.12.0 ([#724](https://github.com/CloudPirates-io/helm-charts/pull/724))
 
 ## 1.2.10 (2025-12-09)
 

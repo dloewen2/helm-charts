@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.17.0 (2025-12-10)
+
+* [redis]: allow changing revisionHistoryLimit ([#723](https://github.com/CloudPirates-io/helm-charts/pull/723))
 
 ## 0.16.7 (2025-12-09)
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.17.1 (2025-12-11)
+
+* fix(redis): Fix headless-service annotations rendering for empty values ([#734](https://github.com/CloudPirates-io/helm-charts/pull/734))
+
+## 0.17.0 (2025-12-10)
+
+* chore: update CHANGELOG.md for merged changes ([e03556b](https://github.com/CloudPirates-io/helm-charts/commit/e03556b))
+* chore: update CHANGELOG.md for merged changes ([6b059fb](https://github.com/CloudPirates-io/helm-charts/commit/6b059fb))
+* [redis]: allow changing revisionHistoryLimit (#723) ([38a4238](https://github.com/CloudPirates-io/helm-charts/commit/38a4238))
+* chore: update CHANGELOG.md for merged changes ([2e78166](https://github.com/CloudPirates-io/helm-charts/commit/2e78166))
+* chore: update CHANGELOG.md for merged changes ([3b004ad](https://github.com/CloudPirates-io/helm-charts/commit/3b004ad))
+* Update charts/redis/values.yaml redis (#716) ([887591b](https://github.com/CloudPirates-io/helm-charts/commit/887591b))
 
 ## 0.16.7 (2025-12-09)
 

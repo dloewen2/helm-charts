@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.17.2 (2025-12-11)
+
+* fix(redis): prevent password logging in sentinel startup ([#731](https://github.com/CloudPirates-io/helm-charts/pull/731))
+
+## 0.17.1 (2025-12-11)
+
+* chore: update CHANGELOG.md for merged changes ([73e51b2](https://github.com/CloudPirates-io/helm-charts/commit/73e51b2))
+* chore: update CHANGELOG.md for merged changes ([b8cefc8](https://github.com/CloudPirates-io/helm-charts/commit/b8cefc8))
+* fix(redis): Fix headless-service annotations rendering for empty values (#734) ([4e95aa6](https://github.com/CloudPirates-io/helm-charts/commit/4e95aa6))
 
 ## 0.17.0 (2025-12-10)
 

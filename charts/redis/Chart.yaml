@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis]: allow changing revisionHistoryLimit (#723)"
+        - kind: added
+          description: "fix(redis): prevent password logging in sentinel startup"
           links:
-            - name: "Commit 38a4238"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/38a4238"
+            - name: "PR #731"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/731"

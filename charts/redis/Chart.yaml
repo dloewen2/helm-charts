@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "fix(redis): Fix headless-service annotations rendering for empty values"
+        - kind: changed
+          description: "[redis]: allow changing revisionHistoryLimit (#723)"
           links:
-            - name: "PR #734"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/734"
+            - name: "Commit 38a4238"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/38a4238"

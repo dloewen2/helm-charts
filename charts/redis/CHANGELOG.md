@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.1 (2025-12-11)
-
-* fix(redis): Fix headless-service annotations rendering for empty values ([#734](https://github.com/CloudPirates-io/helm-charts/pull/734))
 
 ## 0.17.0 (2025-12-10)
 

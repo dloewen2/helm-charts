@@ -1,9 +1,20 @@
 # Changelog
 
+## 0.9.0 (2025-12-11)
+
+* [rabbitmq] Add ServiceAccount automountServiceAccountToken configuration ([#673](https://github.com/CloudPirates-io/helm-charts/pull/673))
 
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.8.1 (2025-12-09)
+
+* chore: update CHANGELOG.md for merged changes ([dc84b5c](https://github.com/CloudPirates-io/helm-charts/commit/dc84b5c))
+* chore: update CHANGELOG.md for merged changes ([bcf6608](https://github.com/CloudPirates-io/helm-charts/commit/bcf6608))
+* chore: update CHANGELOG.md for merged changes ([a05c8fe](https://github.com/CloudPirates-io/helm-charts/commit/a05c8fe))
+* chore: update CHANGELOG.md for merged changes ([4eaa98d](https://github.com/CloudPirates-io/helm-charts/commit/4eaa98d))
+* chore: update CHANGELOG.md for merged changes ([8620dd7](https://github.com/CloudPirates-io/helm-charts/commit/8620dd7))
 
 ## 0.8.0 (2025-12-06)
 

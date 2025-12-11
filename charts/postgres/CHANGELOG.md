@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.13.3 (2025-12-11)
-
-* [postgres] Add support for password secret reference only ([#719](https://github.com/CloudPirates-io/helm-charts/pull/719))
 
 ## 0.13.2 (2025-12-09)
 

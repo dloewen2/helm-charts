@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "fix(redis): prevent password logging in sentinel startup"
+        - kind: changed
+          description: "fix(redis): Fix headless-service annotations rendering for empty values (#734)"
           links:
-            - name: "PR #731"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/731"
+            - name: "Commit 4e95aa6"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/4e95aa6"

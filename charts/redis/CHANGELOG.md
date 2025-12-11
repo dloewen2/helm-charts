@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.2 (2025-12-11)
-
-* fix(redis): prevent password logging in sentinel startup ([#731](https://github.com/CloudPirates-io/helm-charts/pull/731))
 
 ## 0.17.1 (2025-12-11)
 

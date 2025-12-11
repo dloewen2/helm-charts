@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.9.0 (2025-12-11)
-
-* [rabbitmq] Add ServiceAccount automountServiceAccountToken configuration ([#673](https://github.com/CloudPirates-io/helm-charts/pull/673))
 
 ## cluster-operator-0.1.0 (2025-12-01)
 

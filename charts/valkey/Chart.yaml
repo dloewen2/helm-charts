@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit"
+        - kind: changed
+          description: "Port #615, #639, #701 & fix custom config never being used (#715)"
           links:
-            - name: "PR #725"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/725"
+            - name: "Commit 58035e4"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/58035e4"

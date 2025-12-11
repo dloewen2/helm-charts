@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.3.6 (2025-12-11)
-
-* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit ([#725](https://github.com/CloudPirates-io/helm-charts/pull/725))
 
 ## 0.3.5 (2025-12-06)
 

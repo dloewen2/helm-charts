@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "fix network policy switch (#690)"
+        - kind: added
+          description: "[redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit"
           links:
-            - name: "Commit f7b8ae2"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/f7b8ae2"
+            - name: "PR #725"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/725"

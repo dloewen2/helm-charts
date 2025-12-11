@@ -1,9 +1,18 @@
 # Changelog
 
+## 0.10.0 (2025-12-11)
+
+* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit ([#725](https://github.com/CloudPirates-io/helm-charts/pull/725))
 
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.9.0 (2025-12-11)
+
+* chore: update CHANGELOG.md for merged changes ([df97204](https://github.com/CloudPirates-io/helm-charts/commit/df97204))
+* chore: update CHANGELOG.md for merged changes ([0b1d21c](https://github.com/CloudPirates-io/helm-charts/commit/0b1d21c))
+* Add ServiceAccount automountServiceAccountToken configuration (#673) ([c9f8f24](https://github.com/CloudPirates-io/helm-charts/commit/c9f8f24))
 
 ## 0.8.1 (2025-12-09)
 

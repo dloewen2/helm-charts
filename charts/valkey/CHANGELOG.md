@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.13.0 (2025-12-11)
+
+* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit ([#725](https://github.com/CloudPirates-io/helm-charts/pull/725))
+
+## 0.12.0 (2025-12-10)
+
+* chore: update CHANGELOG.md for merged changes ([ae1cb60](https://github.com/CloudPirates-io/helm-charts/commit/ae1cb60))
+* chore: update CHANGELOG.md for merged changes ([1151f2d](https://github.com/CloudPirates-io/helm-charts/commit/1151f2d))
+* Port #615, #639, #701 & fix custom config never being used (#715) ([58035e4](https://github.com/CloudPirates-io/helm-charts/commit/58035e4))
 
 ## 0.11.1 (2025-12-06)
 

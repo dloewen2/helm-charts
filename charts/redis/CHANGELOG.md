@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.17.3 (2025-12-11)
+
+* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit ([#725](https://github.com/CloudPirates-io/helm-charts/pull/725))
+
+## 0.17.2 (2025-12-11)
+
+* chore: update CHANGELOG.md for merged changes ([48cbf93](https://github.com/CloudPirates-io/helm-charts/commit/48cbf93))
+* chore: update CHANGELOG.md for merged changes ([e8c8153](https://github.com/CloudPirates-io/helm-charts/commit/e8c8153))
+* fix(redis): prevent password logging in sentinel startup (#731) ([2e85940](https://github.com/CloudPirates-io/helm-charts/commit/2e85940))
 
 ## 0.17.1 (2025-12-11)
 

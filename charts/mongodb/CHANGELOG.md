@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.7.0 (2025-12-12)
-
-* [mongo] Update charts/mongodb/values.yaml mongo ([#717](https://github.com/CloudPirates-io/helm-charts/pull/717))
 
 ## 0.7.0 (2025-12-06)
 

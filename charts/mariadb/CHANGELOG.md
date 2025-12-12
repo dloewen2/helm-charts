@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.0 (2025-12-12)
-
-* [mariadb] add metrics-exporter ([#720](https://github.com/CloudPirates-io/helm-charts/pull/720))
 
 ## 0.9.0 (2025-12-06)
 

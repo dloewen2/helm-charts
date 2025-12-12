@@ -38,8 +38,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[memcached] change default deploymentType to deployment"
+        - kind: changed
+          description: "Update charts/memcached/values.yaml memcached (#710)"
           links:
-            - name: "PR #736"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/736"
+            - name: "Commit 9a0f0bc"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/9a0f0bc"

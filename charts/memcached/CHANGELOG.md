@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.0 (2025-12-12)
-
-* [memcached] change default deploymentType to deployment ([#736](https://github.com/CloudPirates-io/helm-charts/pull/736))
 
 ## 0.7.2 (2025-12-09)
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.10.0 (2025-12-12)
+
+* chore: auto-generate values.schema.json ([#740](https://github.com/CloudPirates-io/helm-charts/pull/740))
+
+## 0.10.0 (2025-12-12)
+
+* chore: update CHANGELOG.md for merged changes ([ed8335f](https://github.com/CloudPirates-io/helm-charts/commit/ed8335f))
+* chore: update CHANGELOG.md for merged changes ([073f370](https://github.com/CloudPirates-io/helm-charts/commit/073f370))
+* add metrics-exporter (#720) ([29c2378](https://github.com/CloudPirates-io/helm-charts/commit/29c2378))
+* chore: update CHANGELOG.md for merged changes ([4eaa98d](https://github.com/CloudPirates-io/helm-charts/commit/4eaa98d))
+* chore: update CHANGELOG.md for merged changes ([8620dd7](https://github.com/CloudPirates-io/helm-charts/commit/8620dd7))
 
 ## 0.9.0 (2025-12-06)
 

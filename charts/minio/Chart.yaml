@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "add post-job helm-hook annotation, update readme (#706)"
+        - kind: added
+          description: "chore: auto-generate values.schema.json"
           links:
-            - name: "Commit 64e36bd"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/64e36bd"
+            - name: "PR #749"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/749"

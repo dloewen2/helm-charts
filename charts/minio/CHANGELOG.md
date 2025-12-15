@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0 (2025-12-15)
+
+* chore: auto-generate values.schema.json ([#749](https://github.com/CloudPirates-io/helm-charts/pull/749))
+
+## 0.6.0 (2025-12-15)
+
+* Rename post job and add variables to configure it (#741) ([289cc4c](https://github.com/CloudPirates-io/helm-charts/commit/289cc4c))
 
 ## 0.5.7 (2025-12-09)
 

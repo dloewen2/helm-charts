@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.6.0 (2025-12-15)
-
-* [minio] Rename post job and add variables to configure it ([#741](https://github.com/CloudPirates-io/helm-charts/pull/741))
 
 ## 0.5.7 (2025-12-09)
 

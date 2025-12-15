@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[minio] Rename post job and add variables to configure it"
+        - kind: changed
+          description: "add post-job helm-hook annotation, update readme (#706)"
           links:
-            - name: "PR #741"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/741"
+            - name: "Commit 64e36bd"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/64e36bd"

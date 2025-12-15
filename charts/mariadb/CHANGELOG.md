@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.1 (2025-12-15)
-
-* mariadb: dont enable metrics-exporter by default ([#748](https://github.com/CloudPirates-io/helm-charts/pull/748))
 
 ## 0.10.0 (2025-12-12)
 

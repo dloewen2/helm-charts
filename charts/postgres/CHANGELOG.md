@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.13.4 (2025-12-12)
+
+* Bump postgres chart version to 0.13.4 ([7173689](https://github.com/CloudPirates-io/helm-charts/commit/7173689))
+* Update charts/postgres/values.yaml postgres (#726) ([fd08dc9](https://github.com/CloudPirates-io/helm-charts/commit/fd08dc9))
+* chore: update CHANGELOG.md for merged changes ([14dd356](https://github.com/CloudPirates-io/helm-charts/commit/14dd356))
+* Re-release postgresql 0.13.2 ([1e6e97b](https://github.com/CloudPirates-io/helm-charts/commit/1e6e97b))
+
 ## 0.13.3 (2025-12-11)
 
 * chore: update CHANGELOG.md for merged changes ([d77a000](https://github.com/CloudPirates-io/helm-charts/commit/d77a000))

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.13.6 (2025-12-16)
+
+* [postgres]  Add terminationGracePeriodSeconds ([#754](https://github.com/CloudPirates-io/helm-charts/pull/754))
+
+## 0.13.5 (2025-12-15)
+
+* chore: update CHANGELOG.md for merged changes ([a8f42a3](https://github.com/CloudPirates-io/helm-charts/commit/a8f42a3))
+* Support pgvector image tags (#744) ([8a69448](https://github.com/CloudPirates-io/helm-charts/commit/8a69448))
 
 ## 0.13.4 (2025-12-12)
 

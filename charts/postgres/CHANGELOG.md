@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.13.6 (2025-12-16)
-
-* [postgres]  Add terminationGracePeriodSeconds ([#754](https://github.com/CloudPirates-io/helm-charts/pull/754))
 
 ## 0.13.5 (2025-12-15)
 

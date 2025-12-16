@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "fix(redis): prevent password logging in sentinel startup (#731)"
+        - kind: added
+          description: "[redis] add readiness and liveness probes to redis sentinel"
           links:
-            - name: "Commit 2e85940"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/2e85940"
+            - name: "PR #755"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/755"

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.17.4 (2025-12-16)
+
+* [redis] add readiness and liveness probes to redis sentinel ([#755](https://github.com/CloudPirates-io/helm-charts/pull/755))
+
+## 0.17.3 (2025-12-11)
+
+* chore: update CHANGELOG.md for merged changes ([79d5eaa](https://github.com/CloudPirates-io/helm-charts/commit/79d5eaa))
+* chore: update CHANGELOG.md for merged changes ([87cca85](https://github.com/CloudPirates-io/helm-charts/commit/87cca85))
+* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725) ([ac9e1ba](https://github.com/CloudPirates-io/helm-charts/commit/ac9e1ba))
 
 ## 0.17.2 (2025-12-11)
 

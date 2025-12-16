@@ -44,8 +44,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[rabbitmq-cluster-operator] update to latest version and fix schema issues"
+        - kind: changed
+          description: "[rmq-cluster-operator] Adding new chart for RabbitMQ Cluster Kubernetes Operator (#638)"
           links:
-            - name: "PR #752"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/752"
+            - name: "Commit e36a47a"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/e36a47a"

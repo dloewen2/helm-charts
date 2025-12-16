@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "fix(redis): Always set masterauth for non-standalone architectures"
+        - kind: changed
+          description: "add readiness and liveness probes to redis sentinel (#755)"
           links:
-            - name: "PR #750"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/750"
+            - name: "Commit 594cf3d"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/594cf3d"

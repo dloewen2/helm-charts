@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.17.4 (2025-12-16)
+
+* fix(redis): Always set masterauth for non-standalone architectures ([#750](https://github.com/CloudPirates-io/helm-charts/pull/750))
 
 ## 0.17.4 (2025-12-16)
 

@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis] add readiness and liveness probes to redis sentinel"
+        - kind: changed
+          description: "[redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725)"
           links:
-            - name: "PR #755"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/755"
+            - name: "Commit ac9e1ba"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/ac9e1ba"

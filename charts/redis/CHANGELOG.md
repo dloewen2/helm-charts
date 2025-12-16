@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.4 (2025-12-16)
-
-* [redis] add readiness and liveness probes to redis sentinel ([#755](https://github.com/CloudPirates-io/helm-charts/pull/755))
 
 ## 0.17.3 (2025-12-11)
 

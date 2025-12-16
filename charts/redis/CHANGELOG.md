@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.17.4 (2025-12-16)
+
+* chore: update CHANGELOG.md for merged changes ([87e0273](https://github.com/CloudPirates-io/helm-charts/commit/87e0273))
+* chore: update CHANGELOG.md for merged changes ([dd14022](https://github.com/CloudPirates-io/helm-charts/commit/dd14022))
+* add readiness and liveness probes to redis sentinel (#755) ([594cf3d](https://github.com/CloudPirates-io/helm-charts/commit/594cf3d))
+
 ## 0.17.3 (2025-12-11)
 
 * chore: update CHANGELOG.md for merged changes ([79d5eaa](https://github.com/CloudPirates-io/helm-charts/commit/79d5eaa))

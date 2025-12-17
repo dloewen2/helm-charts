@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.7 (2025-12-17)
+
+* [zookeeper] Add dataDir option to override path to data folder ([#763](https://github.com/CloudPirates-io/helm-charts/pull/763))
+
+## 0.3.6 (2025-12-11)
+
+* chore: update CHANGELOG.md for merged changes ([79d5eaa](https://github.com/CloudPirates-io/helm-charts/commit/79d5eaa))
+* chore: update CHANGELOG.md for merged changes ([87cca85](https://github.com/CloudPirates-io/helm-charts/commit/87cca85))
+* [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725) ([ac9e1ba](https://github.com/CloudPirates-io/helm-charts/commit/ac9e1ba))
 
 ## 0.3.5 (2025-12-06)
 

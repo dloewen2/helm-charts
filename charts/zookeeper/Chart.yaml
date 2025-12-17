@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "chore: auto-generate values.schema.json"
+        - kind: changed
+          description: "Add dataDir option to override path to data folder (#763)"
           links:
-            - name: "PR #764"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/764"
+            - name: "Commit 092def6"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/092def6"

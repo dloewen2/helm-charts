@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.5 (2025-12-17)
-
-* chore(redis): Bump version to 0.17.5 ([#762](https://github.com/CloudPirates-io/helm-charts/pull/762))
 
 ## 0.17.4 (2025-12-16)
 

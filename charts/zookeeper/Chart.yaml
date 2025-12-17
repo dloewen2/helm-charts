@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[zookeeper] Add dataDir option to override path to data folder"
+        - kind: changed
+          description: "[redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725)"
           links:
-            - name: "PR #763"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/763"
+            - name: "Commit ac9e1ba"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/ac9e1ba"

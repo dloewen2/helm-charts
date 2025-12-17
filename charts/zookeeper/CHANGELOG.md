@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.3.7 (2025-12-17)
-
-* [zookeeper] Add dataDir option to override path to data folder ([#763](https://github.com/CloudPirates-io/helm-charts/pull/763))
 
 ## 0.3.6 (2025-12-11)
 

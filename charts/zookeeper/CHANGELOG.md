@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.7 (2025-12-17)
+
+* chore: auto-generate values.schema.json ([#764](https://github.com/CloudPirates-io/helm-charts/pull/764))
+
+## 0.3.7 (2025-12-17)
+
+* chore: update CHANGELOG.md for merged changes ([ee986d5](https://github.com/CloudPirates-io/helm-charts/commit/ee986d5))
+* chore: update CHANGELOG.md for merged changes ([ee8d729](https://github.com/CloudPirates-io/helm-charts/commit/ee8d729))
+* Add dataDir option to override path to data folder (#763) ([092def6](https://github.com/CloudPirates-io/helm-charts/commit/092def6))
 
 ## 0.3.6 (2025-12-11)
 

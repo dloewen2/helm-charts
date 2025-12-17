@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725)"
+        - kind: added
+          description: "chore: auto-generate values.schema.json"
           links:
-            - name: "Commit ac9e1ba"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/ac9e1ba"
+            - name: "PR #764"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/764"

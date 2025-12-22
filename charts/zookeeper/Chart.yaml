@@ -43,7 +43,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "Add dataDir option to override path to data folder (#763)"
+          description: "Add support for Bitnami Zookeeper migration with multiple replicas (#768)"
           links:
-            - name: "Commit 092def6"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/092def6"
+            - name: "Commit 65c0764"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/65c0764"

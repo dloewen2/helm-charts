@@ -41,8 +41,5 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis]: Implement proxy for non sentinel aware proxies"
-          links:
-            - name: "PR #703"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/703"
+        - kind: changed
+          description: "Chart updated"

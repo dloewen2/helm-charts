@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.6 (2025-12-22)
-
-* [redis]: Implement proxy for non sentinel aware proxies ([#703](https://github.com/CloudPirates-io/helm-charts/pull/703))
 
 ## 0.17.5 (2025-12-17)
 

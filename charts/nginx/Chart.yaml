@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[nginx] Update charts/nginx/values.yaml nginx"
+        - kind: changed
+          description: "Update charts/nginx/values.yaml nginx to v1.29.4 (patch) (#718)"
           links:
-            - name: "PR #746"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/746"
+            - name: "Commit 48d2f15"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/48d2f15"

@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis]: add sentinel monitoring"
+        - kind: changed
+          description: "[redis]: add missing label for sentinel (#773)"
           links:
-            - name: "PR #774"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/774"
+            - name: "Commit 9df4b00"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/9df4b00"

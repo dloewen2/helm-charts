@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Add support for Bitnami Zookeeper migration with multiple replicas (#768)"
+        - kind: added
+          description: "[zookeeper] Final fix for supporting migration from bitnami zookeeper"
           links:
-            - name: "Commit 65c0764"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/65c0764"
+            - name: "PR #778"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/778"

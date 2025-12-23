@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.10 (2025-12-23)
+
+* [zookeeper] Final fix for supporting migration from bitnami zookeeper ([#778](https://github.com/CloudPirates-io/helm-charts/pull/778))
+
+## 0.3.9 (2025-12-23)
+
+* chore: update CHANGELOG.md for merged changes ([16be02d](https://github.com/CloudPirates-io/helm-charts/commit/16be02d))
+* chore: update CHANGELOG.md for merged changes ([9dc8772](https://github.com/CloudPirates-io/helm-charts/commit/9dc8772))
+* fix(zookeeper): add apiVersion and kind to volumeClaimTemplates to prevent OutOfSync on Server-Side-Apply with ArgoCD (#777) ([6800e29](https://github.com/CloudPirates-io/helm-charts/commit/6800e29))
+* chore: update CHANGELOG.md for merged changes ([b8318da](https://github.com/CloudPirates-io/helm-charts/commit/b8318da))
+* chore: auto-generate values.schema.json (#769) ([ac71b04](https://github.com/CloudPirates-io/helm-charts/commit/ac71b04))
 
 ## 0.3.8 (2025-12-21)
 

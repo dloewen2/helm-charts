@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.17.7 (2025-12-23)
+
+* [redis]: add missing label for sentinel ([#773](https://github.com/CloudPirates-io/helm-charts/pull/773))
+
+## 0.17.6 (2025-12-22)
+
+* chore: update CHANGELOG.md for merged changes ([b7f89e2](https://github.com/CloudPirates-io/helm-charts/commit/b7f89e2))
+* chore: update CHANGELOG.md for merged changes ([6bc99e0](https://github.com/CloudPirates-io/helm-charts/commit/6bc99e0))
+* [redis]: Implement proxy for non sentinel aware proxies (#703) ([0e2ac9f](https://github.com/CloudPirates-io/helm-charts/commit/0e2ac9f))
 
 ## 0.17.5 (2025-12-17)
 

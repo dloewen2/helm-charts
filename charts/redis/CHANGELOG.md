@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.18.0 (2025-12-23)
+
+* [redis]: add sentinel monitoring ([#774](https://github.com/CloudPirates-io/helm-charts/pull/774))
 
 ## 0.17.7 (2025-12-23)
 

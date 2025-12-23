@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.3.10 (2025-12-23)
-
-* [zookeeper] Final fix for supporting migration from bitnami zookeeper ([#778](https://github.com/CloudPirates-io/helm-charts/pull/778))
 
 ## 0.3.9 (2025-12-23)
 

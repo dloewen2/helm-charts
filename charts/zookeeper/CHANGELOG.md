@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.9 (2025-12-23)
+
+* fix(zookeeper): add apiVersion and kind to volumeClaimTemplates to prevent OutOfSync on Server-Side-Apply with ArgoCD ([#777](https://github.com/CloudPirates-io/helm-charts/pull/777))
 
 ## 0.3.8 (2025-12-21)
 

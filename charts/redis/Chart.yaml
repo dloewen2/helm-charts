@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis]: add missing label for sentinel"
+        - kind: changed
+          description: "[redis]: Implement proxy for non sentinel aware proxies (#703)"
           links:
-            - name: "PR #773"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/773"
+            - name: "Commit 0e2ac9f"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/0e2ac9f"

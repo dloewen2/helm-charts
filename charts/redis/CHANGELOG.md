@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.17.7 (2025-12-23)
-
-* [redis]: add missing label for sentinel ([#773](https://github.com/CloudPirates-io/helm-charts/pull/773))
 
 ## 0.17.6 (2025-12-22)
 

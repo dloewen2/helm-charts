@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 0.17.7 (2025-12-23)
+
+* chore: update CHANGELOG.md for merged changes ([b9df2cc](https://github.com/CloudPirates-io/helm-charts/commit/b9df2cc))
+* [redis]: add missing label for sentinel (#773) ([9df4b00](https://github.com/CloudPirates-io/helm-charts/commit/9df4b00))
+
 ## 0.17.6 (2025-12-22)
 
 * chore: update CHANGELOG.md for merged changes ([b7f89e2](https://github.com/CloudPirates-io/helm-charts/commit/b7f89e2))

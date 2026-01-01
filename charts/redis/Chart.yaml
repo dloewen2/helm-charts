@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis]: add sentinel monitoring (#774)"
+        - kind: added
+          description: "chore: auto-generate values.schema.json"
           links:
-            - name: "Commit 00e4fef"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/00e4fef"
+            - name: "PR #791"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/791"

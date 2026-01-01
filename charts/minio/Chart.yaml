@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Rename post job and add variables to configure it (#741)"
+        - kind: added
+          description: "[minio] MinIO Bucket Init Job Improvements"
           links:
-            - name: "Commit 289cc4c"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/289cc4c"
+            - name: "PR #779"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/779"

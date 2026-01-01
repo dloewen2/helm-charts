@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.1 (2026-01-01)
+
+* [minio] MinIO Bucket Init Job Improvements ([#779](https://github.com/CloudPirates-io/helm-charts/pull/779))
 
 ## 0.6.0 (2025-12-15)
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.19.0 (2026-01-01)
+
+* [redis] add option to configure auth via acl ([#780](https://github.com/CloudPirates-io/helm-charts/pull/780))
+
+## 0.18.0 (2025-12-23)
+
+* chore: update CHANGELOG.md for merged changes ([e0ca85e](https://github.com/CloudPirates-io/helm-charts/commit/e0ca85e))
+* chore: update CHANGELOG.md for merged changes ([17a8b8a](https://github.com/CloudPirates-io/helm-charts/commit/17a8b8a))
+* [redis]: add sentinel monitoring (#774) ([00e4fef](https://github.com/CloudPirates-io/helm-charts/commit/00e4fef))
+* chore: update CHANGELOG.md for merged changes ([fd643ed](https://github.com/CloudPirates-io/helm-charts/commit/fd643ed))
+* chore: update CHANGELOG.md for merged changes ([b82783b](https://github.com/CloudPirates-io/helm-charts/commit/b82783b))
 
 ## 0.17.7 (2025-12-23)
 

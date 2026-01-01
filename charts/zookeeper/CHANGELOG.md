@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.4.1 (2026-01-01)
-
-* [zookeeper]: fix typos and set automountServiceAccountToken to false ([#789](https://github.com/CloudPirates-io/helm-charts/pull/789))
 
 ## 0.3.10 (2025-12-23)
 

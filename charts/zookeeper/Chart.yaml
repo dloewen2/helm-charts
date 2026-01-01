@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Final fix for supporting migration from bitnami zookeeper (#778)"
+        - kind: added
+          description: "chore: auto-generate values.schema.json"
           links:
-            - name: "Commit 474ab06"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/474ab06"
+            - name: "PR #790"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/790"

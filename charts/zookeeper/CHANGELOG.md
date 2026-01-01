@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.1 (2026-01-01)
+
+* chore: auto-generate values.schema.json ([#790](https://github.com/CloudPirates-io/helm-charts/pull/790))
+
+## 0.4.1 (2026-01-01)
+
+* chore: update CHANGELOG.md for merged changes ([be92c3a](https://github.com/CloudPirates-io/helm-charts/commit/be92c3a))
+* chore: update CHANGELOG.md for merged changes ([655b893](https://github.com/CloudPirates-io/helm-charts/commit/655b893))
+* [zookeeper]: fix typos and set automountServiceAccountToken to false (#789) ([343fb3d](https://github.com/CloudPirates-io/helm-charts/commit/343fb3d))
 
 ## 0.3.10 (2025-12-23)
 

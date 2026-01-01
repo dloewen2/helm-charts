@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.19.0 (2026-01-01)
-
-* [redis] add option to configure auth via acl ([#780](https://github.com/CloudPirates-io/helm-charts/pull/780))
 
 ## 0.18.0 (2025-12-23)
 

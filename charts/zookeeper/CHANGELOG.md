@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.0 (2026-01-05)
+
+* [zookeeper]: add ServiceMonitor ([#792](https://github.com/CloudPirates-io/helm-charts/pull/792))
 
 ## 0.4.1 (2026-01-01)
 

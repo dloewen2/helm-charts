@@ -436,7 +436,7 @@ metrics:
   image:
     registry: docker.io
     repository: oliver006/redis_exporter
-    tag: "v1.80.1@sha256:bac9872da2b48e6eebbffb11517a5dcda59958eda51e1e4231eeb5dd516b4a5f"
+    tag: "v1.80.1-alpine"
     pullPolicy: Always
   ## @param metrics.resources Resource limits and requests for metrics container
   resources:

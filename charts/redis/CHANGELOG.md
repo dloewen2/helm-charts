@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.20.1 (2026-01-05)
-
-* [redis] change exporter image to alpine based and fix command rendering ([#795](https://github.com/CloudPirates-io/helm-charts/pull/795))
 
 ## 0.20.0 (2026-01-05)
 

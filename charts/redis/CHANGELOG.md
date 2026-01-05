@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.20.0 (2026-01-05)
-
-* [redis]: support zero-downtime upgrades with Sentinel failover ([#782](https://github.com/CloudPirates-io/helm-charts/pull/782))
 
 ## 0.19.0 (2026-01-01)
 

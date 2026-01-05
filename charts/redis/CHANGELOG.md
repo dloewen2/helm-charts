@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.20.1 (2026-01-05)
+
+* [redis] change exporter image to alpine based and fix command rendering ([#795](https://github.com/CloudPirates-io/helm-charts/pull/795))
+
+## 0.20.0 (2026-01-05)
+
+* chore: update CHANGELOG.md for merged changes ([3fd8a7a](https://github.com/CloudPirates-io/helm-charts/commit/3fd8a7a))
+* chore: update CHANGELOG.md for merged changes ([ef9ba07](https://github.com/CloudPirates-io/helm-charts/commit/ef9ba07))
+* [redis]: support zero-downtime upgrades with Sentinel failover (#782) ([1be7c75](https://github.com/CloudPirates-io/helm-charts/commit/1be7c75))
 
 ## 0.19.0 (2026-01-01)
 

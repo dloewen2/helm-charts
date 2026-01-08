@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[zookeeper]: fix NetPol and PDB to use correct selectorLabels template"
+        - kind: changed
+          description: "[zookeeper]: add ServiceMonitor (#792)"
           links:
-            - name: "PR #802"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/802"
+            - name: "Commit 3831796"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/3831796"

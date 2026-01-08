@@ -1,8 +1,9 @@
 # Changelog
 
+
 ## 0.8.2 (2026-01-08)
 
-* [memcached] Update charts/memcached/values.yaml memcached ([#785](https://github.com/CloudPirates-io/helm-charts/pull/785))
+* Update charts/memcached/values.yaml memcached (#785) ([417ee7f](https://github.com/CloudPirates-io/helm-charts/commit/417ee7f))
 
 ## 0.8.1 (2025-12-22)
 

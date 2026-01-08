@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[keycloak/keycloak] Update charts/keycloak/values.yaml keycloak/keycloak to v26.5.0 (minor)"
+        - kind: changed
+          description: "Apply preserveThemes and preserveProviders to the deployment for volume mounts (#689)"
           links:
-            - name: "PR #823"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/823"
+            - name: "Commit 58d54a8"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/58d54a8"

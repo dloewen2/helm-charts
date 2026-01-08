@@ -42,4 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "Chart updated"
+          description: "[redis]: fix prestop failover verification logic (#803)"
+          links:
+            - name: "Commit 4c10918"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/4c10918"

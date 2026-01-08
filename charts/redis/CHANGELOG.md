@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.20.2 (2026-01-08)
+
+* chore: update CHANGELOG.md for merged changes ([f173e0b](https://github.com/CloudPirates-io/helm-charts/commit/f173e0b))
+* chore: update CHANGELOG.md for merged changes ([1503bf7](https://github.com/CloudPirates-io/helm-charts/commit/1503bf7))
+* [redis]: fix prestop failover verification logic (#803) ([4c10918](https://github.com/CloudPirates-io/helm-charts/commit/4c10918))
+
 ## 0.20.1 (2026-01-05)
 
 * chore: update CHANGELOG.md for merged changes ([fa4d988](https://github.com/CloudPirates-io/helm-charts/commit/fa4d988))

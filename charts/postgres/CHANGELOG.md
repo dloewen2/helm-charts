@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.13.8 (2026-01-08)
-
-* [postgres] Update image digest to bfe50b2 ([#817](https://github.com/CloudPirates-io/helm-charts/pull/817))
 
 ## 0.13.7 (2026-01-08)
 

@@ -178,6 +178,7 @@ persistentVolumeClaimRetentionPolicy:
 ## @param resources Resource limits and requests for Redis pod
 resources:
   limits:
+    cpu: 100m
     memory: 128Mi
   requests:
     cpu: 50m
@@ -345,6 +346,7 @@ sentinel:
   ## @param sentinel.resources Resource limits and requests for Sentinel pods
   resources:
     limits:
+      cpu: 50m
       memory: 128Mi
     requests:
       cpu: 25m
@@ -373,6 +375,7 @@ sentinel:
     ## @param sentinel.masterService.resources Resource limits and requests for master discovery deployment
     resources:
       limits:
+        cpu: 25m
         memory: 64Mi
       requests:
         cpu: 10m
@@ -441,6 +444,7 @@ metrics:
   ## @param metrics.resources Resource limits and requests for metrics container
   resources:
     limits:
+      cpu: 100m
       memory: 64Mi
     requests:
       cpu: 50m
@@ -554,6 +558,7 @@ clusterInitJob:
   ## @param clusterInitJob.resources Resource limits and requests for clusterInit Job
   resources:
     limits:
+      cpu: 25m
       memory: 128Mi
     requests:
       cpu: 10m

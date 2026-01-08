@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.20.5 (2026-01-08)
-
-* [redis] Update charts/redis/values.yaml redis ([#820](https://github.com/CloudPirates-io/helm-charts/pull/820))
 
 ## 0.20.5 (2026-01-08)
 

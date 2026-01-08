@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.13.8 (2026-01-08)
+
+* Update image digest to bfe50b2 (#817) ([3f1807b](https://github.com/CloudPirates-io/helm-charts/commit/3f1807b))
+
 ## 0.13.7 (2026-01-08)
 
 * chore: update CHANGELOG.md for merged changes ([93e6cb9](https://github.com/CloudPirates-io/helm-charts/commit/93e6cb9))

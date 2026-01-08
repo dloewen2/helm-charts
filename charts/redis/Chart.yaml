@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Cluster add support for custom conig in redis.conf #756"
+        - kind: added
+          description: "[alpine/kubectl] Update image to v1.35.0"
           links:
-            - name: "Commit 90ed6a7"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/90ed6a7"
+            - name: "PR #775"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/775"

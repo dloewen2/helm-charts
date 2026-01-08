@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.20.5 (2026-01-08)
+
+* [alpine/kubectl] Update image to v1.35.0 ([#775](https://github.com/CloudPirates-io/helm-charts/pull/775))
 
 ## 0.20.4 (2026-01-08)
 

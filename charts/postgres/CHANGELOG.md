@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.13.7 (2026-01-08)
-
-* [postgres] Fix detection of major version for "-" suffixed tags ([#799](https://github.com/CloudPirates-io/helm-charts/pull/799))
 
 ## 0.13.6 (2025-12-16)
 

@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.5.2 (2025-12-22)
+
+* chore: update CHANGELOG.md for merged changes ([ddfd971](https://github.com/CloudPirates-io/helm-charts/commit/ddfd971))
+* chore: update CHANGELOG.md for merged changes ([d48ff1b](https://github.com/CloudPirates-io/helm-charts/commit/d48ff1b))
+* Update charts/nginx/values.yaml nginx (#746) ([d433040](https://github.com/CloudPirates-io/helm-charts/commit/d433040))
+
 ## 0.5.1 (2025-12-10)
 
 * chore: update CHANGELOG.md for merged changes ([369bcaf](https://github.com/CloudPirates-io/helm-charts/commit/369bcaf))

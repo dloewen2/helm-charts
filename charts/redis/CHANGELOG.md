@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.20.5 (2026-01-08)
+
+* [redis] Update charts/redis/values.yaml redis ([#820](https://github.com/CloudPirates-io/helm-charts/pull/820))
+
+## 0.20.5 (2026-01-08)
+
+* [alpine/kubectl] Update image to v1.35.0 (#775) ([4f78b86](https://github.com/CloudPirates-io/helm-charts/commit/4f78b86))
+* chore: update CHANGELOG.md for merged changes ([1e112ae](https://github.com/CloudPirates-io/helm-charts/commit/1e112ae))
+* chore: update CHANGELOG.md for merged changes ([414809c](https://github.com/CloudPirates-io/helm-charts/commit/414809c))
+* chore: auto-generate values.schema.json (#815) ([4135c97](https://github.com/CloudPirates-io/helm-charts/commit/4135c97))
 
 ## 0.20.4 (2026-01-08)
 

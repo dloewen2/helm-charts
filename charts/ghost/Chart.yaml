@@ -45,7 +45,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "Update charts/ghost/values.yaml ghost to v6.10.3 (patch) (#743)"
+          description: "Update charts/ghost/values.yaml ghost (#819)"
           links:
-            - name: "Commit bbab2db"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/bbab2db"
+            - name: "Commit 888e117"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/888e117"

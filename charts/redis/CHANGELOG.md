@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.20.4 (2026-01-08)
+
+* chore: auto-generate values.schema.json ([#815](https://github.com/CloudPirates-io/helm-charts/pull/815))
+
+## 0.20.4 (2026-01-08)
+
+* Cluster add support for custom conig in redis.conf #756 ([90ed6a7](https://github.com/CloudPirates-io/helm-charts/commit/90ed6a7))
+* chore: update CHANGELOG.md for merged changes ([28e759e](https://github.com/CloudPirates-io/helm-charts/commit/28e759e))
+* chore: update CHANGELOG.md for merged changes ([b10cae9](https://github.com/CloudPirates-io/helm-charts/commit/b10cae9))
+* chore: auto-generate values.schema.json (#813) ([9267d0e](https://github.com/CloudPirates-io/helm-charts/commit/9267d0e))
+* chore: update CHANGELOG.md for merged changes ([ac8f4a5](https://github.com/CloudPirates-io/helm-charts/commit/ac8f4a5))
 
 ## 0.20.3 (2026-01-08)
 

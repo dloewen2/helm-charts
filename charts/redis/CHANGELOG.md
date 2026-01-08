@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.20.3 (2026-01-08)
+
+* chore: auto-generate values.schema.json ([#813](https://github.com/CloudPirates-io/helm-charts/pull/813))
+
+## 0.20.3 (2026-01-08)
+
+* [redis]: Missing CPU Limit in values.yaml #800 ([b09ce6d](https://github.com/CloudPirates-io/helm-charts/commit/b09ce6d))
 
 ## 0.20.2 (2026-01-08)
 

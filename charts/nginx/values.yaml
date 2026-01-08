@@ -198,6 +198,16 @@ podSecurityContext:
   ## @param podSecurityContext.fsGroup Set Nginx pod's Security Context fsGroup
   fsGroup: 101
 
+## @param initContainerSecurityContext Security context for init containers (useful for Istio sidecar scenarios)
+## When using Istio, init containers may need to run as the Istio proxy user (1337) to access external network
+## Example for Istio:
+## initContainerSecurityContext:
+##   runAsUser: 1337
+##   runAsGroup: 1337
+##   runAsNonRoot: true
+##   allowPrivilegeEscalation: false
+initContainerSecurityContext: {}
+
 livenessProbe:
   ## @param livenessProbe.enabled Enable liveness probe
   enabled: true

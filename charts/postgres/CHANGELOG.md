@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.13.7 (2026-01-08)
+
+* [postgres] Fix detection of major version for "-" suffixed tags ([#799](https://github.com/CloudPirates-io/helm-charts/pull/799))
+
+## 0.13.6 (2025-12-16)
+
+* chore: update CHANGELOG.md for merged changes ([55b8ad5](https://github.com/CloudPirates-io/helm-charts/commit/55b8ad5))
+* chore: update CHANGELOG.md for merged changes ([618fa91](https://github.com/CloudPirates-io/helm-charts/commit/618fa91))
+* chore: auto-generate values.schema.json (#758) ([b9cc388](https://github.com/CloudPirates-io/helm-charts/commit/b9cc388))
+* chore: update CHANGELOG.md for merged changes ([7a4c5ef](https://github.com/CloudPirates-io/helm-charts/commit/7a4c5ef))
+* chore: update CHANGELOG.md for merged changes ([55d2ff8](https://github.com/CloudPirates-io/helm-charts/commit/55d2ff8))
+*  Add terminationGracePeriodSeconds (#754) ([e8cb0c2](https://github.com/CloudPirates-io/helm-charts/commit/e8cb0c2))
 
 ## 0.13.5 (2025-12-15)
 

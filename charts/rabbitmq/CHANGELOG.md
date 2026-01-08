@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.1 (2026-01-08)
-
-* [busybox] Update image to 2383baa ([#818](https://github.com/CloudPirates-io/helm-charts/pull/818))
 
 ## cluster-operator-0.1.2 (2026-01-05)
 

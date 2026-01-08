@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.0 (2026-01-08)
-
-* chore: auto-generate values.schema.json ([#816](https://github.com/CloudPirates-io/helm-charts/pull/816))
 
 ## cluster-operator-0.1.2 (2026-01-05)
 

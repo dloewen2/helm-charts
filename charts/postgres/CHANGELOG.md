@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.13.8 (2026-01-08)
+
+* [postgres] Update image digest to bfe50b2 ([#817](https://github.com/CloudPirates-io/helm-charts/pull/817))
+
+## 0.13.7 (2026-01-08)
+
+* chore: update CHANGELOG.md for merged changes ([93e6cb9](https://github.com/CloudPirates-io/helm-charts/commit/93e6cb9))
+* chore: update CHANGELOG.md for merged changes ([d45e6e3](https://github.com/CloudPirates-io/helm-charts/commit/d45e6e3))
+* Fix detection of major version for "-" suffixed tags (#799) ([8fada5b](https://github.com/CloudPirates-io/helm-charts/commit/8fada5b))
 
 ## 0.13.6 (2025-12-16)
 

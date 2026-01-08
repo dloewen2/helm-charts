@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.5.3 (2026-01-08)
-
-* [alpine/git] Update image to v2.52.0 ([#771](https://github.com/CloudPirates-io/helm-charts/pull/771))
 
 ## 0.5.3 (2026-01-08)
 

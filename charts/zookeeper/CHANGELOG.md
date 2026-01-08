@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.5.0 (2026-01-05)
+## 0.5.1 (2026-01-08)
 
-* chore: auto-generate values.schema.json ([#797](https://github.com/CloudPirates-io/helm-charts/pull/797))
+* [zookeeper]: fix NetPol and PDB to use correct selectorLabels template ([#802](https://github.com/CloudPirates-io/helm-charts/pull/802))
 
 ## 0.5.0 (2026-01-05)
 

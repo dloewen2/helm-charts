@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.20.2 (2026-01-08)
-
-* [redis]: fix prestop failover verification logic ([#803](https://github.com/CloudPirates-io/helm-charts/pull/803))
 
 ## 0.20.1 (2026-01-05)
 

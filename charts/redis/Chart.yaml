@@ -41,8 +41,5 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[redis]: fix prestop failover verification logic"
-          links:
-            - name: "PR #803"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/803"
+        - kind: changed
+          description: "Chart updated"

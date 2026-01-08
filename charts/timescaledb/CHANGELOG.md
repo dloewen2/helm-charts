@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.6.2 (2026-01-08)
-
-* [timescale/timescaledb] Update charts/timescaledb/values.yaml timescale/timescaledb ([#822](https://github.com/CloudPirates-io/helm-charts/pull/822))
 
 ## 0.6.1 (2025-12-06)
 

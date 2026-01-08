@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.20.2 (2026-01-08)
+
+* [redis]: fix prestop failover verification logic ([#803](https://github.com/CloudPirates-io/helm-charts/pull/803))
+
+## 0.20.1 (2026-01-05)
+
+* chore: update CHANGELOG.md for merged changes ([fa4d988](https://github.com/CloudPirates-io/helm-charts/commit/fa4d988))
+* chore: update CHANGELOG.md for merged changes ([6e040a6](https://github.com/CloudPirates-io/helm-charts/commit/6e040a6))
+* chore: auto-generate values.schema.json (#798) ([91e633c](https://github.com/CloudPirates-io/helm-charts/commit/91e633c))
+* chore: update CHANGELOG.md for merged changes ([5faa674](https://github.com/CloudPirates-io/helm-charts/commit/5faa674))
+* chore: update CHANGELOG.md for merged changes ([ec82171](https://github.com/CloudPirates-io/helm-charts/commit/ec82171))
+* change exporter image to alpine based and fix command rendering (#795) ([63662dc](https://github.com/CloudPirates-io/helm-charts/commit/63662dc))
 
 ## 0.20.0 (2026-01-05)
 

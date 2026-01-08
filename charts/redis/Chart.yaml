@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[redis]: support zero-downtime upgrades with Sentinel failover (#782)"
+        - kind: added
+          description: "[redis]: fix prestop failover verification logic"
           links:
-            - name: "Commit 1be7c75"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/1be7c75"
+            - name: "PR #803"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/803"

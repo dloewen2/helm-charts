@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.3 (2026-01-09)
+
+* [rabbitmq] Update README.md : ha cluster config and chart update infos ([#826](https://github.com/CloudPirates-io/helm-charts/pull/826))
 
 ## cluster-operator-0.1.2 (2026-01-05)
 
@@ -28,6 +31,13 @@
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.11.2 (2026-01-08)
+
+* Update charts/rabbitmq/values.yaml rabbitmq (#821) ([11cd6b1](https://github.com/CloudPirates-io/helm-charts/commit/11cd6b1))
+* chore: update CHANGELOG.md for merged changes ([785e8d4](https://github.com/CloudPirates-io/helm-charts/commit/785e8d4))
+* chore: update CHANGELOG.md for merged changes ([1f381f5](https://github.com/CloudPirates-io/helm-charts/commit/1f381f5))
+* chore: update CHANGELOG.md for merged changes ([ae1c410](https://github.com/CloudPirates-io/helm-charts/commit/ae1c410))
 
 ## 0.11.1 (2026-01-08)
 

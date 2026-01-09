@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.3 (2026-01-09)
-
-* [rabbitmq] Update README.md : ha cluster config and chart update infos ([#826](https://github.com/CloudPirates-io/helm-charts/pull/826))
 
 ## cluster-operator-0.1.2 (2026-01-05)
 

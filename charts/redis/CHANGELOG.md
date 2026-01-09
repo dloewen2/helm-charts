@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.20.6 (2026-01-09)
+
+* [redis] Include Sentinel port in default service when enabled ([#811](https://github.com/CloudPirates-io/helm-charts/pull/811))
 
 ## 0.20.5 (2026-01-08)
 

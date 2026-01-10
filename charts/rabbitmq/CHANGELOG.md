@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.4 (2026-01-10)
+
+* chore: auto-generate values.schema.json ([#828](https://github.com/CloudPirates-io/helm-charts/pull/828))
 
 ## cluster-operator-0.1.3 (2026-01-09)
 
@@ -43,6 +46,12 @@
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.11.4 (2026-01-10)
+
+* queues not balanced #653 ([a9f6a5d](https://github.com/CloudPirates-io/helm-charts/commit/a9f6a5d))
+* chore: update CHANGELOG.md for merged changes ([96d70b8](https://github.com/CloudPirates-io/helm-charts/commit/96d70b8))
+* chore: update CHANGELOG.md for merged changes ([4ec69b0](https://github.com/CloudPirates-io/helm-charts/commit/4ec69b0))
 
 ## 0.11.3 (2026-01-09)
 

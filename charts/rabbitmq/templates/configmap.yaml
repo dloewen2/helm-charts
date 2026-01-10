@@ -83,7 +83,10 @@ data:
     {{- if .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.targetGroupSize }}
     quorum_queue.continuous_membership_reconciliation.target_group_size = {{ .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.targetGroupSize }}
     {{- end }}
-    quorum_queue.continuous_membership_reconciliation.interval = {{ .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.interval }}s
+    quorum_queue.continuous_membership_reconciliation.interval = {{ .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.interval }}
+    {{- if .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.triggerInterval }}
+    quorum_queue.continuous_membership_reconciliation.trigger_interval = {{ .Values.queueBalancing.quorumQueues.continuousMembershipReconciliation.triggerInterval }}
+    {{- end }}
     {{- end }}
     {{- end }}
 

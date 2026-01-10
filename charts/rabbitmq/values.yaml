@@ -156,10 +156,11 @@ queueBalancing:
   queueLeaderLocator: "balanced"
 
   ## Cluster formation hints
-  ## @param queueBalancing.clusterFormation.targetClusterSizeHint Hint about expected cluster size
+  ## @param queueBalancing.clusterFormation.targetClusterSizeHint Hint about expected cluster size (integer)
   ## Helps RabbitMQ make better decisions during cluster formation and queue placement
+  ## Leave empty/null to use RabbitMQ's default
   clusterFormation:
-    targetClusterSizeHint: ""
+    targetClusterSizeHint: null
 
   ## Quorum queue reconciliation settings (for RabbitMQ 3.10+)
   ## Helps ensure quorum queues have the correct number of replicas across cluster nodes
@@ -168,11 +169,15 @@ queueBalancing:
     ## Automatically adds/removes quorum queue members to match cluster size
     continuousMembershipReconciliation:
       enabled: false
-      ## @param queueBalancing.quorumQueues.continuousMembershipReconciliation.targetGroupSize Target number of members per quorum queue
-      ## Set to cluster size for full replication, or leave empty to use cluster_formation.target_cluster_size_hint
-      targetGroupSize: ""
-      ## @param queueBalancing.quorumQueues.continuousMembershipReconciliation.interval Reconciliation check interval in seconds
-      interval: 10
+      ## @param queueBalancing.quorumQueues.continuousMembershipReconciliation.targetGroupSize Target number of members per quorum queue (integer)
+      ## Set to cluster size for full replication, or leave empty/null to use cluster_formation.target_cluster_size_hint
+      targetGroupSize: null
+      ## @param queueBalancing.quorumQueues.continuousMembershipReconciliation.interval Reconciliation check interval in milliseconds
+      ## Default: 3600000 (1 hour) to match RabbitMQ's default
+      interval: 3600000
+      ## @param queueBalancing.quorumQueues.continuousMembershipReconciliation.triggerInterval How often to trigger reconciliation in milliseconds (integer)
+      ## Leave empty/null to use RabbitMQ's default
+      triggerInterval: null
 
   ## Automatic queue rebalancing
   ## @param queueBalancing.autoRebalance.enabled Enable automatic queue rebalancing on pod startup
@@ -226,7 +231,7 @@ queueBalancing:
 ##        continuousMembershipReconciliation:
 ##          enabled: true
 ##          targetGroupSize: 3  # 3 replicas even in 5-node cluster
-##          interval: 15
+##          interval: 1800000  # 30 minutes in milliseconds
 ##
 ## Note: When upgrading existing RabbitMQ deployments, enable autoRebalance
 ##       to redistribute existing queues. For new deployments, queueLeaderLocator

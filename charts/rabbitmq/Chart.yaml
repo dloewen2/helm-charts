@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "chore: auto-generate values.schema.json"
+        - kind: changed
+          description: "Update README.md : ha cluster config and chart update infos (#826)"
           links:
-            - name: "PR #828"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/828"
+            - name: "Commit 54caf60"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/54caf60"

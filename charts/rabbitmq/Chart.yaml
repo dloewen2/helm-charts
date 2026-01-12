@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Update README.md : ha cluster config and chart update infos (#826)"
+        - kind: added
+          description: "[rabbitmq] queuebalancing schema types"
           links:
-            - name: "Commit 54caf60"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/54caf60"
+            - name: "PR #831"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/831"

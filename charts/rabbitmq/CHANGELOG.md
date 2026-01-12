@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.11.5 (2026-01-12)
-
-* [rabbitmq] queuebalancing schema types ([#831](https://github.com/CloudPirates-io/helm-charts/pull/831))
 
 ## cluster-operator-0.1.3 (2026-01-09)
 

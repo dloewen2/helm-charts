@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 (2026-01-13)
+
+* chore: auto-generate values.schema.json ([#836](https://github.com/CloudPirates-io/helm-charts/pull/836))
+
+## 0.8.0 (2026-01-13)
+
+* add replication architecture (#829) ([7845f5f](https://github.com/CloudPirates-io/helm-charts/commit/7845f5f))
 
 ## 0.7.1 (2025-12-22)
 

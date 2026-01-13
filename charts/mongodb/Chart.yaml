@@ -38,8 +38,5 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[mongodb] add replication architecture"
-          links:
-            - name: "PR #829"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/829"
+        - kind: changed
+          description: "Chart updated"

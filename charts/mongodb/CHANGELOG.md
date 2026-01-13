@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.0 (2026-01-13)
-
-* [mongodb] add replication architecture ([#829](https://github.com/CloudPirates-io/helm-charts/pull/829))
 
 ## 0.7.1 (2025-12-22)
 

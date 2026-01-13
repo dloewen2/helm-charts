@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0 (2026-01-13)
+
+* [mongodb] add replication architecture ([#829](https://github.com/CloudPirates-io/helm-charts/pull/829))
+
+## 0.7.1 (2025-12-22)
+
+* chore: update CHANGELOG.md for merged changes ([9d5553d](https://github.com/CloudPirates-io/helm-charts/commit/9d5553d))
+* chore: update CHANGELOG.md for merged changes ([6835108](https://github.com/CloudPirates-io/helm-charts/commit/6835108))
+* chore: update CHANGELOG.md for merged changes ([4eaa98d](https://github.com/CloudPirates-io/helm-charts/commit/4eaa98d))
+* chore: update CHANGELOG.md for merged changes ([8620dd7](https://github.com/CloudPirates-io/helm-charts/commit/8620dd7))
 
 ## 0.7.0 (2025-12-06)
 

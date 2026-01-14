@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.14.0 (2026-01-14)
-
-* [postgres] Add support for docker hardened images ([#837](https://github.com/CloudPirates-io/helm-charts/pull/837))
 
 ## 0.13.8 (2026-01-08)
 

@@ -41,8 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[timescale/timescaledb] Update charts/timescaledb/values.yaml timescale/timescaledb (#822)"
+        - kind: added
+          description: "[etcd,mariadb,rustfs,timescaledb,valkey] add existingClaim"
           links:
-            - name: "Commit adc651a"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/adc651a"
+            - name: "PR #846"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/846"

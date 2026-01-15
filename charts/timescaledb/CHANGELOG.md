@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.0 (2026-01-15)
+
+* [etcd,mariadb,rustfs,timescaledb,valkey] add existingClaim ([#846](https://github.com/CloudPirates-io/helm-charts/pull/846))
+
+## 0.7.0 (2026-01-15)
+
+*  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](https://github.com/CloudPirates-io/helm-charts/commit/b3d816f))
+* chore: update CHANGELOG.md for merged changes ([dd1836f](https://github.com/CloudPirates-io/helm-charts/commit/dd1836f))
+* chore: update CHANGELOG.md for merged changes ([8d57200](https://github.com/CloudPirates-io/helm-charts/commit/8d57200))
 
 ## 0.6.2 (2026-01-08)
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.0 (2026-01-15)
+
+* [etcd,mariadb,rustfs,timescaledb,valkey] add existingClaim ([#846](https://github.com/CloudPirates-io/helm-charts/pull/846))
 
 ## 0.4.0 (2025-12-06)
 

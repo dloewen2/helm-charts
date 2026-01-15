@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.2.0 (2026-01-15)
-
-* [rustfs] update values.schema.json ([#847](https://github.com/CloudPirates-io/helm-charts/pull/847))
 
 ## 0.2.0 (2025-12-06)
 

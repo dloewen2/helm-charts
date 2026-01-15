@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[etcd,mariadb,rustfs,timescaledb,valkey] add existingClaim"
+        - kind: changed
+          description: " [universal] add priorityclasses to multiple charts (#839)"
           links:
-            - name: "PR #846"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/846"
+            - name: "Commit b3d816f"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/b3d816f"

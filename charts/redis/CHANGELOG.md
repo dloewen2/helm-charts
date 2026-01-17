@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.20.7 (2026-01-17)
-
-* [redis] Allow disabling egress in network policy, headless service should publish not ready addresses when sentinel is enabled ([#843](https://github.com/CloudPirates-io/helm-charts/pull/843))
 
 ## 0.20.6 (2026-01-09)
 

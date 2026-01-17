@@ -42,7 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "Include Sentinel port in default service when enabled (#811)"
+          description: "Allow disabling egress in network policy, headless service should publish not ready addresses when sentinel is enabled (#843)"
           links:
-            - name: "Commit 32afbf1"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/32afbf1"
+            - name: "Commit 3211908"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/3211908"

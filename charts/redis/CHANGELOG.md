@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 0.20.7 (2026-01-17)
+
+* chore: update CHANGELOG.md for merged changes ([70a510d](https://github.com/CloudPirates-io/helm-charts/commit/70a510d))
+* Allow disabling egress in network policy, headless service should publish not ready addresses when sentinel is enabled (#843) ([3211908](https://github.com/CloudPirates-io/helm-charts/commit/3211908))
+
 ## 0.20.6 (2026-01-09)
 
 * chore: update CHANGELOG.md for merged changes ([a971b23](https://github.com/CloudPirates-io/helm-charts/commit/a971b23))

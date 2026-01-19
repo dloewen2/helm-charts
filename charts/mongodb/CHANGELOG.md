@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.9.1 (2026-01-19)
+
+* [mongo] Update charts/mongodb/values.yaml mongo ([#855](https://github.com/CloudPirates-io/helm-charts/pull/855))
+
+## 0.9.0 (2026-01-15)
+
+*  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](https://github.com/CloudPirates-io/helm-charts/commit/b3d816f))
+* chore: update CHANGELOG.md for merged changes ([9d57904](https://github.com/CloudPirates-io/helm-charts/commit/9d57904))
+* chore: update CHANGELOG.md for merged changes ([509895f](https://github.com/CloudPirates-io/helm-charts/commit/509895f))
+* chore: auto-generate values.schema.json (#836) ([d6e27e6](https://github.com/CloudPirates-io/helm-charts/commit/d6e27e6))
+* chore: update CHANGELOG.md for merged changes ([6998f3c](https://github.com/CloudPirates-io/helm-charts/commit/6998f3c))
+* chore: update CHANGELOG.md for merged changes ([4d4c7da](https://github.com/CloudPirates-io/helm-charts/commit/4d4c7da))
 
 ## 0.8.0 (2026-01-13)
 

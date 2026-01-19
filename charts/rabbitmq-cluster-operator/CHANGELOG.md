@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4 (2026-01-19)
+
+* [rabbitmq-cluster-operator] update to latest version ([#852](https://github.com/CloudPirates-io/helm-charts/pull/852))
+
+## 0.1.3 (2026-01-09)
+
+* chore: update CHANGELOG.md for merged changes ([384b47a](https://github.com/CloudPirates-io/helm-charts/commit/384b47a))
+* Add issuer and extra-list templates that were missing (#825) ([219ab17](https://github.com/CloudPirates-io/helm-charts/commit/219ab17))
 
 ## 0.1.2 (2026-01-05)
 

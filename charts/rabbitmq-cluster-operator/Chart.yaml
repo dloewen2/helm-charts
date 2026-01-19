@@ -44,8 +44,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "Fix securityContext rendering for operators (#793)"
+        - kind: added
+          description: "[rabbitmq-cluster-operator] update to latest version"
           links:
-            - name: "Commit c513db8"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/c513db8"
+            - name: "PR #852"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/852"

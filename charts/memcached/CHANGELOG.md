@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.1 (2026-01-19)
+
+* [memcached] Update charts/memcached/values.yaml memcached ([#834](https://github.com/CloudPirates-io/helm-charts/pull/834))
+
+## 0.9.0 (2026-01-15)
+
+*  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](https://github.com/CloudPirates-io/helm-charts/commit/b3d816f))
+* chore: update CHANGELOG.md for merged changes ([92227c0](https://github.com/CloudPirates-io/helm-charts/commit/92227c0))
+* chore: update CHANGELOG.md for merged changes ([9db58c3](https://github.com/CloudPirates-io/helm-charts/commit/9db58c3))
 
 ## 0.8.2 (2026-01-08)
 

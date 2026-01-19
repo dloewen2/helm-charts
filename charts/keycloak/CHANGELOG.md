@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 0.13.0 (2026-01-19)
+
+* [keycloak]: Add simultaneous support for http and https (#863) ([bb671a5](https://github.com/CloudPirates-io/helm-charts/commit/bb671a5))
+* chore: update CHANGELOG.md for merged changes ([5d467af](https://github.com/CloudPirates-io/helm-charts/commit/5d467af))
+* chore: update CHANGELOG.md for merged changes ([a1b890a](https://github.com/CloudPirates-io/helm-charts/commit/a1b890a))
+
 ## 0.12.0 (2026-01-19)
 
 * [keycloak]: Move to stateful set (#859) ([76ed920](https://github.com/CloudPirates-io/helm-charts/commit/76ed920))

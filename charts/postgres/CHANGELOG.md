@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 0.14.2 (2026-01-19)
+
+* Update charts/postgres/values.yaml postgres (#835) ([6ec9835](https://github.com/CloudPirates-io/helm-charts/commit/6ec9835))
+* chore: update CHANGELOG.md for merged changes ([c697460](https://github.com/CloudPirates-io/helm-charts/commit/c697460))
+
 ## 0.14.1 (2026-01-17)
 
 * fix schema-typing for args in values (#848) ([3b2a813](https://github.com/CloudPirates-io/helm-charts/commit/3b2a813))

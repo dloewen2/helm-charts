@@ -43,7 +43,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "fix schema-typing for args in values (#848)"
+          description: "Update charts/postgres/values.yaml postgres (#835)"
           links:
-            - name: "Commit 3b2a813"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/3b2a813"
+            - name: "Commit 6ec9835"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/6ec9835"

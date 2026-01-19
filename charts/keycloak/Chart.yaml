@@ -52,4 +52,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: added
-          description: "Add support for simultaneous HTTP and HTTPS ports via new httpsEnabled flag"
+          description: "[keycloak]: Add simultaneous support for http and https"
+          links:
+            - name: "PR #863"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/863"

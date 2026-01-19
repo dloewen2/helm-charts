@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.12.0 (2026-01-19)
+
+* [keycloak]: Move to stateful set ([#859](https://github.com/CloudPirates-io/helm-charts/pull/859))
 
 ## 0.11.5 (2026-01-19)
 

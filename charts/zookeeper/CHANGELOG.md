@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.2 (2026-01-19)
+
+* [zookeeper] Update charts/zookeeper/values.yaml zookeeper ([#858](https://github.com/CloudPirates-io/helm-charts/pull/858))
+
+## 0.5.1 (2026-01-08)
+
+* chore: update CHANGELOG.md for merged changes ([f603113](https://github.com/CloudPirates-io/helm-charts/commit/f603113))
+* chore: update CHANGELOG.md for merged changes ([9c34b5d](https://github.com/CloudPirates-io/helm-charts/commit/9c34b5d))
+* [zookeeper]: fix NetPol and PDB to use correct selectorLabels template (#802) ([7e578e3](https://github.com/CloudPirates-io/helm-charts/commit/7e578e3))
+* chore: update CHANGELOG.md for merged changes ([d3d8715](https://github.com/CloudPirates-io/helm-charts/commit/d3d8715))
+* chore: auto-generate values.schema.json (#797) ([d9b4adf](https://github.com/CloudPirates-io/helm-charts/commit/d9b4adf))
 
 ## 0.5.0 (2026-01-05)
 

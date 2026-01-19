@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.20.8 (2026-01-19)
+
+* [redis] don't create secret when acl is enabled ([#851](https://github.com/CloudPirates-io/helm-charts/pull/851))
 
 ## 0.20.7 (2026-01-17)
 

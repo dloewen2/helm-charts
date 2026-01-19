@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.2 (2026-01-19)
+
+* [prom/memcached-exporter] Update image to v0.15.5 ([#861](https://github.com/CloudPirates-io/helm-charts/pull/861))
+
+## 0.9.1 (2026-01-19)
+
+* chore: update CHANGELOG.md for merged changes ([7eca32c](https://github.com/CloudPirates-io/helm-charts/commit/7eca32c))
+* Update charts/memcached/values.yaml memcached (#834) ([a93b816](https://github.com/CloudPirates-io/helm-charts/commit/a93b816))
 
 ## 0.9.0 (2026-01-15)
 

@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.13.0 (2026-01-19)
-
-* [keycloak]: Add simultaneous support for http and https ([#863](https://github.com/CloudPirates-io/helm-charts/pull/863))
 
 ## 0.12.0 (2026-01-19)
 

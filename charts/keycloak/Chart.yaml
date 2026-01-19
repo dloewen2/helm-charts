@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[keycloak]: Add simultaneous support for http and https"
+        - kind: changed
+          description: "[keycloak]: Move to stateful set (#859)"
           links:
-            - name: "PR #863"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/863"
+            - name: "Commit 76ed920"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/76ed920"

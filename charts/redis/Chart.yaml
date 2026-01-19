@@ -42,7 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: changed
-          description: "don't create secret when acl is enabled (#851)"
+          description: "Update charts/redis/values.yaml redis (#857)"
           links:
-            - name: "Commit 21cb78c"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/21cb78c"
+            - name: "Commit 625d9f5"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/625d9f5"

@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.15.1 (2026-01-20)
-
-* [valkey] Add registry configuration for Sentinel image ([#866](https://github.com/CloudPirates-io/helm-charts/pull/866))
 
 ## 0.15.0 (2026-01-15)
 

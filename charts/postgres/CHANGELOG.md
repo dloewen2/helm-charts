@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.14.4 (2026-01-20)
+
+* POSTGRES_DB is empty if auth.database is not overridden ([#869](https://github.com/CloudPirates-io/helm-charts/pull/869))
 
 ## 0.14.3 (2026-01-20)
 

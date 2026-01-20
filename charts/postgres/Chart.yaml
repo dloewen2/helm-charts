@@ -42,8 +42,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "Explicitly set database name when creating custom user"
+        - kind: changed
+          description: "Update charts/postgres/values.yaml postgres (#835)"
           links:
-            - name: "PR #868"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/868"
+            - name: "Commit 6ec9835"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/6ec9835"

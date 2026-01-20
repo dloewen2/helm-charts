@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.14.3 (2026-01-20)
-
-* Explicitly set database name when creating custom user ([#868](https://github.com/CloudPirates-io/helm-charts/pull/868))
 
 ## 0.14.2 (2026-01-19)
 

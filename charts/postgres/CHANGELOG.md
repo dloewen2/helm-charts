@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.14.5 (2026-01-21)
+
+* [postgres] Add support for volumeName ([#878](https://github.com/CloudPirates-io/helm-charts/pull/878))
 
 ## 0.14.4 (2026-01-20)
 

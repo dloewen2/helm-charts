@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "MinIO Bucket Init Job Improvements (#779)"
+        - kind: added
+          description: "[minio] use cloudpirates image"
           links:
-            - name: "Commit 3cdf608"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/3cdf608"
+            - name: "PR #870"
+              url: "https://github.com/CloudPirates-io/helm-charts/pull/870"

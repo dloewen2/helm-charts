@@ -1,8 +1,12 @@
 # Changelog
 
+
 ## 0.14.5 (2026-01-21)
 
-* [postgres] Add support for volumeName ([#878](https://github.com/CloudPirates-io/helm-charts/pull/878))
+* Add support for volumeName (#878) ([6524a9b](https://github.com/CloudPirates-io/helm-charts/commit/6524a9b))
+* chore: update CHANGELOG.md for merged changes ([3e22f0f](https://github.com/CloudPirates-io/helm-charts/commit/3e22f0f))
+* chore: update CHANGELOG.md for merged changes ([a3e7c71](https://github.com/CloudPirates-io/helm-charts/commit/a3e7c71))
+* chore: update CHANGELOG.md for merged changes ([392c899](https://github.com/CloudPirates-io/helm-charts/commit/392c899))
 
 ## 0.14.4 (2026-01-20)
 

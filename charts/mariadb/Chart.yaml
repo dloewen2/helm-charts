@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "[mariadb] Add possibility to configure topologySpreadConstraints"
+        - kind: changed
+          description: "Add possibility to configure topologySpreadConstraints (#875)"
           links:
-            - name: "PR #875"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/875"
+            - name: "Commit 8fd1775"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/8fd1775"

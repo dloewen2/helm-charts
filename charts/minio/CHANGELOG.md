@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.8.0 (2026-01-21)
-
-* [minio] use cloudpirates image ([#870](https://github.com/CloudPirates-io/helm-charts/pull/870))
 
 ## 0.7.0 (2026-01-15)
 

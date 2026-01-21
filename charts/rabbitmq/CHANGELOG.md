@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.12.2 (2026-01-21)
-
-* [rabbitmq] Update charts/rabbitmq/values.yaml rabbitmq ([#872](https://github.com/CloudPirates-io/helm-charts/pull/872))
 
 ## cluster-operator-0.1.4 (2026-01-19)
 

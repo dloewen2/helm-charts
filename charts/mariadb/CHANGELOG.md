@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.13.0 (2026-01-21)
+
+* [mariadb] Add possibility to configure topologySpreadConstraints ([#875](https://github.com/CloudPirates-io/helm-charts/pull/875))
 
 ## 0.12.1 (2026-01-19)
 

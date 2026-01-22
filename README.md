@@ -104,6 +104,8 @@ Refer to individual chart READMEs for detailed configuration options.
 
 Want to contribute? Awesome! The most basic way to show your support is to star the project, or to raise issues.
 
+> **⚠️ IMPORTANT**: As of **January 22, 2026**, all commits must be signed and verified. PRs with unsigned commits will not be merged.
+
 If you want to open a PR, read our [contributing guidelines](CONTRIBUTING.md) for information about setting up your environment and instructions on the signature verification that we require.
 
 Chat with us and the community on our [Discord server](https://discord.gg/XUn9Kt5dsy)!\

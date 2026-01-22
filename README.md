@@ -13,7 +13,7 @@
 # CloudPirates Open Source Helm Charts
 
 A curated collection of production-ready Helm charts for open-source cloud-native applications.
-This repository provides secure, well-documented, and configurable Helm charts following cloud-native best practices (project name "nonami").
+This repository provides secure, well-documented, and configurable Helm charts following cloud-native best practices.
 
 ## Available Charts
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.12.4 (2026-01-22)
+
+* [busybox] Update image to e226d63 ([#884](https://github.com/CloudPirates-io/helm-charts/pull/884))
 
 ## cluster-operator-0.1.4 (2026-01-19)
 
@@ -59,6 +62,12 @@
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.12.3 (2026-01-22)
+
+* chore: update CHANGELOG.md for merged changes ([d328a7b](https://github.com/CloudPirates-io/helm-charts/commit/d328a7b))
+* chore: update CHANGELOG.md for merged changes ([fe56747](https://github.com/CloudPirates-io/helm-charts/commit/fe56747))
+* chore: update CHANGELOG.md for merged changes ([e1458d8](https://github.com/CloudPirates-io/helm-charts/commit/e1458d8))
 
 ## 0.12.2 (2026-01-21)
 

@@ -8,13 +8,17 @@ on:
       - 'charts/**'
   workflow_dispatch:
     inputs:
-      skip_changelog:
-        description: 'Skip changelog update'
+      chart_name:
+        description: 'Specific chart to process (e.g., "nginx"). Leave empty to process all changed charts.'
+        required: false
+        type: string
+      regenerate_changelog:
+        description: 'Delete and regenerate the changelog for the specified chart'
         required: false
         type: boolean
         default: false
-      skip_release:
-        description: 'Skip release'
+      force_release:
+        description: 'Force re-release of the specified chart (deletes existing tag)'
         required: false
         type: boolean
         default: false
@@ -26,7 +30,6 @@ concurrency:
 jobs:
   changelog-update:
     name: Update Changelogs
-    if: github.event.inputs.skip_changelog != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -51,7 +54,23 @@ jobs:
       - name: Determine charts to update
         id: charts-to-update
         run: |
-          # For manual workflow_dispatch, check the last commit
+          # For manual workflow_dispatch with specific chart
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.chart_name }}" ]; then
+            CHART_NAME="${{ github.event.inputs.chart_name }}"
+            echo "Manual trigger for specific chart: $CHART_NAME"
+
+            if [ ! -d "charts/$CHART_NAME" ]; then
+              echo "❌ Error: Chart 'charts/$CHART_NAME' not found"
+              exit 1
+            fi
+
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changedCharts=charts/$CHART_NAME" >> $GITHUB_OUTPUT
+            echo "manual_chart=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # For manual workflow_dispatch without specific chart, check the last commit
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "Manual trigger: checking last commit"
             BEFORE_SHA=$(git rev-parse HEAD~1)
@@ -68,9 +87,10 @@ jobs:
           # If still no BEFORE_SHA, get all charts
           if [ -z "$BEFORE_SHA" ]; then
             echo "Cannot determine previous commit, processing all charts"
-            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | tr '\n' ' ')
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sed 's|^|charts/|' | tr '\n' ' ')
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
+            echo "manual_chart=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -82,13 +102,16 @@ jobs:
               echo "Changed charts: $changed_charts"
               echo "changed=true" >> $GITHUB_OUTPUT
               echo "changedCharts=${changed_charts}" >> $GITHUB_OUTPUT
+              echo "manual_chart=false" >> $GITHUB_OUTPUT
             else
               echo "No chart changes detected"
               echo "changed=false" >> $GITHUB_OUTPUT
+              echo "manual_chart=false" >> $GITHUB_OUTPUT
             fi
           else
             echo "No chart changes detected"
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "manual_chart=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Get PR information
@@ -126,6 +149,21 @@ jobs:
               core.setOutput('pr_title', commit.message.split('\n')[0]);
               core.setOutput('pr_url', '');
             }
+
+      - name: Delete existing changelogs (regenerate)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.regenerate_changelog == 'true' && steps.charts-to-update.outputs.changed == 'true'
+        run: |
+          CHANGED_CHARTS="${{ steps.charts-to-update.outputs.changedCharts }}"
+
+          for chart_directory in $CHANGED_CHARTS; do
+            CHART_NAME=${chart_directory#charts/}
+            CHANGELOG_FILE="charts/${CHART_NAME}/CHANGELOG.md"
+
+            if [ -f "$CHANGELOG_FILE" ]; then
+              echo "Deleting $CHANGELOG_FILE for regeneration"
+              rm "$CHANGELOG_FILE"
+            fi
+          done
 
       - name: Generate changelog
         id: generate-changelog
@@ -185,7 +223,20 @@ jobs:
 
           git add charts/*/CHANGELOG.md charts/*/Chart.yaml
 
-          git commit -m "chore: update CHANGELOG.md for merged changes" \
+          # Determine commit message
+          if [ "${{ github.event.inputs.regenerate_changelog }}" = "true" ]; then
+            if [ -n "${{ github.event.inputs.chart_name }}" ]; then
+              COMMIT_MSG="chore: regenerate CHANGELOG.md for ${{ github.event.inputs.chart_name }}"
+            else
+              COMMIT_MSG="chore: regenerate CHANGELOG.md"
+            fi
+          elif [ "${{ steps.charts-to-update.outputs.manual_chart }}" = "true" ]; then
+            COMMIT_MSG="chore: update CHANGELOG.md for ${{ github.event.inputs.chart_name }}"
+          else
+            COMMIT_MSG="chore: update CHANGELOG.md for merged changes"
+          fi
+
+          git commit -m "$COMMIT_MSG" \
             -m "Signed-off-by: cloudpirates-bot <cloudpirates-bot@users.noreply.github.com>"
 
           # Pull and push
@@ -201,7 +252,6 @@ jobs:
     if: |
       always() &&
       !cancelled() &&
-      github.event.inputs.skip_release != 'true' &&
       (needs.changelog-update.result == 'success' || needs.changelog-update.result == 'skipped')
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -266,6 +316,39 @@ jobs:
           set -euo pipefail
           CHANGED_CHARTS=""
 
+          # Check if force_release is enabled for a specific chart
+          if [ "${{ github.event.inputs.force_release }}" = "true" ] && [ -n "${{ github.event.inputs.chart_name }}" ]; then
+            FORCE_CHART="${{ github.event.inputs.chart_name }}"
+            echo "Force release enabled for chart: $FORCE_CHART"
+
+            if [ ! -d "charts/$FORCE_CHART" ]; then
+              echo "❌ Error: Chart 'charts/$FORCE_CHART' not found"
+              exit 1
+            fi
+
+            if [ ! -f "charts/$FORCE_CHART/Chart.yaml" ]; then
+              echo "❌ Error: Chart.yaml not found in 'charts/$FORCE_CHART'"
+              exit 1
+            fi
+
+            CHART_VERSION=$(yq eval '.version' "charts/$FORCE_CHART/Chart.yaml")
+            echo "🚀 Force releasing: $FORCE_CHART-$CHART_VERSION"
+
+            # Delete the existing tag if it exists to allow re-release
+            if git tag -l | grep -q "^${FORCE_CHART}-${CHART_VERSION}$"; then
+              echo "Deleting existing tag: ${FORCE_CHART}-${CHART_VERSION}"
+              git tag -d "${FORCE_CHART}-${CHART_VERSION}" || true
+              git push origin ":refs/tags/${FORCE_CHART}-${CHART_VERSION}" || true
+            fi
+
+            CHANGED_CHARTS="$FORCE_CHART"
+            echo "changed_charts=$CHANGED_CHARTS" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "force_release=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Normal detection logic
           for chart_dir in charts/*; do
             [ ! -f "$chart_dir/Chart.yaml" ] && continue
 
@@ -292,6 +375,7 @@ jobs:
 
           echo "changed_charts=$CHANGED_CHARTS" >> $GITHUB_OUTPUT
           [ -n "$CHANGED_CHARTS" ] && echo "has_changes=true" >> $GITHUB_OUTPUT || echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "force_release=false" >> $GITHUB_OUTPUT
 
       - name: Run chart-releaser
         if: steps.detect-changed-charts.outputs.has_changes == 'true'
@@ -374,6 +458,15 @@ jobs:
 
           if [ -n "$RELEASED_CHARTS" ]; then
             echo "## 📦 Helm Charts Released" >> $GITHUB_STEP_SUMMARY
+
+            if [ "${{ steps.detect-changed-charts.outputs.force_release }}" = "true" ]; then
+              echo "**⚠️ Force Release Mode** - Chart: \`${{ github.event.inputs.chart_name }}\`" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+            elif [ -n "${{ github.event.inputs.chart_name }}" ]; then
+              echo "**Manual Release** - Chart: \`${{ github.event.inputs.chart_name }}\`" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+            fi
+
             for chart in $RELEASED_CHARTS; do
               echo "- ✅ **$chart**" >> $GITHUB_STEP_SUMMARY
             done

@@ -55,7 +55,7 @@ jobs:
     permissions:
       contents: write
     outputs:
-      has_changes: ${{ steps.check-changes.outputs.has_changes }}
+      has_changes: ${{ steps.generate-changelog.outputs.has_changes }}
     steps:
       - name: Checkout main branch
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
@@ -207,21 +207,11 @@ jobs:
             echo "All notable changes to this chart will be documented in this file." >> "$TEMP_FILE"
             echo "" >> "$TEMP_FILE"
 
-            # Track processed versions to avoid duplicates
-            declare -A PROCESSED_VERSIONS
-
-            # Process each tag
-            echo "$TAGS" | while read -r TAG; do
+            # Process each tag (use process substitution to avoid subshell)
+            while IFS= read -r TAG; do
               [ -z "$TAG" ] && continue
 
               VERSION="${TAG#${CHART_NAME}-}"
-
-              # Skip if already processed
-              if [ -n "${PROCESSED_VERSIONS[$VERSION]}" ]; then
-                continue
-              fi
-              PROCESSED_VERSIONS[$VERSION]=1
-
               TAG_DATE=$(git log -1 --format=%ai "$TAG" 2>/dev/null | cut -d' ' -f1 || echo "unknown")
 
               # Get previous tag
@@ -235,7 +225,9 @@ jobs:
                 COMMIT_RANGE="${PREV_TAG}..${TAG}"
 
                 # Get commits for this chart
-                git log "$COMMIT_RANGE" --oneline --no-merges -- "$CHART_DIR" 2>/dev/null | while read -r COMMIT_LINE; do
+                while IFS= read -r COMMIT_LINE; do
+                  [ -z "$COMMIT_LINE" ] && continue
+
                   COMMIT_HASH=$(echo "$COMMIT_LINE" | awk '{print $1}')
                   COMMIT_MSG=$(echo "$COMMIT_LINE" | cut -d' ' -f2-)
 
@@ -243,13 +235,13 @@ jobs:
                   COMMIT_MSG=$(echo "$COMMIT_MSG" | sed -E "s/^\[${CHART_NAME}\] //i" | sed -E 's/^\[all\] //i')
 
                   echo "- $COMMIT_MSG ([${COMMIT_HASH}](../../commit/${COMMIT_HASH}))" >> "$TEMP_FILE"
-                done
+                done < <(git log "$COMMIT_RANGE" --oneline --no-merges -- "$CHART_DIR" 2>/dev/null || true)
               else
                 echo "- Initial release" >> "$TEMP_FILE"
               fi
 
               echo "" >> "$TEMP_FILE"
-            done
+            done < <(echo "$TAGS")
 
             # Replace old changelog
             mv "$TEMP_FILE" "$CHANGELOG_FILE"

@@ -231,6 +231,11 @@ jobs:
                   COMMIT_HASH=$(echo "$COMMIT_LINE" | awk '{print $1}')
                   COMMIT_MSG=$(echo "$COMMIT_LINE" | cut -d' ' -f2-)
 
+                  # Skip maintenance/bot commits that shouldn't be in changelog
+                  if echo "$COMMIT_MSG" | grep -qiE '(chore:.*CHANGELOG|chore:.*changelog|auto-generate.*schema|regenerate.*CHANGELOG|reset.*CHANGELOG)'; then
+                    continue
+                  fi
+
                   # Clean up commit message
                   COMMIT_MSG=$(echo "$COMMIT_MSG" | sed -E "s/^\[${CHART_NAME}\] //i" | sed -E 's/^\[all\] //i')
 

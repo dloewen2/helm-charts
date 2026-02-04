@@ -77,7 +77,8 @@ jobs:
           # For manual workflow_dispatch with reset_all_changelogs
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then
             echo "⚠️ Reset all changelogs enabled: processing ALL charts"
-            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d ! -name 'common' -exec basename {} \; | tr '\n' ',')
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d ! -name 'common' -exec basename {} \; | tr '\n' ',' | sed 's/,$//')
+            echo "Found charts: $all_charts"
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
             echo "manual_chart=false" >> $GITHUB_OUTPUT
@@ -102,13 +103,20 @@ jobs:
             exit 0
           fi
 
-          # For manual workflow_dispatch without specific chart, check the last commit
+          # For manual workflow_dispatch without specific options - process ALL charts
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual trigger: checking last commit"
-            BEFORE_SHA=$(git rev-parse HEAD~1)
-          else
-            BEFORE_SHA="${{ github.event.before }}"
+            echo "Manual trigger without specific chart: processing ALL charts"
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d ! -name 'common' -exec basename {} \; | tr '\n' ',' | sed 's/,$//')
+            echo "Found charts: $all_charts"
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
+            echo "manual_chart=false" >> $GITHUB_OUTPUT
+            echo "reset_all=false" >> $GITHUB_OUTPUT
+            exit 0
           fi
+
+          # For automatic push events, check what changed
+          BEFORE_SHA="${{ github.event.before }}"
 
           # If BEFORE_SHA is still empty, use HEAD~1 as fallback
           if [ -z "$BEFORE_SHA" ]; then
@@ -119,7 +127,8 @@ jobs:
           # If still no BEFORE_SHA, get all charts
           if [ -z "$BEFORE_SHA" ]; then
             echo "Cannot determine previous commit, processing all charts"
-            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d ! -name 'common' -exec basename {} \; | tr '\n' ',')
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d ! -name 'common' -exec basename {} \; | tr '\n' ',' | sed 's/,$//')
+            echo "Found charts: $all_charts"
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
             echo "manual_chart=false" >> $GITHUB_OUTPUT

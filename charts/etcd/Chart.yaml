@@ -40,8 +40,13 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "Manual changelog update"
+        - kind: changed
+          description: "Update etcd image registry and repository details"
           links:
-            - name: "PR #manual"
-              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"
+            - name: "Commit e944a71"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/e944a71"
+        - kind: changed
+          description: "[etcd]: Fix invalid sha"
+          links:
+            - name: "Commit 801c35e"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/801c35e"

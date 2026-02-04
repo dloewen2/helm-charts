@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.15.5 (2026-02-04)
-
-* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
 
 ## cluster-operator-0.1.5 (2026-01-28)
 

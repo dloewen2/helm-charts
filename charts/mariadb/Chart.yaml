@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: added
-          description: "Manual changelog update"
+        - kind: changed
+          description: "[all]: Update every chart to newest common (#920)"
           links:
-            - name: "PR #manual"
-              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"
+            - name: "Commit f8d134d"
+              url: "https://github.com/CloudPirates-io/helm-charts/commit/f8d134d"

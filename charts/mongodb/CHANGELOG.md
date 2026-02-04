@@ -1,8 +1,5 @@
 # Changelog
 
-## 0.10.3 (2026-02-04)
-
-* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
 
 ## 0.10.3 (2026-02-03)
 

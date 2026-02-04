@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.8.2 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.8.2 (2026-01-29)
+
+* [minio]: Use wget instead of curl (#899) ([1b83954](https://github.com/CloudPirates-io/helm-charts/commit/1b83954))
+
+## 0.8.1 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: update CHANGELOG.md for merged changes ([d21828b](https://github.com/CloudPirates-io/helm-charts/commit/d21828b))
+* chore: update CHANGELOG.md for merged changes ([bce7cc1](https://github.com/CloudPirates-io/helm-charts/commit/bce7cc1))
+* chore: update CHANGELOG.md for merged changes ([11ff6cd](https://github.com/CloudPirates-io/helm-charts/commit/11ff6cd))
 
 ## 0.8.0 (2026-01-21)
 

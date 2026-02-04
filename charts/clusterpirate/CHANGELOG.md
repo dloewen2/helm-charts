@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.2.16 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 1.2.16 (2026-01-29)
+
+
+## 1.2.15 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 1.2.14 (2026-01-27)
+
+* chore: update CHANGELOG.md for merged changes ([17b8f42](https://github.com/CloudPirates-io/helm-charts/commit/17b8f42))
+
+## 1.2.13 (2026-01-21)
+
 
 ## 1.2.12 (2026-01-19)
 

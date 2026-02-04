@@ -42,4 +42,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
         - kind: added
-          description: "Add support for staticSiteConfigmap to serve static content from an existing ConfigMap"
+          description: "Manual changelog update"
+          links:
+            - name: "PR #manual"
+              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"

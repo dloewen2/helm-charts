@@ -51,8 +51,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[keycloak]: Align init container images with global registry, add resource configuration, and improve realm import handling"
+        - kind: added
+          description: "Manual changelog update"
           links:
-            - name: "PR #946"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/946"
+            - name: "PR #manual"
+              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"

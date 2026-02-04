@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[etcd] change repo to gcr.io"
+        - kind: added
+          description: "Manual changelog update"
           links:
-            - name: "Commit e944a71"
-              url: "https://github.com/CloudPirates-io/helm-charts/commit/e944a71"
+            - name: "PR #manual"
+              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"

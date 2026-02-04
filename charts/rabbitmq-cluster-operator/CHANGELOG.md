@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.5 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.1.5 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: update CHANGELOG.md for merged changes ([4b8eccf](https://github.com/CloudPirates-io/helm-charts/commit/4b8eccf))
+* chore: update CHANGELOG.md for merged changes ([80facd0](https://github.com/CloudPirates-io/helm-charts/commit/80facd0))
+
+## 0.1.4 (2026-01-19)
+
+* update to latest version (#852) ([373255f](https://github.com/CloudPirates-io/helm-charts/commit/373255f))
 
 ## 0.1.3 (2026-01-09)
 

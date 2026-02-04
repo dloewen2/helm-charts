@@ -1,5 +1,43 @@
 # Changelog
 
+## 0.14.1 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.14.1 (2026-02-04)
+
+
+## 0.14.0 (2026-02-04)
+
+* [keycloak]: Align init container images with global registry, add resource configuration, and improve realm import handling (#946) ([4a70951](https://github.com/CloudPirates-io/helm-charts/commit/4a70951))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.13.6 (2026-01-30)
+
+* [keycloak]: Allow prepending arguments to keycloak (#925) ([c536f47](https://github.com/CloudPirates-io/helm-charts/commit/c536f47))
+
+## 0.13.5 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.13.4 (2026-01-27)
+
+* [keycloak]: Allow empty database type string (#912) ([2244324](https://github.com/CloudPirates-io/helm-charts/commit/2244324))
+
+## 0.13.3 (2026-01-27)
+
+* [keycloak]: Remove unused secret (#911) ([8371cd1](https://github.com/CloudPirates-io/helm-charts/commit/8371cd1))
+
+## 0.13.2 (2026-01-26)
+
+* [keycloak]: Try to fix keycloak startup probe/s (#900) ([1cd74cb](https://github.com/CloudPirates-io/helm-charts/commit/1cd74cb))
+
+## 0.13.1 (2026-01-26)
+
+* [keycloak/keycloak] Update charts/keycloak/values.yaml keycloak/keycloak to v26.5.2 (patch) (#892) ([3899ff2](https://github.com/CloudPirates-io/helm-charts/commit/3899ff2))
+* chore: update CHANGELOG.md for merged changes ([eb915ae](https://github.com/CloudPirates-io/helm-charts/commit/eb915ae))
+* chore: update CHANGELOG.md for merged changes ([a9db44c](https://github.com/CloudPirates-io/helm-charts/commit/a9db44c))
+* chore: update CHANGELOG.md for merged changes ([eb0e2ba](https://github.com/CloudPirates-io/helm-charts/commit/eb0e2ba))
 
 ## 0.13.0 (2026-01-19)
 

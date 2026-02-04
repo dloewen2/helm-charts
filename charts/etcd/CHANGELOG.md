@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.5.3 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.5.3 (2026-02-02)
+
+* Bump etcd version to 0.5.3 and update repo URL ([b71da4b](https://github.com/CloudPirates-io/helm-charts/commit/b71da4b))
+* Update etcd image registry and repository details ([e944a71](https://github.com/CloudPirates-io/helm-charts/commit/e944a71))
+* [etcd]: Fix invalid sha ([801c35e](https://github.com/CloudPirates-io/helm-charts/commit/801c35e))
+
+## 0.5.2 (2026-01-29)
+
+* Bump chart version ([d87aa84](https://github.com/CloudPirates-io/helm-charts/commit/d87aa84))
+
+## 0.5.1 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: update CHANGELOG.md for merged changes ([639cf16](https://github.com/CloudPirates-io/helm-charts/commit/639cf16))
+* chore: update CHANGELOG.md for merged changes ([381c74c](https://github.com/CloudPirates-io/helm-charts/commit/381c74c))
+* chore: auto-generate values.schema.json (#849) ([1dcd6f3](https://github.com/CloudPirates-io/helm-charts/commit/1dcd6f3))
+* chore: update CHANGELOG.md for merged changes ([2ea9011](https://github.com/CloudPirates-io/helm-charts/commit/2ea9011))
+* chore: update CHANGELOG.md for merged changes ([4704279](https://github.com/CloudPirates-io/helm-charts/commit/4704279))
+* chore: update CHANGELOG.md for merged changes ([93d6d29](https://github.com/CloudPirates-io/helm-charts/commit/93d6d29))
 
 ## 0.5.0 (2026-01-15)
 

@@ -14,5 +14,8 @@ maintainers:
 annotations:
   license: Apache-2.0
   artifacthub.io/changes: |2
-        - kind: fixed
-          description: "Fix YAML parse error caused by whitespace control in selectorLabels broken in #914"
+        - kind: added
+          description: "Manual changelog update"
+          links:
+            - name: "PR #manual"
+              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"

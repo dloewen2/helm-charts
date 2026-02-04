@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.5.4 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.5.4 (2026-02-01)
+
+* Use latest common version (#934) ([b7f36a2](https://github.com/CloudPirates-io/helm-charts/commit/b7f36a2))
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: auto-generate values.schema.json (#917) ([76e6cf7](https://github.com/CloudPirates-io/helm-charts/commit/76e6cf7))
+
+## 0.5.3 (2026-01-28)
+
+* Add support for overriding selector labels (#915) ([a2cd851](https://github.com/CloudPirates-io/helm-charts/commit/a2cd851))
+* chore: update CHANGELOG.md for merged changes ([d11a66d](https://github.com/CloudPirates-io/helm-charts/commit/d11a66d))
+* chore: update CHANGELOG.md for merged changes ([c2e77f3](https://github.com/CloudPirates-io/helm-charts/commit/c2e77f3))
+* chore: update CHANGELOG.md for merged changes ([eddccdc](https://github.com/CloudPirates-io/helm-charts/commit/eddccdc))
 
 ## 0.5.2 (2026-01-19)
 

@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.15.2 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.15.2 (2026-02-03)
+
+* Update charts/postgres/values.yaml postgres (#943) ([233141e](https://github.com/CloudPirates-io/helm-charts/commit/233141e))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.15.1 (2026-02-02)
+
+* Improve configuration documentation (#926) ([8890410](https://github.com/CloudPirates-io/helm-charts/commit/8890410))
+
+## 0.15.0 (2026-01-29)
+
+* WAL replication support (#923) ([2ee3484](https://github.com/CloudPirates-io/helm-charts/commit/2ee3484))
+
+## 0.14.6 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: auto-generate values.schema.json (#879) ([9b91a2f](https://github.com/CloudPirates-io/helm-charts/commit/9b91a2f))
+* chore: update CHANGELOG.md for merged changes ([b725a55](https://github.com/CloudPirates-io/helm-charts/commit/b725a55))
+* chore: update CHANGELOG.md for merged changes ([decbaa5](https://github.com/CloudPirates-io/helm-charts/commit/decbaa5))
 
 ## 0.14.5 (2026-01-21)
 

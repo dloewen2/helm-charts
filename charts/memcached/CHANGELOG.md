@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.9.6 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.9.6 (2026-02-04)
+
+* Update charts/memcached/values.yaml memcached (#951) ([6f205b2](https://github.com/CloudPirates-io/helm-charts/commit/6f205b2))
+
+## 0.9.5 (2026-02-03)
+
+* Update charts/memcached/values.yaml memcached (#949) ([00a9548](https://github.com/CloudPirates-io/helm-charts/commit/00a9548))
+
+## 0.9.4 (2026-02-03)
+
+* Update charts/memcached/values.yaml memcached (#942) ([23332da](https://github.com/CloudPirates-io/helm-charts/commit/23332da))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.9.3 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: update CHANGELOG.md for merged changes ([b598efd](https://github.com/CloudPirates-io/helm-charts/commit/b598efd))
+* chore: update CHANGELOG.md for merged changes ([4acfcf6](https://github.com/CloudPirates-io/helm-charts/commit/4acfcf6))
+
+## 0.9.2 (2026-01-19)
+
+* [prom/memcached-exporter] Update image to v0.15.5 (#861) ([f6b8034](https://github.com/CloudPirates-io/helm-charts/commit/f6b8034))
+* chore: update CHANGELOG.md for merged changes ([45caf78](https://github.com/CloudPirates-io/helm-charts/commit/45caf78))
 
 ## 0.9.1 (2026-01-19)
 

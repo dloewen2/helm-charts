@@ -40,8 +40,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |2
-        - kind: changed
-          description: "[rabbitmq] Replace deprecated management.load_definitions with definitions.local.path"
+        - kind: added
+          description: "Manual changelog update"
           links:
-            - name: "PR 954"
-              url: "https://github.com/CloudPirates-io/helm-charts/pull/954"
+            - name: "PR #manual"
+              url: "https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535"

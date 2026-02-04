@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.0 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.9.0 (2026-01-29)
+
+* [timescale/timescaledb] Update charts/timescaledb/values.yaml timescale/timescaledb to v2.25.0 (minor) (#924) ([998ff12](https://github.com/CloudPirates-io/helm-charts/commit/998ff12))
+
+## 0.8.1 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: update CHANGELOG.md for merged changes ([2ea9011](https://github.com/CloudPirates-io/helm-charts/commit/2ea9011))
+* chore: update CHANGELOG.md for merged changes ([4704279](https://github.com/CloudPirates-io/helm-charts/commit/4704279))
+* chore: update CHANGELOG.md for merged changes ([93d6d29](https://github.com/CloudPirates-io/helm-charts/commit/93d6d29))
 
 ## 0.8.0 (2026-01-15)
 

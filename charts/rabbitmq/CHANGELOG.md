@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.15.5 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## cluster-operator-0.1.5 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* add option to set mountPath for data volume (#902) ([7d892f9](https://github.com/CloudPirates-io/helm-charts/commit/7d892f9))
+* chore: auto-generate values.schema.json (#903) ([6173c68](https://github.com/CloudPirates-io/helm-charts/commit/6173c68))
+* Add detailed metrics support (#804) (#901) ([96a74ac](https://github.com/CloudPirates-io/helm-charts/commit/96a74ac))
+* [curlimages/curl] Update image to v8.18.0 (#890) ([9034613](https://github.com/CloudPirates-io/helm-charts/commit/9034613))
+* Update charts/rabbitmq/values.yaml rabbitmq to v4.2.3 (patch) (#891) ([6b77a8a](https://github.com/CloudPirates-io/helm-charts/commit/6b77a8a))
+* [rabbitmq]: Sidecar container watching configmap (#873) ([b7a421a](https://github.com/CloudPirates-io/helm-charts/commit/b7a421a))
+* chore: update CHANGELOG.md for merged changes ([db5bfac](https://github.com/CloudPirates-io/helm-charts/commit/db5bfac))
+* chore: update CHANGELOG.md for merged changes ([0193232](https://github.com/CloudPirates-io/helm-charts/commit/0193232))
+* chore: update CHANGELOG.md for merged changes ([d328a7b](https://github.com/CloudPirates-io/helm-charts/commit/d328a7b))
+* chore: update CHANGELOG.md for merged changes ([fe56747](https://github.com/CloudPirates-io/helm-charts/commit/fe56747))
+* chore: update CHANGELOG.md for merged changes ([e1458d8](https://github.com/CloudPirates-io/helm-charts/commit/e1458d8))
+* Update charts/rabbitmq/values.yaml rabbitmq (#872) ([ce33816](https://github.com/CloudPirates-io/helm-charts/commit/ce33816))
+* chore: update CHANGELOG.md for merged changes ([0d868a2](https://github.com/CloudPirates-io/helm-charts/commit/0d868a2))
+* chore: update CHANGELOG.md for merged changes ([6588cad](https://github.com/CloudPirates-io/helm-charts/commit/6588cad))
+* Update charts/rabbitmq/values.yaml rabbitmq (#856) ([2712d85](https://github.com/CloudPirates-io/helm-charts/commit/2712d85))
 
 ## cluster-operator-0.1.4 (2026-01-19)
 
@@ -59,6 +81,49 @@
 ## cluster-operator-0.1.0 (2025-12-01)
 
 * No changes recorded
+
+## 0.15.5 (2026-02-04)
+
+* The management.load_definitions is deprecated and we should use definitions.local.path now (#954) ([c35081b](https://github.com/CloudPirates-io/helm-charts/commit/c35081b))
+
+## 0.15.4 (2026-02-03)
+
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.15.3 (2026-01-30)
+
+* Fix template scope in installPlugins range block (#927) ([b4521bd](https://github.com/CloudPirates-io/helm-charts/commit/b4521bd))
+
+## 0.15.2 (2026-01-28)
+
+* Update charts/rabbitmq/values.yaml rabbitmq (#889) ([39f2c6c](https://github.com/CloudPirates-io/helm-charts/commit/39f2c6c))
+
+## 0.15.1 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.15.0 (2026-01-27)
+
+* add option to set mountPath for data volume (#902) ([7d892f9](https://github.com/CloudPirates-io/helm-charts/commit/7d892f9))
+* chore: auto-generate values.schema.json (#903) ([6173c68](https://github.com/CloudPirates-io/helm-charts/commit/6173c68))
+
+## 0.14.0 (2026-01-26)
+
+* Add detailed metrics support (#804) (#901) ([96a74ac](https://github.com/CloudPirates-io/helm-charts/commit/96a74ac))
+
+## 0.13.2 (2026-01-26)
+
+* [curlimages/curl] Update image to v8.18.0 (#890) ([9034613](https://github.com/CloudPirates-io/helm-charts/commit/9034613))
+
+## 0.13.1 (2026-01-26)
+
+* Update charts/rabbitmq/values.yaml rabbitmq to v4.2.3 (patch) (#891) ([6b77a8a](https://github.com/CloudPirates-io/helm-charts/commit/6b77a8a))
+
+## 0.13.0 (2026-01-22)
+
+* [rabbitmq]: Sidecar container watching configmap (#873) ([b7a421a](https://github.com/CloudPirates-io/helm-charts/commit/b7a421a))
+* chore: update CHANGELOG.md for merged changes ([db5bfac](https://github.com/CloudPirates-io/helm-charts/commit/db5bfac))
+* chore: update CHANGELOG.md for merged changes ([0193232](https://github.com/CloudPirates-io/helm-charts/commit/0193232))
 
 ## 0.12.4 (2026-01-22)
 

@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.10.3 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.10.3 (2026-02-03)
+
+* [mongodb]: properly mount replicaset secret (#947) ([2d04bbb](https://github.com/CloudPirates-io/helm-charts/commit/2d04bbb))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.10.2 (2026-01-29)
+
+
+## 0.10.1 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+* chore: auto-generate values.schema.json (#887) ([48498fc](https://github.com/CloudPirates-io/helm-charts/commit/48498fc))
+
+## 0.10.0 (2026-01-22)
+
+* [mongodb]: introduce new value replicaSet.extraInit.disableTelemetry (#881) ([aa526cf](https://github.com/CloudPirates-io/helm-charts/commit/aa526cf))
+
+## 0.9.2 (2026-01-22)
+
+* [mongodb]: enable replicaSet.[key,keySecretName] (#880) ([5baa210](https://github.com/CloudPirates-io/helm-charts/commit/5baa210))
+* chore: update CHANGELOG.md for merged changes ([a6561c2](https://github.com/CloudPirates-io/helm-charts/commit/a6561c2))
+* chore: update CHANGELOG.md for merged changes ([1702e80](https://github.com/CloudPirates-io/helm-charts/commit/1702e80))
+* chore: update CHANGELOG.md for merged changes ([898fc25](https://github.com/CloudPirates-io/helm-charts/commit/898fc25))
 
 ## 0.9.1 (2026-01-19)
 

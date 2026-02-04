@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.9.1 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.9.1 (2026-02-03)
+
+* Update charts/ghost/values.yaml ghost (#948) ([b7cb150](https://github.com/CloudPirates-io/helm-charts/commit/b7cb150))
+
+## 0.9.0 (2026-02-03)
+
+* Update charts/ghost/values.yaml ghost to v6.16.1 (minor) (#939) ([5e119a9](https://github.com/CloudPirates-io/helm-charts/commit/5e119a9))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.8.2 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.8.1 (2026-01-26)
+
+* Update charts/ghost/values.yaml ghost to v6.14.0 (minor) (#895) ([7b82242](https://github.com/CloudPirates-io/helm-charts/commit/7b82242))
+* chore: update CHANGELOG.md for merged changes ([5f72056](https://github.com/CloudPirates-io/helm-charts/commit/5f72056))
+* chore: update CHANGELOG.md for merged changes ([adf420e](https://github.com/CloudPirates-io/helm-charts/commit/adf420e))
+* chore: update CHANGELOG.md for merged changes ([3c9b778](https://github.com/CloudPirates-io/helm-charts/commit/3c9b778))
 
 ## 0.8.0 (2026-01-19)
 

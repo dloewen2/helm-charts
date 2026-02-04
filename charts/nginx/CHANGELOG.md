@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.5.9 (2026-02-04)
+
+* Manual changelog update ([#manual](https://github.com/CloudPirates-io/helm-charts/actions/runs/21662940535))
+
+## 0.5.9 (2026-02-03)
+
+* [nginx]: Allow loading site from configmap (#935) ([ff72433](https://github.com/CloudPirates-io/helm-charts/commit/ff72433))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.5.8 (2026-02-02)
+
+* Update charts/nginx/values.yaml nginx (#931) ([05af91d](https://github.com/CloudPirates-io/helm-charts/commit/05af91d))
+
+## 0.5.7 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.5.6 (2026-01-28)
+
+* Update charts/nginx/values.yaml nginx (#916) ([ecb1406](https://github.com/CloudPirates-io/helm-charts/commit/ecb1406))
+
+## 0.5.5 (2026-01-28)
+
+* Update charts/nginx/values.yaml nginx (#913) ([99c97ad](https://github.com/CloudPirates-io/helm-charts/commit/99c97ad))
+* chore: update CHANGELOG.md for merged changes ([5e6df55](https://github.com/CloudPirates-io/helm-charts/commit/5e6df55))
+* chore: update CHANGELOG.md for merged changes ([18488d5](https://github.com/CloudPirates-io/helm-charts/commit/18488d5))
+
+## 0.5.4 (2026-01-19)
+
+* Update charts/nginx/values.yaml nginx (#827) ([f6d7860](https://github.com/CloudPirates-io/helm-charts/commit/f6d7860))
+* chore: update CHANGELOG.md for merged changes ([0ccee05](https://github.com/CloudPirates-io/helm-charts/commit/0ccee05))
+* chore: update CHANGELOG.md for merged changes ([6bc7fc5](https://github.com/CloudPirates-io/helm-charts/commit/6bc7fc5))
+* [alpine/git] Update image to v2.52.0 (#771) ([32be439](https://github.com/CloudPirates-io/helm-charts/commit/32be439))
+* chore: update CHANGELOG.md for merged changes ([d0a3cc4](https://github.com/CloudPirates-io/helm-charts/commit/d0a3cc4))
 
 ## 0.5.3 (2026-01-08)
 

@@ -51,8 +51,30 @@ jobs:
       - name: Determine charts to update
         id: charts-to-update
         run: |
-          BEFORE_SHA="${{ github.event.before }}"
-          changed_files=$(git diff --name-only "${BEFORE_SHA}" HEAD -- 'charts/**')
+          # For manual workflow_dispatch, check the last commit
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual trigger: checking last commit"
+            BEFORE_SHA=$(git rev-parse HEAD~1)
+          else
+            BEFORE_SHA="${{ github.event.before }}"
+          fi
+
+          # If BEFORE_SHA is still empty, use HEAD~1 as fallback
+          if [ -z "$BEFORE_SHA" ]; then
+            echo "No before SHA found, using HEAD~1"
+            BEFORE_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+          fi
+
+          # If still no BEFORE_SHA, get all charts
+          if [ -z "$BEFORE_SHA" ]; then
+            echo "Cannot determine previous commit, processing all charts"
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | tr '\n' ' ')
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          changed_files=$(git diff --name-only "${BEFORE_SHA}" HEAD -- 'charts/**' 2>/dev/null || echo "")
 
           if [[ -n "$changed_files" ]]; then
             changed_charts=$(echo "$changed_files" | grep '^charts/' | cut -d/ -f1-2 | sort -u | tr '\n' ' ')
@@ -76,6 +98,14 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            // For manual workflow_dispatch
+            if (context.eventName === 'workflow_dispatch') {
+              core.setOutput('pr_number', 'manual');
+              core.setOutput('pr_title', 'Manual changelog update');
+              core.setOutput('pr_url', `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`);
+              return;
+            }
+
             const commit = context.payload.head_commit;
             const commitSha = commit.id;
 

@@ -252,7 +252,11 @@ jobs:
           echo "Checking for changelog changes..."
           git status --porcelain
 
-          if git status --porcelain | grep -q 'CHANGELOG.md'; then
+          # If regenerate mode is enabled, always commit (even if content is identical)
+          if [ "$REGENERATE" = "true" ]; then
+            echo "✅ Regenerate mode enabled - forcing commit"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          elif git status --porcelain | grep -q 'CHANGELOG.md'; then
             echo "✅ Changelog changes detected"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
@@ -275,7 +279,15 @@ jobs:
           git config user.signingkey ~/.ssh/signing_key
           git config commit.gpgsign true
 
-          git add charts/*/CHANGELOG.md
+          # Add changelog files (use -f to force add even if no changes detected)
+          find charts -name "CHANGELOG.md" -type f -exec git add {} \;
+
+          # Check if there's actually something to commit
+          if git diff --cached --quiet; then
+            echo "⚠️ No changes to commit after git add"
+            rm -f ~/.ssh/signing_key
+            exit 0
+          fi
 
           # Determine commit message
           if [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then

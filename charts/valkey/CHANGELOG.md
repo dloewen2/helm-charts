@@ -1,6 +1,23 @@
 # Changelog
 
 
+## 0.15.3 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.15.2 (2026-01-27)
+
+* [oliver006/redis_exporter] Update charts/valkey/values.yaml oliver006/redis_exporter to v1.80.2 (patch) (#907) ([b8b2721](https://github.com/CloudPirates-io/helm-charts/commit/b8b2721))
+* chore: update CHANGELOG.md for merged changes ([984029d](https://github.com/CloudPirates-io/helm-charts/commit/984029d))
+
+## 0.15.1 (2026-01-20)
+
+* chore: update CHANGELOG.md for merged changes ([2f00aa2](https://github.com/CloudPirates-io/helm-charts/commit/2f00aa2))
+* Add registry configuration for Sentinel image (#866) ([e462527](https://github.com/CloudPirates-io/helm-charts/commit/e462527))
+* chore: update CHANGELOG.md for merged changes ([2ea9011](https://github.com/CloudPirates-io/helm-charts/commit/2ea9011))
+* chore: update CHANGELOG.md for merged changes ([4704279](https://github.com/CloudPirates-io/helm-charts/commit/4704279))
+* chore: update CHANGELOG.md for merged changes ([93d6d29](https://github.com/CloudPirates-io/helm-charts/commit/93d6d29))
+
 ## 0.15.0 (2026-01-15)
 
 * [etcd,mariadb,rustfs,timescaledb,valkey] add existingClaim (#846) ([17e0af0](https://github.com/CloudPirates-io/helm-charts/commit/17e0af0))

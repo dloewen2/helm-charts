@@ -1,6 +1,42 @@
 # Changelog
 
 
+## 0.21.7 (2026-02-03)
+
+* [redis]: Adjust condition around serviceAccountName (#945) ([ff1ee15](https://github.com/CloudPirates-io/helm-charts/commit/ff1ee15))
+
+## 0.21.6 (2026-02-03)
+
+* Update charts/redis/values.yaml redis (#944) ([d891038](https://github.com/CloudPirates-io/helm-charts/commit/d891038))
+* [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
+## 0.21.5 (2026-02-02)
+
+* [redis]: Implement existingFilePath for acl on redis (#936) ([2945710](https://github.com/CloudPirates-io/helm-charts/commit/2945710))
+
+## 0.21.4 (2026-01-30)
+
+* [redis]: Seperate client and server tls certs for liveness and readiness probes (#883) ([e643acf](https://github.com/CloudPirates-io/helm-charts/commit/e643acf))
+
+## 0.21.3 (2026-01-28)
+
+* [all]: Update every chart to newest common (#920) ([f8d134d](https://github.com/CloudPirates-io/helm-charts/commit/f8d134d))
+
+## 0.21.2 (2026-01-27)
+
+* [oliver006/redis_exporter] Update image to v1.80.2 (#908) ([d8034e2](https://github.com/CloudPirates-io/helm-charts/commit/d8034e2))
+
+## 0.21.1 (2026-01-26)
+
+* Fix network policy egress, improve cluster init job reliability (#894) ([cf62236](https://github.com/CloudPirates-io/helm-charts/commit/cf62236))
+
+## 0.21.0 (2026-01-19)
+
+* [redis]: Configurable log level through values.yaml (#862) ([3ca6523](https://github.com/CloudPirates-io/helm-charts/commit/3ca6523))
+* chore: update CHANGELOG.md for merged changes ([2f4496d](https://github.com/CloudPirates-io/helm-charts/commit/2f4496d))
+* chore: update CHANGELOG.md for merged changes ([4c53b54](https://github.com/CloudPirates-io/helm-charts/commit/4c53b54))
+* chore: update CHANGELOG.md for merged changes ([6361405](https://github.com/CloudPirates-io/helm-charts/commit/6361405))
+
 ## 0.20.9 (2026-01-19)
 
 * Update charts/redis/values.yaml redis (#857) ([625d9f5](https://github.com/CloudPirates-io/helm-charts/commit/625d9f5))

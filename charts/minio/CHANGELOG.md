@@ -9,14 +9,10 @@ All notable changes to this chart will be documented in this file.
 ## [0.8.1] - 2026-01-28
 
 - [all]: Update every chart to newest common (#920) ([f8d134d](../../commit/f8d134d))
-- chore: update CHANGELOG.md for merged changes ([d21828b](../../commit/d21828b))
-- chore: update CHANGELOG.md for merged changes ([bce7cc1](../../commit/bce7cc1))
-- chore: update CHANGELOG.md for merged changes ([11ff6cd](../../commit/11ff6cd))
 
 ## [0.8.0] - 2026-01-21
 
 - use cloudpirates image (#870) ([bf069f6](../../commit/bf069f6))
-- chore: update CHANGELOG.md for merged changes ([b3cbfb0](../../commit/b3cbfb0))
 
 ## [0.7.0] - 2026-01-15
 
@@ -24,14 +20,7 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.6.1] - 2026-01-01
 
-- chore: update CHANGELOG.md for merged changes ([c0bc9a4](../../commit/c0bc9a4))
-- chore: update CHANGELOG.md for merged changes ([ae84171](../../commit/ae84171))
 - MinIO Bucket Init Job Improvements (#779) ([3cdf608](../../commit/3cdf608))
-- chore: update CHANGELOG.md for merged changes ([375abdb](../../commit/375abdb))
-- chore: update CHANGELOG.md for merged changes ([afd24db](../../commit/afd24db))
-- chore: auto-generate values.schema.json (#749) ([87470d6](../../commit/87470d6))
-- chore: update CHANGELOG.md for merged changes ([edc5bc1](../../commit/edc5bc1))
-- chore: update CHANGELOG.md for merged changes ([25a6726](../../commit/25a6726))
 
 ## [0.6.0] - 2025-12-15
 
@@ -39,73 +28,40 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.5.7] - 2025-12-09
 
-- chore: update CHANGELOG.md for merged changes ([6659608](../../commit/6659608))
-- chore: update CHANGELOG.md for merged changes ([7f09b2d](../../commit/7f09b2d))
 - add post-job helm-hook annotation, update readme (#706) ([64e36bd](../../commit/64e36bd))
-- chore: update CHANGELOG.md for merged changes ([96c472e](../../commit/96c472e))
-- chore: update CHANGELOG.md for merged changes ([9923048](../../commit/9923048))
 
 ## [0.5.6] - 2025-11-13
 
 - [universal] update readme files (#583) ([e63f5f9](../../commit/e63f5f9))
-- chore: update CHANGELOG.md for merged changes ([5dec604](../../commit/5dec604))
-- chore: update CHANGELOG.md for merged changes ([dd468cc](../../commit/dd468cc))
-- chore: auto-generate values.schema.json (#528) ([157c32a](../../commit/157c32a))
-- chore: update CHANGELOG.md for merged changes ([17003cb](../../commit/17003cb))
-- chore: update CHANGELOG.md for merged changes ([37028f5](../../commit/37028f5))
 
 ## [0.5.5] - 2025-11-02
 
 - Add NodePort support for API and Console in Service configuration (#527) ([57b84d8](../../commit/57b84d8))
-- chore: update CHANGELOG.md for merged changes ([c593bd8](../../commit/c593bd8))
-- chore: update CHANGELOG.md for merged changes ([5cd1a41](../../commit/5cd1a41))
 
 ## [0.5.4] - 2025-10-27
 
 - Remove securitycontext on empty obejct (#474) ([3c288c8](../../commit/3c288c8))
-- chore: update CHANGELOG.md for merged changes ([f9c3ff0](../../commit/f9c3ff0))
-- chore: update CHANGELOG.md for merged changes ([db2d800](../../commit/db2d800))
 
 ## [0.5.3] - 2025-10-23
 
 - [universal] Update annotations, labels, podannotations and podlabel (#454) ([cdb38db](../../commit/cdb38db))
-- chore: update CHANGELOG.md for merged changes ([051ad83](../../commit/051ad83))
-- chore: update CHANGELOG.md for merged changes ([1a50307](../../commit/1a50307))
 
 ## [0.5.2] - 2025-10-22
 
 - [universal]: Support extra secret templating (#444) ([c2b2024](../../commit/c2b2024))
-- chore: update CHANGELOG.md for merged changes ([5d1f01a](../../commit/5d1f01a))
-- chore: update CHANGELOG.md for merged changes ([fc47c5d](../../commit/fc47c5d))
 - [unversal] Add signing informations for artifacthub (#415) ([e761c90](../../commit/e761c90))
-- chore: update CHANGELOG.md for merged changes ([1a4f87b](../../commit/1a4f87b))
-- chore: update CHANGELOG.md for merged changes ([da866ca](../../commit/da866ca))
 - [universal] use a string instead of a boolean (#413) ([c24d26d](../../commit/c24d26d))
 - [universal] improve chart artifact annotations (#404) ([37f1c5b](../../commit/37f1c5b))
-- chore: update CHANGELOG.md for merged changes ([9af0a8e](../../commit/9af0a8e))
-- chore: update CHANGELOG.md for merged changes ([de994a7](../../commit/de994a7))
 
 ## [0.5.1] - 2025-10-17
 
 -  [minio] Fix bucketname trimming whitespaces in MinIO post-job configuration script. (#406) ([bf250e2](../../commit/bf250e2))
-- chore: update CHANGELOG.md for merged changes ([b54c4f1](../../commit/b54c4f1))
-- chore: update CHANGELOG.md for merged changes ([5a2ed20](../../commit/5a2ed20))
 - [universal] Rework all schema json (#393) ([79d1439](../../commit/79d1439))
-- chore: update CHANGELOG.md for merged changes ([3361964](../../commit/3361964))
-- chore: update CHANGELOG.md for merged changes ([7f61172](../../commit/7f61172))
 - [mariadb] add galera cluster support for mariadb (#348) ([b7a63ee](../../commit/b7a63ee))
-- chore: update CHANGELOG.md for merged changes ([1ec9aab](../../commit/1ec9aab))
-- chore: update CHANGELOG.md for merged changes ([c9ff4ec](../../commit/c9ff4ec))
-- chore: update CHANGELOG.md for merged changes ([86f1d25](../../commit/86f1d25))
 
 ## [0.5.0] - 2025-10-14
 
 - Update chart.yaml dependencies for indepentent charts (#382) ([87acfb1](../../commit/87acfb1))
-- chore: update CHANGELOG.md for merged changes ([84cf67b](../../commit/84cf67b))
-- chore: update CHANGELOG.md for all charts via manual trigger ([6974964](../../commit/6974964))
-- chore: update CHANGELOG.md for merged changes ([63b7bfa](../../commit/63b7bfa))
-- chore: update CHANGELOG.md for merged changes ([da69e0e](../../commit/da69e0e))
-- chore: update CHANGELOG.md for merged changes ([5da1b15](../../commit/5da1b15))
 
 ## [0.4.1] - 2025-10-13
 

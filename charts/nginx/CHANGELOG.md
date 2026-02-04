@@ -22,75 +22,43 @@ All notable changes to this chart will be documented in this file.
 ## [0.5.5] - 2026-01-28
 
 - Update charts/nginx/values.yaml nginx (#913) ([99c97ad](../../commit/99c97ad))
-- chore: update CHANGELOG.md for merged changes ([5e6df55](../../commit/5e6df55))
-- chore: update CHANGELOG.md for merged changes ([18488d5](../../commit/18488d5))
 
 ## [0.5.4] - 2026-01-19
 
 - Update charts/nginx/values.yaml nginx (#827) ([f6d7860](../../commit/f6d7860))
-- chore: update CHANGELOG.md for merged changes ([0ccee05](../../commit/0ccee05))
-- chore: update CHANGELOG.md for merged changes ([6bc7fc5](../../commit/6bc7fc5))
 - [alpine/git] Update image to v2.52.0 (#771) ([32be439](../../commit/32be439))
-- chore: update CHANGELOG.md for merged changes ([d0a3cc4](../../commit/d0a3cc4))
 
 ## [0.5.3] - 2026-01-08
 
-- chore: update CHANGELOG.md for merged changes ([53c3b06](../../commit/53c3b06))
-- chore: auto-generate values.schema.json (#814) ([9920972](../../commit/9920972))
-- chore: update CHANGELOG.md for merged changes ([281856f](../../commit/281856f))
 - [nginx]: custom securityContext for initiContainers #765 ([dadbdb7](../../commit/dadbdb7))
 
 ## [0.5.2] - 2025-12-22
 
-- chore: update CHANGELOG.md for merged changes ([ddfd971](../../commit/ddfd971))
-- chore: update CHANGELOG.md for merged changes ([d48ff1b](../../commit/d48ff1b))
 - Update charts/nginx/values.yaml nginx (#746) ([d433040](../../commit/d433040))
 
 ## [0.5.1] - 2025-12-10
 
-- chore: update CHANGELOG.md for merged changes ([369bcaf](../../commit/369bcaf))
-- chore: update CHANGELOG.md for merged changes ([9e98116](../../commit/9e98116))
 - Update charts/nginx/values.yaml nginx to v1.29.4 (patch) (#718) ([48d2f15](../../commit/48d2f15))
-- chore: update CHANGELOG.md for merged changes ([0552f92](../../commit/0552f92))
-- chore: auto-generate values.schema.json (#665) ([ae1ac5a](../../commit/ae1ac5a))
 
 ## [0.5.0] - 2025-11-26
 
-- chore: update CHANGELOG.md for merged changes ([1050496](../../commit/1050496))
 - [nginx]: Configurable side car containers ([f525b11](../../commit/f525b11))
 
 ## [0.4.3] - 2025-11-16
 
-- chore: update CHANGELOG.md for merged changes ([5521d5f](../../commit/5521d5f))
-- chore: update CHANGELOG.md for merged changes ([f30dae3](../../commit/f30dae3))
 - [nginx]: feat: remove optional bitnami script sourcing (#601) ([9f6a837](../../commit/9f6a837))
-- chore: update CHANGELOG.md for merged changes ([96c472e](../../commit/96c472e))
-- chore: update CHANGELOG.md for merged changes ([9923048](../../commit/9923048))
 
 ## [0.4.2] - 2025-11-13
 
 - [universal] update readme files (#583) ([e63f5f9](../../commit/e63f5f9))
-- chore: update CHANGELOG.md for merged changes ([1c247b8](../../commit/1c247b8))
-- chore: update CHANGELOG.md for merged changes ([454ffde](../../commit/454ffde))
-- chore: auto-generate values.schema.json (#569) ([6790d09](../../commit/6790d09))
 
 ## [0.4.1] - 2025-11-07
 
 - [nginx]: Add podLabels ([b8d8410](../../commit/b8d8410))
-- chore: update CHANGELOG.md for merged changes ([40efff1](../../commit/40efff1))
-- chore: update CHANGELOG.md for merged changes ([e1c0077](../../commit/e1c0077))
-- chore: auto-generate values.schema.json (#549) ([ac12418](../../commit/ac12418))
-- chore: update CHANGELOG.md for merged changes ([05acd68](../../commit/05acd68))
-- chore: update CHANGELOG.md for merged changes ([d909109](../../commit/d909109))
 
 ## [0.4.0] - 2025-11-04
 
 - extraInitContainers (#548) ([686e3e0](../../commit/686e3e0))
-- chore: update CHANGELOG.md for merged changes ([8dbbdd1](../../commit/8dbbdd1))
-- chore: update CHANGELOG.md for merged changes ([5d68f20](../../commit/5d68f20))
-- chore: auto-generate values.schema.json (#529) ([a09c8b1](../../commit/a09c8b1))
-- chore: update CHANGELOG.md for merged changes ([b9cc0d3](../../commit/b9cc0d3))
-- chore: update CHANGELOG.md for merged changes ([8d930bc](../../commit/8d930bc))
 
 ## [0.3.3] - 2025-11-02
 
@@ -98,53 +66,29 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.3.2] - 2025-10-30
 
-- chore: update CHANGELOG.md for merged changes ([5c6a9eb](../../commit/5c6a9eb))
-- chore: update CHANGELOG.md for merged changes ([597f2b0](../../commit/597f2b0))
 - Update charts/nginx/values.yaml nginx (#508) ([60891a1](../../commit/60891a1))
-- chore: update CHANGELOG.md for merged changes ([28332c1](../../commit/28332c1))
-- chore: update CHANGELOG.md for merged changes ([16071aa](../../commit/16071aa))
 
 ## [0.3.1] - 2025-10-29
 
 - Update charts/nginx/values.yaml nginx to v1.29.3 (patch) (#490) ([a23c2db](../../commit/a23c2db))
-- chore: update CHANGELOG.md for merged changes ([8260788](../../commit/8260788))
-- chore: update CHANGELOG.md for merged changes ([402f7bd](../../commit/402f7bd))
 
 ## [0.3.0] - 2025-10-28
 
 - [universal] unify extraEnvVars in all charts (#477) ([4aee7b4](../../commit/4aee7b4))
-- chore: auto-generate values.schema.json for updated charts (#455) ([aec6840](../../commit/aec6840))
-- chore: update CHANGELOG.md for merged changes ([f9c3ff0](../../commit/f9c3ff0))
-- chore: update CHANGELOG.md for merged changes ([db2d800](../../commit/db2d800))
 
 ## [0.2.1] - 2025-10-23
 
 - [universal] Update annotations, labels, podannotations and podlabel (#454) ([cdb38db](../../commit/cdb38db))
-- chore: update CHANGELOG.md for merged changes ([c80ea42](../../commit/c80ea42))
-- chore: update CHANGELOG.md for merged changes ([8ccb4bb](../../commit/8ccb4bb))
 - [universal] fix all appversions in charts (#417) ([b8debeb](../../commit/b8debeb))
-- chore: update CHANGELOG.md for merged changes ([5d1f01a](../../commit/5d1f01a))
-- chore: update CHANGELOG.md for merged changes ([fc47c5d](../../commit/fc47c5d))
 - [unversal] Add signing informations for artifacthub (#415) ([e761c90](../../commit/e761c90))
-- chore: update CHANGELOG.md for merged changes ([1a4f87b](../../commit/1a4f87b))
-- chore: update CHANGELOG.md for merged changes ([da866ca](../../commit/da866ca))
 - [universal] use a string instead of a boolean (#413) ([c24d26d](../../commit/c24d26d))
 - [universal] improve chart artifact annotations (#404) ([37f1c5b](../../commit/37f1c5b))
-- chore: update CHANGELOG.md for merged changes ([b54c4f1](../../commit/b54c4f1))
-- chore: update CHANGELOG.md for merged changes ([5a2ed20](../../commit/5a2ed20))
 - [universal] Rework all schema json (#393) ([79d1439](../../commit/79d1439))
-- chore: update CHANGELOG.md for merged changes ([3361964](../../commit/3361964))
-- chore: update CHANGELOG.md for merged changes ([7f61172](../../commit/7f61172))
 - [mariadb] add galera cluster support for mariadb (#348) ([b7a63ee](../../commit/b7a63ee))
-- chore: update CHANGELOG.md for merged changes ([1ec9aab](../../commit/1ec9aab))
-- chore: update CHANGELOG.md for merged changes ([c9ff4ec](../../commit/c9ff4ec))
 
 ## [0.2.0] - 2025-10-14
 
-- chore: update CHANGELOG.md for merged changes ([86f1d25](../../commit/86f1d25))
 - Update chart.yaml dependencies for indepentent charts (#382) ([87acfb1](../../commit/87acfb1))
-- chore: update CHANGELOG.md for merged changes ([84cf67b](../../commit/84cf67b))
-- chore: update CHANGELOG.md for all charts via manual trigger ([6974964](../../commit/6974964))
 - [universal]: Fix changelog generation (#354) ([2e973c0](../../commit/2e973c0))
 - Update charts/nginx/values.yaml nginx (#351) ([d73ca94](../../commit/d73ca94))
 - [mongodb] fix: newline between mongo labels and additional labels (#301) ([ea7937f](../../commit/ea7937f))

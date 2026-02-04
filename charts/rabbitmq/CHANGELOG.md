@@ -6,80 +6,39 @@ All notable changes to this chart will be documented in this file.
 
 - [all]: Update every chart to newest common (#920) ([f8d134d](../../commit/f8d134d))
 - add option to set mountPath for data volume (#902) ([7d892f9](../../commit/7d892f9))
-- chore: auto-generate values.schema.json (#903) ([6173c68](../../commit/6173c68))
 - Add detailed metrics support (#804) (#901) ([96a74ac](../../commit/96a74ac))
 - [curlimages/curl] Update image to v8.18.0 (#890) ([9034613](../../commit/9034613))
 - Update charts/rabbitmq/values.yaml rabbitmq to v4.2.3 (patch) (#891) ([6b77a8a](../../commit/6b77a8a))
 - [rabbitmq]: Sidecar container watching configmap (#873) ([b7a421a](../../commit/b7a421a))
-- chore: update CHANGELOG.md for merged changes ([db5bfac](../../commit/db5bfac))
-- chore: update CHANGELOG.md for merged changes ([0193232](../../commit/0193232))
 - [busybox] Update image to e226d63 (#884) ([7624bab](../../commit/7624bab))
 - [busybox] Update image to b86c79d (#882) ([4783a36](../../commit/4783a36))
-- chore: update CHANGELOG.md for merged changes ([d328a7b](../../commit/d328a7b))
-- chore: update CHANGELOG.md for merged changes ([fe56747](../../commit/fe56747))
-- chore: update CHANGELOG.md for merged changes ([e1458d8](../../commit/e1458d8))
 - Update charts/rabbitmq/values.yaml rabbitmq (#872) ([ce33816](../../commit/ce33816))
-- chore: update CHANGELOG.md for merged changes ([0d868a2](../../commit/0d868a2))
-- chore: update CHANGELOG.md for merged changes ([6588cad](../../commit/6588cad))
 - Update charts/rabbitmq/values.yaml rabbitmq (#856) ([2712d85](../../commit/2712d85))
 
 ## [cluster-operator-0.1.4] - 2026-01-19
 
 -  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](../../commit/b3d816f))
-- chore: update CHANGELOG.md for merged changes ([e23b802](../../commit/e23b802))
-- chore: update CHANGELOG.md for merged changes ([bfcd147](../../commit/bfcd147))
-- chore: auto-generate values.schema.json (#832) ([16e54d2](../../commit/16e54d2))
-- chore: update CHANGELOG.md for merged changes ([f867495](../../commit/f867495))
-- chore: update CHANGELOG.md for merged changes ([bd29fbc](../../commit/bd29fbc))
-- chore: update CHANGELOG.md for merged changes ([b37e0c7](../../commit/b37e0c7))
 - queuebalancing schema types (#831) ([f1f1fbf](../../commit/f1f1fbf))
-- chore: update CHANGELOG.md for merged changes ([e40975d](../../commit/e40975d))
-- chore: update CHANGELOG.md for merged changes ([85eca5b](../../commit/85eca5b))
-- chore: auto-generate values.schema.json (#828) ([ecbf971](../../commit/ecbf971))
-- chore: update CHANGELOG.md for merged changes ([a1f6adc](../../commit/a1f6adc))
 - queues not balanced #653 ([a9f6a5d](../../commit/a9f6a5d))
 
 ## [cluster-operator-0.1.3] - 2026-01-09
 
-- chore: update CHANGELOG.md for merged changes ([96d70b8](../../commit/96d70b8))
-- chore: update CHANGELOG.md for merged changes ([4ec69b0](../../commit/4ec69b0))
 - Update README.md : ha cluster config and chart update infos (#826) ([54caf60](../../commit/54caf60))
 - Update charts/rabbitmq/values.yaml rabbitmq (#821) ([11cd6b1](../../commit/11cd6b1))
-- chore: update CHANGELOG.md for merged changes ([785e8d4](../../commit/785e8d4))
-- chore: update CHANGELOG.md for merged changes ([1f381f5](../../commit/1f381f5))
-- chore: update CHANGELOG.md for merged changes ([ae1c410](../../commit/ae1c410))
 - [busybox] Update image to 2383baa (#818) ([83791f2](../../commit/83791f2))
-- chore: update CHANGELOG.md for merged changes ([c37cd64](../../commit/c37cd64))
-- chore: update CHANGELOG.md for merged changes ([8221fb3](../../commit/8221fb3))
-- chore: auto-generate values.schema.json (#816) ([3602636](../../commit/3602636))
-- chore: update CHANGELOG.md for merged changes ([135a999](../../commit/135a999))
 - queues not balanced #653 ([b3e74ad](../../commit/b3e74ad))
 
 ## [cluster-operator-0.1.2] - 2026-01-05
 
-- chore: update CHANGELOG.md for merged changes ([5495451](../../commit/5495451))
-- chore: update CHANGELOG.md for merged changes ([b2973f3](../../commit/b2973f3))
 - Update charts/rabbitmq/values.yaml rabbitmq to v4.2.2 (patch) (#760) ([3ddf1ed](../../commit/3ddf1ed))
 
 ## [cluster-operator-0.1.1] - 2025-12-16
 
-- chore: update CHANGELOG.md for merged changes ([1f90423](../../commit/1f90423))
 - Add externalTrafficPolicy and allocateLoadBalancerNodePorts to service spec (#730) ([22ec7fe](../../commit/22ec7fe))
-- chore: update CHANGELOG.md for merged changes ([79d5eaa](../../commit/79d5eaa))
-- chore: update CHANGELOG.md for merged changes ([87cca85](../../commit/87cca85))
 - [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725) ([ac9e1ba](../../commit/ac9e1ba))
-- chore: update CHANGELOG.md for merged changes ([df97204](../../commit/df97204))
-- chore: update CHANGELOG.md for merged changes ([0b1d21c](../../commit/0b1d21c))
 - Add ServiceAccount automountServiceAccountToken configuration (#673) ([c9f8f24](../../commit/c9f8f24))
-- chore: update CHANGELOG.md for merged changes ([dc84b5c](../../commit/dc84b5c))
-- chore: update CHANGELOG.md for merged changes ([bcf6608](../../commit/bcf6608))
 - [busybox] Update image to d80cd69 (#709) ([68fc5f8](../../commit/68fc5f8))
-- chore: update CHANGELOG.md for merged changes ([a05c8fe](../../commit/a05c8fe))
-- chore: update CHANGELOG.md for merged changes ([4eaa98d](../../commit/4eaa98d))
-- chore: update CHANGELOG.md for merged changes ([8620dd7](../../commit/8620dd7))
 - [universal] fix statefulset pvc labels (#696) ([b87dbc7](../../commit/b87dbc7))
-- chore: update CHANGELOG.md for merged changes ([acb75b9](../../commit/acb75b9))
-- chore: update CHANGELOG.md for merged changes ([834af35](../../commit/834af35))
 - [universal] add labels to statefulset pvc-templates (#681) ([87624a5](../../commit/87624a5))
 
 ## [cluster-operator-0.1.0] - 2025-12-01
@@ -109,7 +68,6 @@ All notable changes to this chart will be documented in this file.
 ## [0.15.0] - 2026-01-27
 
 - add option to set mountPath for data volume (#902) ([7d892f9](../../commit/7d892f9))
-- chore: auto-generate values.schema.json (#903) ([6173c68](../../commit/6173c68))
 
 ## [0.14.0] - 2026-01-26
 
@@ -126,8 +84,6 @@ All notable changes to this chart will be documented in this file.
 ## [0.13.0] - 2026-01-22
 
 - [rabbitmq]: Sidecar container watching configmap (#873) ([b7a421a](../../commit/b7a421a))
-- chore: update CHANGELOG.md for merged changes ([db5bfac](../../commit/db5bfac))
-- chore: update CHANGELOG.md for merged changes ([0193232](../../commit/0193232))
 
 ## [0.12.4] - 2026-01-22
 
@@ -136,15 +92,10 @@ All notable changes to this chart will be documented in this file.
 ## [0.12.3] - 2026-01-22
 
 - [busybox] Update image to b86c79d (#882) ([4783a36](../../commit/4783a36))
-- chore: update CHANGELOG.md for merged changes ([d328a7b](../../commit/d328a7b))
-- chore: update CHANGELOG.md for merged changes ([fe56747](../../commit/fe56747))
-- chore: update CHANGELOG.md for merged changes ([e1458d8](../../commit/e1458d8))
 
 ## [0.12.2] - 2026-01-21
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#872) ([ce33816](../../commit/ce33816))
-- chore: update CHANGELOG.md for merged changes ([0d868a2](../../commit/0d868a2))
-- chore: update CHANGELOG.md for merged changes ([6588cad](../../commit/6588cad))
 
 ## [0.12.1] - 2026-01-19
 
@@ -153,26 +104,14 @@ All notable changes to this chart will be documented in this file.
 ## [0.12.0] - 2026-01-15
 
 -  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](../../commit/b3d816f))
-- chore: update CHANGELOG.md for merged changes ([e23b802](../../commit/e23b802))
-- chore: update CHANGELOG.md for merged changes ([bfcd147](../../commit/bfcd147))
-- chore: auto-generate values.schema.json (#832) ([16e54d2](../../commit/16e54d2))
-- chore: update CHANGELOG.md for merged changes ([f867495](../../commit/f867495))
-- chore: update CHANGELOG.md for merged changes ([bd29fbc](../../commit/bd29fbc))
-- chore: update CHANGELOG.md for merged changes ([b37e0c7](../../commit/b37e0c7))
 
 ## [0.11.5] - 2026-01-12
 
 - queuebalancing schema types (#831) ([f1f1fbf](../../commit/f1f1fbf))
-- chore: update CHANGELOG.md for merged changes ([e40975d](../../commit/e40975d))
-- chore: update CHANGELOG.md for merged changes ([85eca5b](../../commit/85eca5b))
-- chore: auto-generate values.schema.json (#828) ([ecbf971](../../commit/ecbf971))
-- chore: update CHANGELOG.md for merged changes ([a1f6adc](../../commit/a1f6adc))
 
 ## [0.11.4] - 2026-01-10
 
 - queues not balanced #653 ([a9f6a5d](../../commit/a9f6a5d))
-- chore: update CHANGELOG.md for merged changes ([96d70b8](../../commit/96d70b8))
-- chore: update CHANGELOG.md for merged changes ([4ec69b0](../../commit/4ec69b0))
 
 ## [0.11.3] - 2026-01-09
 
@@ -181,17 +120,10 @@ All notable changes to this chart will be documented in this file.
 ## [0.11.2] - 2026-01-08
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#821) ([11cd6b1](../../commit/11cd6b1))
-- chore: update CHANGELOG.md for merged changes ([785e8d4](../../commit/785e8d4))
-- chore: update CHANGELOG.md for merged changes ([1f381f5](../../commit/1f381f5))
-- chore: update CHANGELOG.md for merged changes ([ae1c410](../../commit/ae1c410))
 
 ## [0.11.1] - 2026-01-08
 
 - [busybox] Update image to 2383baa (#818) ([83791f2](../../commit/83791f2))
-- chore: update CHANGELOG.md for merged changes ([c37cd64](../../commit/c37cd64))
-- chore: update CHANGELOG.md for merged changes ([8221fb3](../../commit/8221fb3))
-- chore: auto-generate values.schema.json (#816) ([3602636](../../commit/3602636))
-- chore: update CHANGELOG.md for merged changes ([135a999](../../commit/135a999))
 
 ## [0.11.0] - 2026-01-08
 
@@ -199,35 +131,23 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.10.2] - 2025-12-22
 
-- chore: update CHANGELOG.md for merged changes ([5495451](../../commit/5495451))
-- chore: update CHANGELOG.md for merged changes ([b2973f3](../../commit/b2973f3))
 - Update charts/rabbitmq/values.yaml rabbitmq to v4.2.2 (patch) (#760) ([3ddf1ed](../../commit/3ddf1ed))
 
 ## [0.10.1] - 2025-12-12
 
-- chore: update CHANGELOG.md for merged changes ([1f90423](../../commit/1f90423))
 - Add externalTrafficPolicy and allocateLoadBalancerNodePorts to service spec (#730) ([22ec7fe](../../commit/22ec7fe))
 
 ## [0.10.0] - 2025-12-11
 
-- chore: update CHANGELOG.md for merged changes ([79d5eaa](../../commit/79d5eaa))
-- chore: update CHANGELOG.md for merged changes ([87cca85](../../commit/87cca85))
 - [redis, valkey,rabbitmq,zookeeper]: allow setting revisionHistoryLimit (#725) ([ac9e1ba](../../commit/ac9e1ba))
 
 ## [0.9.0] - 2025-12-11
 
-- chore: update CHANGELOG.md for merged changes ([df97204](../../commit/df97204))
-- chore: update CHANGELOG.md for merged changes ([0b1d21c](../../commit/0b1d21c))
 - Add ServiceAccount automountServiceAccountToken configuration (#673) ([c9f8f24](../../commit/c9f8f24))
 
 ## [0.8.1] - 2025-12-09
 
-- chore: update CHANGELOG.md for merged changes ([dc84b5c](../../commit/dc84b5c))
-- chore: update CHANGELOG.md for merged changes ([bcf6608](../../commit/bcf6608))
 - [busybox] Update image to d80cd69 (#709) ([68fc5f8](../../commit/68fc5f8))
-- chore: update CHANGELOG.md for merged changes ([a05c8fe](../../commit/a05c8fe))
-- chore: update CHANGELOG.md for merged changes ([4eaa98d](../../commit/4eaa98d))
-- chore: update CHANGELOG.md for merged changes ([8620dd7](../../commit/8620dd7))
 
 ## [0.8.0] - 2025-12-06
 
@@ -235,150 +155,88 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.7.10] - 2025-12-01
 
-- chore: update CHANGELOG.md for merged changes ([acb75b9](../../commit/acb75b9))
-- chore: update CHANGELOG.md for merged changes ([834af35](../../commit/834af35))
 - [universal] add labels to statefulset pvc-templates (#681) ([87624a5](../../commit/87624a5))
 
 ## [0.7.9] - 2025-11-19
 
 - [rabbitmq]: calculate memoryHighWatermark based on pods total memory instead of nodes total memory ([1a25f28](../../commit/1a25f28))
-- chore: update CHANGELOG.md for merged changes ([0ae9e19](../../commit/0ae9e19))
-- chore: update CHANGELOG.md for merged changes ([88bebfe](../../commit/88bebfe))
 - add values type for schema generation (#617) ([8633ab8](../../commit/8633ab8))
-- chore: update CHANGELOG.md for merged changes ([f3e1ad1](../../commit/f3e1ad1))
-- chore: update CHANGELOG.md for merged changes ([96c472e](../../commit/96c472e))
-- chore: update CHANGELOG.md for merged changes ([9923048](../../commit/9923048))
 
 ## [0.7.8] - 2025-11-13
 
 - [universal] update readme files (#583) ([e63f5f9](../../commit/e63f5f9))
-- chore: update CHANGELOG.md for merged changes ([8fac24b](../../commit/8fac24b))
-- chore: update CHANGELOG.md for merged changes ([a843ada](../../commit/a843ada))
 - Update charts/rabbitmq/values.yaml rabbitmq (#589) ([2a76df9](../../commit/2a76df9))
-- chore: update CHANGELOG.md for merged changes ([0242dc7](../../commit/0242dc7))
-- chore: update CHANGELOG.md for merged changes ([59ab686](../../commit/59ab686))
 - Update charts/rabbitmq/values.yaml rabbitmq (#580) ([bcf5513](../../commit/bcf5513))
 
 ## [0.7.7] - 2025-11-07
 
 - [rabbitmq]: Fix several inconsistencies ([673823a](../../commit/673823a))
-- chore: update CHANGELOG.md for merged changes ([78a2392](../../commit/78a2392))
-- chore: update CHANGELOG.md for merged changes ([4d91f9d](../../commit/4d91f9d))
 
 ## [0.7.6] - 2025-11-01
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#523) ([a23a731](../../commit/a23a731))
-- chore: update CHANGELOG.md for merged changes ([b03d341](../../commit/b03d341))
-- chore: update CHANGELOG.md for merged changes ([c4dd853](../../commit/c4dd853))
 
 ## [0.7.5] - 2025-10-30
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#509) ([532e1f5](../../commit/532e1f5))
-- chore: update CHANGELOG.md for merged changes ([a914ea9](../../commit/a914ea9))
-- chore: update CHANGELOG.md for merged changes ([4cac53b](../../commit/4cac53b))
 
 ## [0.7.4] - 2025-10-30
 
 - [busybox] Update image to e3652a0 (#497) ([db92f8f](../../commit/db92f8f))
-- chore: update CHANGELOG.md for merged changes ([1c809bd](../../commit/1c809bd))
-- chore: update CHANGELOG.md for merged changes ([9640776](../../commit/9640776))
 
 ## [0.7.3] - 2025-10-29
 
 - Update charts/rabbitmq/values.yaml rabbitmq to v4.2.0 (minor) (#480) ([dcef8f3](../../commit/dcef8f3))
-- chore: update CHANGELOG.md for merged changes ([ca11524](../../commit/ca11524))
-- chore: update CHANGELOG.md for merged changes ([33ed0c0](../../commit/33ed0c0))
 
 ## [0.7.2] - 2025-10-29
 
 - [busybox] Update image to fba0711 (#489) ([fb93a19](../../commit/fb93a19))
-- chore: update CHANGELOG.md for merged changes ([0e3dfef](../../commit/0e3dfef))
-- chore: update CHANGELOG.md for merged changes ([a3e93a0](../../commit/a3e93a0))
 - Update charts/rabbitmq/values.yaml rabbitmq to v4.1.5 (patch) (#479) ([090a6b0](../../commit/090a6b0))
-- chore: update CHANGELOG.md for merged changes ([0ef2300](../../commit/0ef2300))
-- chore: update CHANGELOG.md for merged changes ([170dd6a](../../commit/170dd6a))
-- chore: update CHANGELOG.md for merged changes ([9227d83](../../commit/9227d83))
 
 ## [0.7.1] - 2025-10-28
 
 - [etcd, rabbitmq, redis, zookeeper] add signature verification documentation to readme (#476) ([91c7310](../../commit/91c7310))
-- chore: update CHANGELOG.md for merged changes ([8260788](../../commit/8260788))
-- chore: update CHANGELOG.md for merged changes ([402f7bd](../../commit/402f7bd))
 
 ## [0.7.0] - 2025-10-28
 
 - [universal] unify extraEnvVars in all charts (#477) ([4aee7b4](../../commit/4aee7b4))
-- chore: update CHANGELOG.md for merged changes ([cb10f6b](../../commit/cb10f6b))
-- chore: update CHANGELOG.md for merged changes ([ea886c4](../../commit/ea886c4))
-- chore: auto-generate values.schema.json (#466) ([650333f](../../commit/650333f))
 
 ## [0.6.1] - 2025-10-26
 
 - Redis / Rabbitmq: add lifecyle hooks ([b253776](../../commit/b253776))
-- chore: update CHANGELOG.md for merged changes ([5eca51e](../../commit/5eca51e))
-- chore: update CHANGELOG.md for merged changes ([f0b5033](../../commit/f0b5033))
-- chore: auto-generate values.schema.json (#465) ([217c03d](../../commit/217c03d))
 
 ## [0.6.0] - 2025-10-26
 
 - Adding existing claim as a feature with PVC ([336c4fb](../../commit/336c4fb))
-- chore: update CHANGELOG.md for merged changes ([f9c3ff0](../../commit/f9c3ff0))
-- chore: update CHANGELOG.md for merged changes ([db2d800](../../commit/db2d800))
 
 ## [0.5.5] - 2025-10-23
 
 - [universal] Update annotations, labels, podannotations and podlabel (#454) ([cdb38db](../../commit/cdb38db))
-- chore: update CHANGELOG.md for merged changes ([4587534](../../commit/4587534))
-- chore: update CHANGELOG.md for merged changes ([051ad83](../../commit/051ad83))
-- chore: update CHANGELOG.md for merged changes ([1a50307](../../commit/1a50307))
 
 ## [0.5.4] - 2025-10-22
 
 - [universal]: Support extra secret templating (#444) ([c2b2024](../../commit/c2b2024))
-- chore: update CHANGELOG.md for merged changes ([5d1f01a](../../commit/5d1f01a))
-- chore: update CHANGELOG.md for merged changes ([fc47c5d](../../commit/fc47c5d))
 - [unversal] Add signing informations for artifacthub (#415) ([e761c90](../../commit/e761c90))
-- chore: update CHANGELOG.md for merged changes ([1a4f87b](../../commit/1a4f87b))
-- chore: update CHANGELOG.md for merged changes ([da866ca](../../commit/da866ca))
 - [universal] use a string instead of a boolean (#413) ([c24d26d](../../commit/c24d26d))
 - [universal] improve chart artifact annotations (#404) ([37f1c5b](../../commit/37f1c5b))
-- chore: update CHANGELOG.md for merged changes ([07213f3](../../commit/07213f3))
-- chore: update CHANGELOG.md for merged changes ([7b68267](../../commit/7b68267))
-- chore: update CHANGELOG.md for merged changes ([f7bbe99](../../commit/f7bbe99))
 
 ## [0.5.3] - 2025-10-17
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#401) ([d364501](../../commit/d364501))
-- chore: update CHANGELOG.md for merged changes ([b54c4f1](../../commit/b54c4f1))
-- chore: update CHANGELOG.md for merged changes ([5a2ed20](../../commit/5a2ed20))
 - [universal] Rework all schema json (#393) ([79d1439](../../commit/79d1439))
-- chore: update CHANGELOG.md for merged changes ([02747d9](../../commit/02747d9))
-- chore: update CHANGELOG.md for merged changes ([7730143](../../commit/7730143))
 
 ## [0.5.2] - 2025-10-15
 
 - [busybox] Update image to 2f590fc (#391) ([e215e3c](../../commit/e215e3c))
-- chore: update CHANGELOG.md for merged changes ([aa0d9fd](../../commit/aa0d9fd))
-- chore: update CHANGELOG.md for merged changes ([cb41af3](../../commit/cb41af3))
 
 ## [0.5.1] - 2025-10-15
 
 - rabbitmq - Add labeling to persistent volume claim template (#389) ([6ca30c9](../../commit/6ca30c9))
-- chore: update CHANGELOG.md for merged changes ([3361964](../../commit/3361964))
-- chore: update CHANGELOG.md for merged changes ([7f61172](../../commit/7f61172))
 - [mariadb] add galera cluster support for mariadb (#348) ([b7a63ee](../../commit/b7a63ee))
-- chore: update CHANGELOG.md for merged changes ([1ec9aab](../../commit/1ec9aab))
-- chore: update CHANGELOG.md for merged changes ([c9ff4ec](../../commit/c9ff4ec))
-- chore: update CHANGELOG.md for merged changes ([86f1d25](../../commit/86f1d25))
 
 ## [0.5.0] - 2025-10-14
 
 - Update chart.yaml dependencies for indepentent charts (#382) ([87acfb1](../../commit/87acfb1))
-- chore: update CHANGELOG.md for merged changes ([84cf67b](../../commit/84cf67b))
-- chore: update CHANGELOG.md for all charts via manual trigger ([6974964](../../commit/6974964))
-- chore: update CHANGELOG.md for merged changes ([63b7bfa](../../commit/63b7bfa))
-- chore: update CHANGELOG.md for merged changes ([da69e0e](../../commit/da69e0e))
-- chore: update CHANGELOG.md for merged changes ([5da1b15](../../commit/5da1b15))
 
 ## [0.4.1] - 2025-10-13
 

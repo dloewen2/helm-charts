@@ -14,7 +14,6 @@ All notable changes to this chart will be documented in this file.
 ## [0.10.1] - 2026-01-28
 
 - [all]: Update every chart to newest common (#920) ([f8d134d](../../commit/f8d134d))
-- chore: auto-generate values.schema.json (#887) ([48498fc](../../commit/48498fc))
 
 ## [0.10.0] - 2026-01-22
 
@@ -23,9 +22,6 @@ All notable changes to this chart will be documented in this file.
 ## [0.9.2] - 2026-01-22
 
 - [mongodb]: enable replicaSet.[key,keySecretName] (#880) ([5baa210](../../commit/5baa210))
-- chore: update CHANGELOG.md for merged changes ([a6561c2](../../commit/a6561c2))
-- chore: update CHANGELOG.md for merged changes ([1702e80](../../commit/1702e80))
-- chore: update CHANGELOG.md for merged changes ([898fc25](../../commit/898fc25))
 
 ## [0.9.1] - 2026-01-19
 
@@ -34,11 +30,6 @@ All notable changes to this chart will be documented in this file.
 ## [0.9.0] - 2026-01-15
 
 -  [universal] add priorityclasses to multiple charts (#839) ([b3d816f](../../commit/b3d816f))
-- chore: update CHANGELOG.md for merged changes ([9d57904](../../commit/9d57904))
-- chore: update CHANGELOG.md for merged changes ([509895f](../../commit/509895f))
-- chore: auto-generate values.schema.json (#836) ([d6e27e6](../../commit/d6e27e6))
-- chore: update CHANGELOG.md for merged changes ([6998f3c](../../commit/6998f3c))
-- chore: update CHANGELOG.md for merged changes ([4d4c7da](../../commit/4d4c7da))
 
 ## [0.8.0] - 2026-01-13
 
@@ -47,71 +38,42 @@ All notable changes to this chart will be documented in this file.
 ## [0.7.1] - 2025-12-22
 
 - [mongo] Update charts/mongodb/values.yaml mongo to v8.2.3 (patch) (#770) ([ce2ec34](../../commit/ce2ec34))
-- chore: update CHANGELOG.md for merged changes ([9d5553d](../../commit/9d5553d))
-- chore: update CHANGELOG.md for merged changes ([6835108](../../commit/6835108))
 - [mongo] Update charts/mongodb/values.yaml mongo (#717) ([b5a1e22](../../commit/b5a1e22))
-- chore: update CHANGELOG.md for merged changes ([4eaa98d](../../commit/4eaa98d))
-- chore: update CHANGELOG.md for merged changes ([8620dd7](../../commit/8620dd7))
 
 ## [0.7.0] - 2025-12-06
 
 - [universal] fix statefulset pvc labels (#696) ([b87dbc7](../../commit/b87dbc7))
-- chore: update CHANGELOG.md for merged changes ([acb75b9](../../commit/acb75b9))
 
 ## [0.6.6] - 2025-12-01
 
-- chore: update CHANGELOG.md for merged changes ([834af35](../../commit/834af35))
 - [universal] add labels to statefulset pvc-templates (#681) ([87624a5](../../commit/87624a5))
 
 ## [0.6.5] - 2025-11-25
 
-- chore: update CHANGELOG.md for merged changes ([bdf9baf](../../commit/bdf9baf))
-- chore: update CHANGELOG.md for merged changes ([882e6db](../../commit/882e6db))
 - [percona/mongodb_exporter] Update image to v0.47.2 (#656) ([e3cebb5](../../commit/e3cebb5))
-- chore: update CHANGELOG.md for merged changes ([a88b267](../../commit/a88b267))
-- chore: update CHANGELOG.md for merged changes ([5cf594e](../../commit/5cf594e))
 
 ## [0.6.4] - 2025-11-20
 
 - [mongo] Update charts/mongodb/values.yaml mongo to v8.2.2 (patch) (#640) ([a29d777](../../commit/a29d777))
-- chore: update CHANGELOG.md for merged changes ([86bdd5d](../../commit/86bdd5d))
-- chore: update CHANGELOG.md for merged changes ([544e9bd](../../commit/544e9bd))
-- chore: auto-generate values.schema.json (#616) ([d1d105a](../../commit/d1d105a))
 
 ## [0.6.3] - 2025-11-17
 
-- chore: update CHANGELOG.md for merged changes ([005861e](../../commit/005861e))
-- chore: update CHANGELOG.md for merged changes ([d658aef](../../commit/d658aef))
 - [mongodb/redis/posgres] Add subPath option when using existingClaim (#613) ([8aa277e](../../commit/8aa277e))
-- chore: update CHANGELOG.md for merged changes ([f622e2c](../../commit/f622e2c))
-- chore: update CHANGELOG.md for merged changes ([3dfdb85](../../commit/3dfdb85))
 - [mongo] Update charts/mongodb/values.yaml mongo (#599) ([3f5d30f](../../commit/3f5d30f))
-- chore: update CHANGELOG.md for merged changes ([96c472e](../../commit/96c472e))
-- chore: update CHANGELOG.md for merged changes ([9923048](../../commit/9923048))
 
 ## [0.6.2] - 2025-11-13
 
 - [universal] update readme files (#583) ([e63f5f9](../../commit/e63f5f9))
-- chore: update CHANGELOG.md for merged changes ([a23d7d2](../../commit/a23d7d2))
-- chore: update CHANGELOG.md for merged changes ([55fb45f](../../commit/55fb45f))
 - [mongo] Update charts/mongodb/values.yaml mongo (#588) ([a197ff8](../../commit/a197ff8))
-- chore: update CHANGELOG.md for merged changes ([5e305ab](../../commit/5e305ab))
-- chore: update CHANGELOG.md for merged changes ([9ab8da3](../../commit/9ab8da3))
 
 ## [0.6.1] - 2025-10-29
 
 - [mongo] Update charts/mongodb/values.yaml mongo to v8.2.1 (minor) (#488) ([9986888](../../commit/9986888))
-- chore: update CHANGELOG.md for merged changes ([8260788](../../commit/8260788))
-- chore: update CHANGELOG.md for merged changes ([402f7bd](../../commit/402f7bd))
 
 ## [0.6.0] - 2025-10-28
 
 - [universal] unify extraEnvVars in all charts (#477) ([4aee7b4](../../commit/4aee7b4))
-- chore: update CHANGELOG.md for merged changes ([5bf8d10](../../commit/5bf8d10))
-- chore: update CHANGELOG.md for merged changes ([64bc0ac](../../commit/64bc0ac))
 - Update README.md (#468) ([26c7a1c](../../commit/26c7a1c))
-- chore: update CHANGELOG.md for merged changes ([cbf613f](../../commit/cbf613f))
-- chore: update CHANGELOG.md for merged changes ([48e61e6](../../commit/48e61e6))
 
 ## [0.5.6] - 2025-10-26
 
@@ -119,60 +81,33 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.5.5] - 2025-10-24
 
-- chore: update CHANGELOG.md for merged changes ([b2b84ce](../../commit/b2b84ce))
-- chore: update CHANGELOG.md for merged changes ([b1f47df](../../commit/b1f47df))
 - Allow to set custom command and args (#457) ([06d8f66](../../commit/06d8f66))
-- chore: auto-generate values.schema.json for updated charts (#455) ([aec6840](../../commit/aec6840))
-- chore: update CHANGELOG.md for merged changes ([f9c3ff0](../../commit/f9c3ff0))
-- chore: update CHANGELOG.md for merged changes ([db2d800](../../commit/db2d800))
 
 ## [0.5.4] - 2025-10-23
 
 - [universal] Update annotations, labels, podannotations and podlabel (#454) ([cdb38db](../../commit/cdb38db))
-- chore: update CHANGELOG.md for merged changes ([4587534](../../commit/4587534))
-- chore: update CHANGELOG.md for merged changes ([051ad83](../../commit/051ad83))
-- chore: update CHANGELOG.md for merged changes ([1a50307](../../commit/1a50307))
 
 ## [0.5.3] - 2025-10-22
 
 - [universal]: Support extra secret templating (#444) ([c2b2024](../../commit/c2b2024))
-- chore: update CHANGELOG.md for merged changes ([bd36e6d](../../commit/bd36e6d))
-- chore: update CHANGELOG.md for merged changes ([fc6b177](../../commit/fc6b177))
 
 ## [0.5.2] - 2025-10-22
 
 - Fix no auth error in init script (#440) ([54b7221](../../commit/54b7221))
-- chore: update CHANGELOG.md for merged changes ([c80ea42](../../commit/c80ea42))
-- chore: update CHANGELOG.md for merged changes ([8ccb4bb](../../commit/8ccb4bb))
 - [universal] fix all appversions in charts (#417) ([b8debeb](../../commit/b8debeb))
-- chore: update CHANGELOG.md for merged changes ([5d1f01a](../../commit/5d1f01a))
-- chore: update CHANGELOG.md for merged changes ([fc47c5d](../../commit/fc47c5d))
 - [unversal] Add signing informations for artifacthub (#415) ([e761c90](../../commit/e761c90))
-- chore: update CHANGELOG.md for merged changes ([1a4f87b](../../commit/1a4f87b))
-- chore: update CHANGELOG.md for merged changes ([da866ca](../../commit/da866ca))
 - [universal] use a string instead of a boolean (#413) ([c24d26d](../../commit/c24d26d))
 - [universal] improve chart artifact annotations (#404) ([37f1c5b](../../commit/37f1c5b))
-- chore: update CHANGELOG.md for merged changes ([b54c4f1](../../commit/b54c4f1))
-- chore: update CHANGELOG.md for merged changes ([5a2ed20](../../commit/5a2ed20))
 - [universal] Rework all schema json (#393) ([79d1439](../../commit/79d1439))
-- chore: update CHANGELOG.md for merged changes ([c76aa29](../../commit/c76aa29))
-- chore: update CHANGELOG.md for merged changes ([77e0793](../../commit/77e0793))
 
 ## [0.5.1] - 2025-10-15
 
 - [mongo] Update charts/mongodb/values.yaml mongo (#392) ([6802f43](../../commit/6802f43))
-- chore: update CHANGELOG.md for merged changes ([3361964](../../commit/3361964))
-- chore: update CHANGELOG.md for merged changes ([7f61172](../../commit/7f61172))
 - [mariadb] add galera cluster support for mariadb (#348) ([b7a63ee](../../commit/b7a63ee))
-- chore: update CHANGELOG.md for merged changes ([1ec9aab](../../commit/1ec9aab))
-- chore: update CHANGELOG.md for merged changes ([c9ff4ec](../../commit/c9ff4ec))
-- chore: update CHANGELOG.md for merged changes ([86f1d25](../../commit/86f1d25))
 
 ## [0.5.0] - 2025-10-14
 
 - Update chart.yaml dependencies for indepentent charts (#382) ([87acfb1](../../commit/87acfb1))
-- chore: update CHANGELOG.md for merged changes ([84cf67b](../../commit/84cf67b))
-- chore: update CHANGELOG.md for all charts via manual trigger ([6974964](../../commit/6974964))
 - [universal]: Fix changelog generation (#354) ([2e973c0](../../commit/2e973c0))
 
 ## [0.4.2] - 2025-10-10

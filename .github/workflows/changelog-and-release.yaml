@@ -22,6 +22,11 @@ on:
         required: false
         type: boolean
         default: false
+      reset_all_changelogs:
+        description: '⚠️ Delete and regenerate ALL changelogs (ignores chart_name)'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -54,6 +59,17 @@ jobs:
       - name: Determine charts to update
         id: charts-to-update
         run: |
+          # For manual workflow_dispatch with reset_all_changelogs
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then
+            echo "⚠️ Reset all changelogs enabled: processing ALL charts"
+            all_charts=$(find charts -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sed 's|^|charts/|' | tr '\n' ' ')
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
+            echo "manual_chart=false" >> $GITHUB_OUTPUT
+            echo "reset_all=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           # For manual workflow_dispatch with specific chart
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.chart_name }}" ]; then
             CHART_NAME="${{ github.event.inputs.chart_name }}"
@@ -67,6 +83,7 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "changedCharts=charts/$CHART_NAME" >> $GITHUB_OUTPUT
             echo "manual_chart=true" >> $GITHUB_OUTPUT
+            echo "reset_all=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -91,6 +108,7 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "changedCharts=$all_charts" >> $GITHUB_OUTPUT
             echo "manual_chart=false" >> $GITHUB_OUTPUT
+            echo "reset_all=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -103,15 +121,18 @@ jobs:
               echo "changed=true" >> $GITHUB_OUTPUT
               echo "changedCharts=${changed_charts}" >> $GITHUB_OUTPUT
               echo "manual_chart=false" >> $GITHUB_OUTPUT
+              echo "reset_all=false" >> $GITHUB_OUTPUT
             else
               echo "No chart changes detected"
               echo "changed=false" >> $GITHUB_OUTPUT
               echo "manual_chart=false" >> $GITHUB_OUTPUT
+              echo "reset_all=false" >> $GITHUB_OUTPUT
             fi
           else
             echo "No chart changes detected"
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "manual_chart=false" >> $GITHUB_OUTPUT
+            echo "reset_all=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Get PR information
@@ -151,9 +172,18 @@ jobs:
             }
 
       - name: Delete existing changelogs (regenerate)
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.regenerate_changelog == 'true' && steps.charts-to-update.outputs.changed == 'true'
+        if: |
+          github.event_name == 'workflow_dispatch' &&
+          steps.charts-to-update.outputs.changed == 'true' &&
+          (github.event.inputs.regenerate_changelog == 'true' || github.event.inputs.reset_all_changelogs == 'true')
         run: |
           CHANGED_CHARTS="${{ steps.charts-to-update.outputs.changedCharts }}"
+
+          if [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then
+            echo "⚠️ Deleting ALL changelogs for reset"
+          else
+            echo "Deleting changelog for specified chart"
+          fi
 
           for chart_directory in $CHANGED_CHARTS; do
             CHART_NAME=${chart_directory#charts/}
@@ -224,7 +254,9 @@ jobs:
           git add charts/*/CHANGELOG.md charts/*/Chart.yaml
 
           # Determine commit message
-          if [ "${{ github.event.inputs.regenerate_changelog }}" = "true" ]; then
+          if [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then
+            COMMIT_MSG="chore: reset and regenerate ALL CHANGELOG.md files"
+          elif [ "${{ github.event.inputs.regenerate_changelog }}" = "true" ]; then
             if [ -n "${{ github.event.inputs.chart_name }}" ]; then
               COMMIT_MSG="chore: regenerate CHANGELOG.md for ${{ github.event.inputs.chart_name }}"
             else

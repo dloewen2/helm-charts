@@ -249,25 +249,16 @@ jobs:
           done
 
           # Check if there are changes
+          echo "Checking for changelog changes..."
+          git status --porcelain
+
           if git status --porcelain | grep -q 'CHANGELOG.md'; then
+            echo "✅ Changelog changes detected"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
+            echo "⚠️ No changelog changes detected"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
-
-      - name: Update appVersion in Chart.yaml files
-        if: steps.generate-changelog.outputs.has_changes == 'true'
-        run: |
-          IFS=',' read -ra CHARTS <<< "${{ steps.charts-to-update.outputs.changedCharts }}"
-
-          for CHART_NAME in "${CHARTS[@]}"; do
-            CHART_NAME=$(echo "$CHART_NAME" | xargs)
-            [ -z "$CHART_NAME" ] && continue
-
-            if [ -f "./update-appversion.sh" ]; then
-              ./update-appversion.sh --chart "$CHART_NAME"
-            fi
-          done
 
       - name: Commit and push changelog updates
         if: steps.generate-changelog.outputs.has_changes == 'true'
@@ -284,7 +275,7 @@ jobs:
           git config user.signingkey ~/.ssh/signing_key
           git config commit.gpgsign true
 
-          git add charts/*/CHANGELOG.md charts/*/Chart.yaml
+          git add charts/*/CHANGELOG.md
 
           # Determine commit message
           if [ "${{ github.event.inputs.reset_all_changelogs }}" = "true" ]; then

@@ -27,6 +27,16 @@ on:
         required: false
         type: boolean
         default: false
+      skip_changelog:
+        description: 'Skip changelog generation completely'
+        required: false
+        type: boolean
+        default: false
+      skip_release:
+        description: 'Skip release step completely'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -35,6 +45,7 @@ concurrency:
 jobs:
   changelog-update:
     name: Update Changelogs
+    if: github.event.inputs.skip_changelog != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -284,6 +295,7 @@ jobs:
     if: |
       always() &&
       !cancelled() &&
+      github.event.inputs.skip_release != 'true' &&
       (needs.changelog-update.result == 'success' || needs.changelog-update.result == 'skipped')
     runs-on: ubuntu-latest
     timeout-minutes: 30

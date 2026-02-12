@@ -60,6 +60,10 @@ All notable changes to this chart will be documented in this file.
 ## [cluster-operator-0.1.0] - 2025-12-01
 
 
+## [0.15.10] - 2026-02-12
+
+- Allow configuration of the resources for the initContainers (#1004) ([4427cf9](https://github.com/CloudPirates-io/helm-charts/commit/4427cf9))
+
 ## [0.15.9] - 2026-02-11
 
 - Update charts/rabbitmq/values.yaml rabbitmq (#984) ([14485f3](https://github.com/CloudPirates-io/helm-charts/commit/14485f3))

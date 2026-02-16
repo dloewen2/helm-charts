@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.22.2] - 2026-02-12
+
+- [redis]: Add explicit timeout for redis-cli pings instead of 240s default (#1005) ([3e7c2a2](https://github.com/CloudPirates-io/helm-charts/commit/3e7c2a2))
+
 ## [0.22.1] - 2026-02-12
 
 - [oliver006/redis_exporter] Update image to v1.81.0 (#997) ([3c6bb71](https://github.com/CloudPirates-io/helm-charts/commit/3c6bb71))

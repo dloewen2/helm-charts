@@ -2,6 +2,11 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [1.2.17] - 2026-02-12
+
+- [helm] Update valkey Docker tag to v0.15.4 (#1001) ([ccbe25c](https://github.com/CloudPirates-io/helm-charts/commit/ccbe25c))
+- [all]: Update documentation to include proper cosign public key ([e42365d](https://github.com/CloudPirates-io/helm-charts/commit/e42365d))
+
 ## [1.2.16] - 2026-01-29
 
 - [helm] Update valkey Docker tag to v0.15.3 (#921) ([6506d60](https://github.com/CloudPirates-io/helm-charts/commit/6506d60))

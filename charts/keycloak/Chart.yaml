@@ -50,6 +50,11 @@ annotations:
       url: https://github.com/keycloak/keycloak
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
-  artifacthub.io/changes: |2
-        - kind: changed
-          description: "Chart updated"
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: "[postgres] Update initContainers.waitForPostgres.repository to 9b5bd94"
+      links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1057"
+        - name: "Changelog"
+          url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/keycloak/CHANGELOG.md"

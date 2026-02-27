@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.16.6] - 2026-02-27
+
+- [postgres] Update initContainers.waitForPostgres.repository to v18.3 (#1068) ([9647bee4](https://github.com/CloudPirates-io/helm-charts/commit/9647bee4))
+
 ## [0.16.5] - 2026-02-25
 
 - [postgres] Update initContainers.waitForPostgres.repository to 9b5bd94 (#1057) ([bbde73a4](https://github.com/CloudPirates-io/helm-charts/commit/bbde73a4))

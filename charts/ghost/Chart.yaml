@@ -48,6 +48,6 @@ annotations:
       description: "Update charts/ghost/values.yaml ghost"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1055"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1067"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/ghost/CHANGELOG.md"

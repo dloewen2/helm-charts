@@ -434,11 +434,6 @@ jobs:
           git commit -m "$COMMIT_MSG" \
             -m "Signed-off-by: cloudpirates-bot <cloudpirates-bot@users.noreply.github.com>"
 
-          # actions/checkout stores CHANGELOG_PAT in an http.extraheader which overrides
-          # any remote URL credentials. Unset it so GITHUB_TOKEN is used for push.
-          git config --unset-all "http.https://github.com/.extraheader" || true
-          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-
           # Pull and push
           git pull --rebase origin main
           git push origin main

@@ -53,8 +53,7 @@
       "commitMessageTopic": "{{{depName}}}",
       "commitMessagePrefix": "[{{{replace 'docker.io/' '' packageName}}}]",
       "automerge": false,
-      "separateMinorPatch": true,
-      "groupName": "{{packageFile}} {{packageName}}"
+      "separateMinorPatch": true
     },
     {
       "matchManagers": [

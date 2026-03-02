@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "[alpine/kubectl] Update image to v1.35.2"
+      description: "Allow nodePort to be configured for standalone mode"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1080"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1064"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/redis/CHANGELOG.md"

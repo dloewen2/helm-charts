@@ -43,9 +43,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "[universal]: Bump all charts to common 2.2.0"
+      description: "[oliver006/redis_exporter] Update image to v1.82.0"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1020"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1100"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/valkey/CHANGELOG.md"

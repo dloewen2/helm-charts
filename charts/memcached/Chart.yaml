@@ -39,9 +39,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Update charts/memcached/values.yaml memcached"
+      description: "Update image to v1.6.41"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1053"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1098"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/memcached/CHANGELOG.md"

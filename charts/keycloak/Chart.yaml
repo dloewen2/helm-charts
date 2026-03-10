@@ -52,12 +52,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "**BREAKING** Default value of `keycloak.production` changed from `false` to `true`. Existing deployments that relied on the default must explicitly set `keycloak.production: false` to preserve previous behavior."
+      description: "Documentation improvements"
       links:
-        - name: "Changelog"
-          url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/keycloak/CHANGELOG.md"
-    - kind: changed
-      description: "Improve documentation accuracy: add missing `keycloak.httpsEnabled` and `image.command` parameters, fix outdated image tag defaults, fix `keycloak.httpRelativePath` default, clarify `hostname` requires full URL with scheme, add `database.type` empty string behavior, fix `service.httpsNodePort` typo, improve descriptions for `preserveThemes`, `preserveProviders`, and `tls.truststoreExistingSecretKey`"
-      links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1112"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/keycloak/CHANGELOG.md"

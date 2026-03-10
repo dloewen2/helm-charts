@@ -41,8 +41,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: changed
-      description: "Properly set the default for existingSecretPasswordKey inside the values.yaml"
+    - kind: added
+      description: "Added Option to run redis as Deployment"
       links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1091"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/redis/CHANGELOG.md"

@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: added
-      description: "Add daemonset mode"
+      description: "Add internalTrafficPolicy to service"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1092"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1103"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/nginx/CHANGELOG.md"

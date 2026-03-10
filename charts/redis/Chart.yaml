@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: added
-      description: "Added Option to run redis as Deployment"
+      description: "Add ipFamilies and ipFamilyPolicy support to all services"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1091"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1088"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/redis/CHANGELOG.md"

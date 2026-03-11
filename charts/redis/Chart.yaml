@@ -41,10 +41,8 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: changed
-      description: "Make master discovery service respect tls certificates"
+    - kind: fixed
+      description: "Fix missing tls arguments for sentinel probe monitoring"
       links:
-        - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1129"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/redis/CHANGELOG.md"

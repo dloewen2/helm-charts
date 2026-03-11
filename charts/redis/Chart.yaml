@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Increase resource limits for sentinel pods"
+      description: "Make master discovery service respect tls certificates"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1119"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1129"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/redis/CHANGELOG.md"

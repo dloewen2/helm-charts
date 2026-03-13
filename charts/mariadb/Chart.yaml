@@ -51,10 +51,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: fixed
-      description: "Fixes broken healthcheck"
+    - kind: changed
+      description: "Support gateway api in addition to ingress where applicable"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1041"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1132"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/mariadb/CHANGELOG.md"

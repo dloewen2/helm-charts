@@ -42,10 +42,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: fixed
-      description: "Various QOL fixes concerning the README and smaller bugs"
+    - kind: changed
+      description: "Support gateway api in addition to ingress where applicable"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1114"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1132"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/postgres/CHANGELOG.md"

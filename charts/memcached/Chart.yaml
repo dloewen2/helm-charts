@@ -39,9 +39,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Support gateway api in addition to ingress where applicable"
+      description: "Update image.repository to 27db90c"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1132"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1145"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/memcached/CHANGELOG.md"

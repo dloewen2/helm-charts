@@ -51,8 +51,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: changed
-      description: "Add tpl support for extra* fields (extraInitContainers, extraVolumes, extraVolumeMounts, extraEnvVars, extraContainers)"
+    - kind: added
+      description: "Add tpl support for extra* fields to enable global.imageRegistry"
       links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1173"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/keycloak/CHANGELOG.md"

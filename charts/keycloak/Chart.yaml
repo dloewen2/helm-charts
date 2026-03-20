@@ -52,9 +52,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "[keycloak/keycloak] Update image.repository to v26.5.6"
+      description: "Make backend-protocol annotation always apply when HTTPS is enabled"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1169"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1172"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/keycloak/CHANGELOG.md"

@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.19.5] - 2026-03-19
+
+- [keycloak/keycloak] Update image.repository to v26.5.6 (#1169) ([c759051e](https://github.com/CloudPirates-io/helm-charts/commit/c759051e))
+
 ## [0.19.4] - 2026-03-19
 
 - [postgres] Update initContainers.waitForPostgres.repository to a9abf42 (#1165) ([6a0c5691](https://github.com/CloudPirates-io/helm-charts/commit/6a0c5691))

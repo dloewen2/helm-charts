@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Update image.repository to v1.29.7"
+      description: "Update image.repository to e7257f1"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1184"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1185"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/nginx/CHANGELOG.md"

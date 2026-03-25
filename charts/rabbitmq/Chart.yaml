@@ -41,9 +41,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Update image.repository to cf33bc3"
+      description: "Update image.repository to 23fe4f2"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1180"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1181"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/rabbitmq/CHANGELOG.md"

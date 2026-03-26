@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.16.4] - 2026-03-24
+
+- Update image.repository to 1582ff7 (#1179) ([518a83b9](https://github.com/CloudPirates-io/helm-charts/commit/518a83b9))
+
 ## [0.16.3] - 2026-03-23
 
 - Update image.repository to v6.22.1 (#1176) ([a48fb082](https://github.com/CloudPirates-io/helm-charts/commit/a48fb082))

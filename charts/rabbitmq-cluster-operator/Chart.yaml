@@ -45,4 +45,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "Update CRDs to cluster-operator v2.19.1 and messaging-topology-operator v1.18.3"
+      description: "Update CRDs and remove ALPHA tag"
+      links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1191"
+        - name: "Changelog"
+          url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/rabbitmq-cluster-operator/CHANGELOG.md"

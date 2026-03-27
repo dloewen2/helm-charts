@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.14.5] - 2026-03-27
+
+- Force new release ([d271c297](https://github.com/CloudPirates-io/helm-charts/commit/d271c297))
+
 ## [0.14.4] - 2026-03-27
 
 - redis: use musl ([54360938](https://github.com/CloudPirates-io/helm-charts/commit/54360938))

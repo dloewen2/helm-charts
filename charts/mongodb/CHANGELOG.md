@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.14.3] - 2026-03-26
+
+- Fix identical liveness and readiness probes on metrics sidecar (#1187) ([07385e22](https://github.com/CloudPirates-io/helm-charts/commit/07385e22))
+
 ## [0.14.2] - 2026-03-19
 
 - [mongo] Update image.repository to v8.2.6 (#1167) ([94a46e1f](https://github.com/CloudPirates-io/helm-charts/commit/94a46e1f))

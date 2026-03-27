@@ -39,9 +39,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: fixed
-      description: "Fix identical liveness and readiness probes on metrics sidecar"
+      description: "[redis]: Fix unauthed / utf-8 encoding in the metrics"
       links:
-        - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1187"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/mongodb/CHANGELOG.md"

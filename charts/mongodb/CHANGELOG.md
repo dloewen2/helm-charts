@@ -4,6 +4,7 @@ All notable changes to this chart will be documented in this file.
 
 ## [0.14.4] - 2026-03-27
 
+- Fix broken init container ([a2bb2794](https://github.com/CloudPirates-io/helm-charts/commit/a2bb2794))
 - [redis]: Fix unauthed / utf-8 encoding in the metrics ([6034bed1](https://github.com/CloudPirates-io/helm-charts/commit/6034bed1))
 
 ## [0.14.3] - 2026-03-26

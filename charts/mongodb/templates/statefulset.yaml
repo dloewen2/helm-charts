@@ -94,7 +94,9 @@ spec:
           command: ["/bin/sh", "-c"]
           args:
             - |
-              cp /bin/busybox /metrics-config/busybox && chmod +x /metrics-config/busybox
+              set -e
+              cp /bin/busybox /metrics-config/busybox
+              chmod +x /metrics-config/busybox
               urlencode() {
                 printf '%s' "$1" | od -An -tx1 | tr -d ' \n' | sed 's/../%&/g' | tr 'a-f' 'A-F'
               }

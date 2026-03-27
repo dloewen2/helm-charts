@@ -39,7 +39,7 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: fixed
-      description: "[redis]: Fix unauthed / utf-8 encoding in the metrics"
+      description: "Fix broken init container"
       links:
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/mongodb/CHANGELOG.md"

@@ -262,7 +262,7 @@ metrics:
   uriEncodeImage:
     registry: docker.io
     repository: busybox
-    tag: "stable"
+    tag: "musl"
     pullPolicy: IfNotPresent
   ## @param metrics.resources Resource limits and requests for metrics container
   resources:

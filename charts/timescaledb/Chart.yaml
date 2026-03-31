@@ -42,9 +42,9 @@ annotations:
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
     - kind: changed
-      description: "[timescale/timescaledb] Update image.repository to v2.26.0"
+      description: "[timescale/timescaledb] Update image.repository to v2.26.1"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1182"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1195"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/timescaledb/CHANGELOG.md"

@@ -2,6 +2,10 @@
 
 All notable changes to this chart will be documented in this file.
 
+## [0.6.6] - 2026-03-31
+
+- zookeper: FIx missing labels (#1198) ([1ed9e4cd](https://github.com/CloudPirates-io/helm-charts/commit/1ed9e4cd))
+
 ## [0.6.5] - 2026-03-18
 
 - Update image.repository to fc17a45 (#1161) ([2feb14e7](https://github.com/CloudPirates-io/helm-charts/commit/2feb14e7))

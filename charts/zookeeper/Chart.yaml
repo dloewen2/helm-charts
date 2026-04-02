@@ -42,10 +42,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: fixed
-      description: "zookeper: FIx missing labels"
+    - kind: changed
+      description: "Update image.repository to 5883391"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1198"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1201"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/zookeeper/CHANGELOG.md"

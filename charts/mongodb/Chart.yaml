@@ -38,8 +38,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: fixed
-      description: "Fix log spamming for error encoding in metrics server"
+    - kind: changed
+      description: "[mongo] Update image.repository to eea8506"
       links:
+        - name: "Pull Request"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1200"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/mongodb/CHANGELOG.md"

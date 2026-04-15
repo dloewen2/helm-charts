@@ -42,10 +42,10 @@ annotations:
     - name: Maintainer CloudPirates
       url: https://www.cloudpirates.io
   artifacthub.io/changes: |-
-    - kind: added
-      description: "Add namespaceOverride Value to all Charts that missing it"
+    - kind: changed
+      description: "[RustFS chart] custom clusterDomain"
       links:
         - name: "Pull Request"
-          url: "https://github.com/CloudPirates-io/helm-charts/pull/1214"
+          url: "https://github.com/CloudPirates-io/helm-charts/pull/1219"
         - name: "Changelog"
           url: "https://github.com/CloudPirates-io/helm-charts/blob/main/charts/rustfs/CHANGELOG.md"
